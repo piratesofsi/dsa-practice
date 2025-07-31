@@ -14,20 +14,20 @@ This repository contains my personal Java solutions for selected problems from t
 
 ## ✅ Arrays – Easy Level Checklist
 
-- [ ] Largest Element in an Array
-- [ ] Second Largest Element in an Array without sorting
-- [ ] Check if the array is sorted
-- [ ] Remove duplicates from a sorted array
-- [ ] Left Rotate an array by one place
-- [ ] Left Rotate an array by D places
-- [ ] Move all Zeros to the end
-- [ ] Linear Search
-- [ ] Find the Union of two arrays
-- [ ] Find missing number in an array
-- [ ] Maximum Consecutive Ones
-- [ ] Find the number that appears once, and others twice
-- [ ] Longest Subarray with given Sum K (Positives only)
-- [ ] Longest Subarray with Sum K (Positives + Negatives)
+- [ ] Largest Element in an Array  
+- [ ] Second Largest Element in an Array without sorting  
+- [ ] Check if the array is sorted  
+- [ ] Remove duplicates from a sorted array  
+- [ ] Left Rotate an array by one place  
+- [ ] Left Rotate an array by D places  
+- [ ] Move all Zeros to the end  
+- [ ] Linear Search  
+- [ ] Find the Union of two arrays  
+- [ ] Find missing number in an array  
+- [ ] Maximum Consecutive Ones  
+- [ ] Find the number that appears once, and others twice  
+- [ ] Longest Subarray with given Sum K (Positives only)  
+- [ ] Longest Subarray with Sum K (Positives + Negatives)  
 
 ---
 
@@ -42,7 +42,7 @@ This repository contains my personal Java solutions for selected problems from t
 
 - Fork or clone this repo
 - Solve problems
-- Mark `[x]` when a problem is completed
+- Mark `[x]` in the checklist when a problem is completed
 - Keep pushing your progress regularly!
 
 ---
