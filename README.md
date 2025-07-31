@@ -14,12 +14,12 @@ This repository contains my personal Java solutions for selected problems from t
 
 ## ✅ Arrays – Easy Level Checklist
 
-- [ ] Largest Element in an Array  
-- [ ] Second Largest Element in an Array without sorting  
-- [ ] Check if the array is sorted  
-- [ ] Remove duplicates from a sorted array  
-- [ ] Left Rotate an array by one place  
-- [ ] Left Rotate an array by D places  
+- [x] Largest Element in an Array  
+- [x] Second Largest Element in an Array without sorting  
+- [x] Check if the array is sorted  
+- [x] Remove duplicates from a sorted array  
+- [x] Left Rotate an array by one place  
+- [x] Left Rotate an array by D places  
 - [ ] Move all Zeros to the end  
 - [ ] Linear Search  
 - [ ] Find the Union of two arrays  
