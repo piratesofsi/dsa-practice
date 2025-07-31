@@ -8,7 +8,7 @@ This repository contains my solutions for the [Striver 450 DSA Sheet](https://ta
 
 | Topic           | Problems Solved | Total |
 |----------------|-----------------|-------|
-| Arrays          | 2               | 36    |
+| Arrays          | 6               | 36    |
 | Strings         | 0               | 43    |
 | Linked List     | 0               | 36    |
 | Stack & Queue   | 0               | 38    |
