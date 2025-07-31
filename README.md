@@ -1,38 +1,52 @@
-# 🚀 Striver's 450 DSA Sheet Solutions in Java
+# 🚀 Striver 450 DSA Sheet – Java Solutions
 
-This repository contains my solutions for the [Striver 450 DSA Sheet](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/) using Java. Problems are grouped by topic and numbered according to the sheet.
-
----
-
-## ✅ Progress Tracker
-
-| Topic           | Problems Solved | Total |
-|----------------|-----------------|-------|
-| Arrays          | 6               | 36    |
-| Strings         | 0               | 43    |
-| Linked List     | 0               | 36    |
-| Stack & Queue   | 0               | 38    |
-| Trees           | 0               | 44    |
-| Graphs          | 0               | 27    |
-| Dynamic Prog.   | 0               | 51    |
-| ...             | ...             | ...   |
+This repository contains my personal Java solutions for selected problems from the **Striver 450 DSA Sheet**, starting with the **Easy-level Array problems**.
 
 ---
 
-## 📂 Folder Structure
+## 📊 Progress Overview
 
-- `01_Arrays/`: Problems from the array section
-- `02_Strings/`: String manipulation problems
-- `03_LinkedList/`: Linked list based problems
-- etc.
+> ✅ Completed: `0 / 14`
 
----
-
-## 🛠️ Language
-- Java (JDK 17)
+![Progress](https://progress-bar.dev/0/?title=Easy%20Array%20Solved)
 
 ---
 
-## 🔗 Reference
+## ✅ Arrays – Easy Level Checklist
 
-- [Striver's SDE Sheet](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/)
+- [ ] Largest Element in an Array
+- [ ] Second Largest Element in an Array without sorting
+- [ ] Check if the array is sorted
+- [ ] Remove duplicates from a sorted array
+- [ ] Left Rotate an array by one place
+- [ ] Left Rotate an array by D places
+- [ ] Move all Zeros to the end
+- [ ] Linear Search
+- [ ] Find the Union of two arrays
+- [ ] Find missing number in an array
+- [ ] Maximum Consecutive Ones
+- [ ] Find the number that appears once, and others twice
+- [ ] Longest Subarray with given Sum K (Positives only)
+- [ ] Longest Subarray with Sum K (Positives + Negatives)
+
+---
+
+## 🛠 Tech Stack
+
+- Language: **Java**
+- Tools: Git, GitHub, VS Code
+
+---
+
+## 🔄 How to Use
+
+- Fork or clone this repo
+- Solve problems
+- Mark `[x]` when a problem is completed
+- Keep pushing your progress regularly!
+
+---
+
+## 🙌 Let's Connect!
+
+This is a self-paced journey to improve DSA problem-solving for interviews and core CS. Feel free to fork or star this repo!
