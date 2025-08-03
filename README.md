@@ -6,7 +6,7 @@ This repository contains my personal Java solutions for selected problems from t
 
 ## 📊 Progress Overview
 
-> ✅ Completed: `8 / 14`
+> ✅ Completed: `9 / 14`
 
 ![Progress](https://progress-bar.dev/0/?title=Easy%20Array%20Solved)
 
@@ -22,7 +22,7 @@ This repository contains my personal Java solutions for selected problems from t
 - [x] Left Rotate an array by D places  
 - [x] Move all Zeros to the end  
 - [x] Linear Search  
-- [ ] Find the Union of two arrays  
+- [x] Find the Union of two arrays  
 - [ ] Find missing number in an array  
 - [ ] Maximum Consecutive Ones  
 - [ ] Find the number that appears once, and others twice  
