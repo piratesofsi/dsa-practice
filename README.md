@@ -6,7 +6,7 @@ This repository contains my personal Java solutions for selected problems from t
 
 ## 📊 Progress Overview
 
-> ✅ Completed: `9 / 14`
+> ✅ Completed: `11 / 14`
 
 ![Progress](https://progress-bar.dev/0/?title=Easy%20Array%20Solved)
 
