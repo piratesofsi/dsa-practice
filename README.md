@@ -1,14 +1,15 @@
 # 🚀 Striver 450 DSA Sheet – Java Solutions
 
-This repository contains my personal Java solutions for selected problems from the **Striver 450 DSA Sheet**, starting with the **Easy-level Array problems**.
+This repository contains my personal Java solutions for selected problems from the **Striver 450 DSA Sheet**, starting with the **Easy-level Array problems** and now moving into **Medium-level Array problems**.
 
 ---
 
 ## 📊 Progress Overview
 
-> ✅ Completed: `14 / 14`
+> ✅ Completed: `14 / 14` (Easy Level)  
+> 🔄 Medium Level: `0 / 14`
 
-![Progress](https://progress-bar.dev/0/?title=Easy%20Array%20Solved)
+![Progress](https://progress-bar.dev/0/?title=Easy%20%2B%20Medium%20Array%20Solved)
 
 ---
 
@@ -31,6 +32,25 @@ This repository contains my personal Java solutions for selected problems from t
 
 ---
 
+## 🔹 Arrays – Medium Level Checklist
+
+- [ ] 2Sum Problem  
+- [ ] Sort an array of 0's, 1's and 2's  
+- [ ] Majority Element (>n/2 times)  
+- [ ] Kadane's Algorithm – Maximum Subarray Sum  
+- [ ] Print subarray with Maximum Subarray Sum (Extended Kadane's)  
+- [ ] Stock Buy and Sell  
+- [ ] Rearrange array in alternating positive and negative items  
+- [ ] Next Permutation  
+- [ ] Leaders in an Array  
+- [ ] Longest Consecutive Sequence in an Array  
+- [ ] Set Matrix Zeros  
+- [ ] Rotate Matrix by 90 degrees  
+- [ ] Print the matrix in spiral order  
+- [ ] Count subarrays with given sum  
+
+---
+
 ## 🛠 Tech Stack
 
 - Language: **Java**
@@ -49,4 +69,5 @@ This repository contains my personal Java solutions for selected problems from t
 
 ## 🙌 Let's Connect!
 
-This is a self-paced journey to improve DSA problem-solving for interviews and core CS. Feel free to fork or star this repo!
+This is a self-paced journey to improve DSA problem-solving for interviews and core CS.  
+Feel free to fork or star this repo!
