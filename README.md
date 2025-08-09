@@ -6,7 +6,7 @@ This repository contains my personal Java solutions for selected problems from t
 
 ## 📊 Progress Overview
 
-> ✅ Completed: `11 / 14`
+> ✅ Completed: `14 / 14`
 
 ![Progress](https://progress-bar.dev/0/?title=Easy%20Array%20Solved)
 
@@ -25,9 +25,9 @@ This repository contains my personal Java solutions for selected problems from t
 - [x] Find the Union of two arrays  
 - [x] Find missing number in an array  
 - [x] Maximum Consecutive Ones  
-- [ ] Find the number that appears once, and others twice  
-- [ ] Longest Subarray with given Sum K (Positives only)  
-- [ ] Longest Subarray with Sum K (Positives + Negatives)  
+- [x] Find the number that appears once, and others twice  
+- [x] Longest Subarray with given Sum K (Positives only)  
+- [x] Longest Subarray with Sum K (Positives + Negatives)  
 
 ---
 
