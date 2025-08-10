@@ -7,7 +7,7 @@ This repository contains my personal Java solutions for selected problems from t
 ## 📊 Progress Overview
 
 > ✅ Completed: `14 / 14` (Easy Level)  
-> 🔄 Medium Level: `0 / 14`
+> 🔄 Medium Level: `2 / 14`
 
 ![Progress](https://progress-bar.dev/0/?title=Easy%20%2B%20Medium%20Array%20Solved)
 
@@ -34,8 +34,8 @@ This repository contains my personal Java solutions for selected problems from t
 
 ## 🔹 Arrays – Medium Level Checklist
 
-- [ ] 2Sum Problem  
-- [ ] Sort an array of 0's, 1's and 2's  
+- [x] 2Sum Problem  
+- [x] Sort an array of 0's, 1's and 2's  
 - [ ] Majority Element (>n/2 times)  
 - [ ] Kadane's Algorithm – Maximum Subarray Sum  
 - [ ] Print subarray with Maximum Subarray Sum (Extended Kadane's)  
