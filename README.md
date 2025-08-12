@@ -37,8 +37,8 @@ This repository contains my personal Java solutions for selected problems from t
 - [x] 2Sum Problem  
 - [x] Sort an array of 0's, 1's and 2's  
 - [x] Majority Element (>n/2 times)  
-- [ ] Kadane's Algorithm – Maximum Subarray Sum  
-- [ ] Print subarray with Maximum Subarray Sum (Extended Kadane's)  
+- [x] Kadane's Algorithm – Maximum Subarray Sum  
+- [x] Print subarray with Maximum Subarray Sum (Extended Kadane's)  
 - [ ] Stock Buy and Sell  
 - [ ] Rearrange array in alternating positive and negative items  
 - [ ] Next Permutation  
