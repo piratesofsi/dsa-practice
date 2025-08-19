@@ -41,9 +41,9 @@ This repository contains my personal Java solutions for selected problems from t
 - [x] Print subarray with Maximum Subarray Sum (Extended Kadane's)  
 - [x] Stock Buy and Sell  
 - [x] Rearrange array in alternating positive and negative items  
-- [ ] Next Permutation  
+- [x] Next Permutation  
 - [x] Leaders in an Array  
-- [ ] Longest Consecutive Sequence in an Array  
+- [x] Longest Consecutive Sequence in an Array  
 - [ ] Set Matrix Zeros  
 - [ ] Rotate Matrix by 90 degrees  
 - [ ] Print the matrix in spiral order  
