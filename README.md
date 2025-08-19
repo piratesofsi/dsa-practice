@@ -7,7 +7,7 @@ This repository contains my personal Java solutions for selected problems from t
 ## 📊 Progress Overview
 
 > ✅ Completed: `14 / 14` (Easy Level)  
-> 🔄 Medium Level: `8 / 14`
+> 🔄 Medium Level: `10 / 14`
 
 ![Progress](https://progress-bar.dev/0/?title=Easy%20%2B%20Medium%20Array%20Solved)
 
