@@ -7,7 +7,7 @@ This repository contains my personal Java solutions for selected problems from t
 ## 📊 Progress Overview
 
 > ✅ Completed: `14 / 14` (Easy Level)  
-> 🔄 Medium Level: `11 / 14`
+> 🔄 Medium Level: `14 / 14`
 
 ![Progress](https://progress-bar.dev/0/?title=Easy%20%2B%20Medium%20Array%20Solved)
 
@@ -45,9 +45,9 @@ This repository contains my personal Java solutions for selected problems from t
 - [x] Leaders in an Array  
 - [x] Longest Consecutive Sequence in an Array  
 - [x] Set Matrix Zeros  
-- [ ] Rotate Matrix by 90 degrees  
-- [ ] Print the matrix in spiral order  
-- [ ] Count subarrays with given sum  
+- [x] Rotate Matrix by 90 degrees  
+- [x] Print the matrix in spiral order  
+- [x] Count subarrays with given sum  
 
 ---
 
