@@ -6,7 +6,7 @@ This repository contains **personal Java solutions** for selected problems from 
 
 - Arrays – Easy Level: **✔️ 14 / 14**
 - Arrays – Medium Level: **✔️ 14 / 14**
-- Arrays – Hard/Advanced Level: **✔️ 12 / 12**
+- Arrays – Hard/Advanced Level: **✔️ 2 / 12**
 
 ---
 
