@@ -6,7 +6,7 @@ This repository contains **personal Java solutions** for selected problems from 
 
 - Arrays – Easy Level: **✔️ 14 / 14**
 - Arrays – Medium Level: **✔️ 14 / 14**
-- Arrays – Hard/Advanced Level: **✔️ 2 / 12**
+- Arrays – Hard/Advanced Level: **✔️ 4 / 12**
 
 ---
 
@@ -53,8 +53,8 @@ This repository contains **personal Java solutions** for selected problems from 
 
 - [x] Pascal's Triangle
 - [x] Majority Element (> n/3 times)
-- [ ] 3-Sum Problem
-- [ ] 4-Sum Problem
+- [x] 3-Sum Problem
+- [x] 4-Sum Problem
 - [ ] Largest Subarray with 0 Sum
 - [ ] Count number of subarrays with given XOR K
 - [ ] Merge Overlapping Subintervals
