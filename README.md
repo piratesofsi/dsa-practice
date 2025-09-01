@@ -6,7 +6,7 @@ This repository contains **personal Java solutions** for selected problems from 
 
 - Arrays – Easy Level: **✔️ 14 / 14**
 - Arrays – Medium Level: **✔️ 14 / 14**
-- Arrays – Hard/Advanced Level: **✔️ 6 / 12**
+- Arrays – Hard/Advanced Level: **✔️ 7 / 12**
 
 ---
 
@@ -56,7 +56,7 @@ This repository contains **personal Java solutions** for selected problems from 
 - [x] 3-Sum Problem
 - [x] 4-Sum Problem
 - [x] Largest Subarray with 0 Sum
-- [ ] Count number of subarrays with given XOR K
+- [x] Count number of subarrays with given XOR K
 - [ ] Merge Overlapping Subintervals
 - [x] Merge two sorted arrays without extra space
 - [ ] Find the repeating and missing number
