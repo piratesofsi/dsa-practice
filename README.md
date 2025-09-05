@@ -61,7 +61,7 @@ This repository contains **personal Java solutions** for selected problems from 
 - [x] Merge two sorted arrays without extra space
 - [ ] Find the repeating and missing number
 - [x] Count Inversions
-- [ ] Reverse Pairs
+- [x] Reverse Pairs
 - [ ] Maximum Product Subarray
 
 ---
