@@ -6,7 +6,7 @@ This repository contains **personal Java solutions** for selected problems from 
 
 - Arrays – Easy Level: **✔️ 14 / 14**
 - Arrays – Medium Level: **✔️ 14 / 14**
-- Arrays – Hard/Advanced Level: **✔️ 9 / 12**
+- Arrays – Hard/Advanced Level: **✔️ 11 / 12**
 
 ---
 
@@ -59,10 +59,10 @@ This repository contains **personal Java solutions** for selected problems from 
 - [x] Count number of subarrays with given XOR K
 - [ ] Merge Overlapping Subintervals
 - [x] Merge two sorted arrays without extra space
-- [ ] Find the repeating and missing number
+- [x] Find the repeating and missing number
 - [x] Count Inversions
 - [x] Reverse Pairs
-- [ ] Maximum Product Subarray
+- [x] Maximum Product Subarray
 
 ---
 
