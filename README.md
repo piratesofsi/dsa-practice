@@ -180,4 +180,20 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 ---
 
 ## 📌 Visual Flowchart of Steps  
+flowchart TD
+A[✅ Step 1: Arrays] --> B[🎯 Step 2: Binary Search]
+B --> C[🔡 Step 3: Strings]
+C --> D[🔗 Step 4: Linked List]
+D --> E[🌀 Step 5: Recursion]
+E --> F[⚡ Step 6: Bit Manipulation]
+F --> G[📚 Step 7: Stack & Queue]
+G --> H[🎯 Step 8: Sliding Window + 2 Pointers]
+H --> I[⛰️ Step 9: Heaps]
+I --> J[💡 Step 10: Greedy Algorithms]
+J --> K[🌳 Step 11: Binary Trees]
+K --> L[🌲 Step 12: BST]
+L --> M[🌐 Step 13: Graphs]
+M --> N[📈 Step 14: Dynamic Programming]
+N --> O[📝 Step 15: Tries]
+O --> P[🔡 Step 16: Advanced Strings]
 
