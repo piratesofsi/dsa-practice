@@ -1,7 +1,7 @@
 <h1 align="center">🚀 Striver 450 DSA Sheet – Java Solutions</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Step%204%20(BS)-1%2F32-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Binary%20Search-1%2F32-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Arrays-40%2F40-green?style=for-the-badge" />
 </p>
 
@@ -22,12 +22,16 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
   <img src="https://img.shields.io/badge/Binary%20Search-3%25-yellow?style=for-the-badge" />
 </p>
 
-| Topic       | Status | Progress |
-|-------------|--------|----------|
-| ✅ Arrays – Easy | ✔️ Completed | 14 / 14 |
-| 💡 Arrays – Medium | ✔️ Completed | 14 / 14 |
-| 🔥 Arrays – Hard/Advanced | ✔️ Completed | 12 / 12 |
-| 🎯 Binary Search | ⏳ In Progress | 1 / 32 |
+<p align="center">
+
+| Topic                | Status         | Progress  |
+|----------------------|----------------|-----------|
+| ✅ Arrays – Easy      | ✔️ Completed   | 14 / 14   |
+| 💡 Arrays – Medium   | ✔️ Completed   | 14 / 14   |
+| 🔥 Arrays – Hard     | ✔️ Completed   | 12 / 12   |
+| 🎯 Binary Search     | ⏳ In Progress | 1 / 32    |
+
+</p>
 
 ---
 
@@ -84,7 +88,7 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 
 ---
 
-## 🎯 Step 4: Binary Search (1 / 32)  
+## 🎯 Binary Search (1 / 32)  
 
 ### 📌 Lec 1 – Binary Search on 1D Arrays  
 - ✔️ Binary Search (Find X in Sorted Array)  
@@ -142,42 +146,38 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 <p align="center">
   <img src="https://img.shields.io/badge/✅%20Step%201:%20Arrays-Completed-brightgreen?style=for-the-badge" />
   ⬅️
-  <img src="https://img.shields.io/badge/🎯%20Step%204:%20Binary%20Search-In%20Progress-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/🎯%20Step%202:%20Binary%20Search-In%20Progress-yellow?style=for-the-badge" />
   ⬅️
-  <img src="https://img.shields.io/badge/🔡%20Step%205:%20Strings-Next%20Up-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/🔡%20Step%203:%20Strings-Next%20Up-blue?style=for-the-badge" />
   ⬅️
-  <img src="https://img.shields.io/badge/🔗%20Step%206:%20Linked%20List-Future-lightgrey?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/🔗%20Step%204:%20Linked%20List-Future-lightgrey?style=for-the-badge" />
   ⬅️
-  <img src="https://img.shields.io/badge/🌀%20Step%207:%20Recursion-Future-lightgrey?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/🌀%20Step%205:%20Recursion-Future-lightgrey?style=for-the-badge" />
   ⬅️
-  <img src="https://img.shields.io/badge/⚡%20Step%208:%20Bit%20Manipulation-Future-lightgrey?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/⚡%20Step%206:%20Bit%20Manipulation-Future-lightgrey?style=for-the-badge" />
   ⬅️
-  <img src="https://img.shields.io/badge/📚%20Step%209:%20Stack%20%26%20Queue-Future-lightgrey?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/📚%20Step%207:%20Stack%20%26%20Queue-Future-lightgrey?style=for-the-badge" />
   ⬅️
-  <img src="https://img.shields.io/badge/🎯%20Step%2010:%20Sliding%20Window%20+%202%20Pointers-Future-lightgrey?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/🎯%20Step%208:%20Sliding%20Window%20+%202%20Pointers-Future-lightgrey?style=for-the-badge" />
   <br><br>
-  <img src="https://img.shields.io/badge/⛰️%20Step%2011:%20Heaps-Future-lightgrey?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/⛰️%20Step%209:%20Heaps-Future-lightgrey?style=for-the-badge" />
   ⬅️
-  <img src="https://img.shields.io/badge/💡%20Step%2012:%20Greedy%20Algorithms-Future-lightgrey?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/💡%20Step%2010:%20Greedy%20Algorithms-Future-lightgrey?style=for-the-badge" />
   ⬅️
-  <img src="https://img.shields.io/badge/🌳%20Step%2013:%20Binary%20Trees-Future-lightgrey?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/🌳%20Step%2011:%20Binary%20Trees-Future-lightgrey?style=for-the-badge" />
   ⬅️
-  <img src="https://img.shields.io/badge/🌲%20Step%2014:%20Binary%20Search%20Trees-Future-lightgrey?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/🌲%20Step%2012:%20Binary%20Search%20Trees-Future-lightgrey?style=for-the-badge" />
   ⬅️
-  <img src="https://img.shields.io/badge/🌐%20Step%2015:%20Graphs-Future-lightgrey?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/🌐%20Step%2013:%20Graphs-Future-lightgrey?style=for-the-badge" />
   ⬅️
-  <img src="https://img.shields.io/badge/📈%20Step%2016:%20Dynamic%20Programming-Future-lightgrey?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/📈%20Step%2014:%20Dynamic%20Programming-Future-lightgrey?style=for-the-badge" />
   ⬅️
-  <img src="https://img.shields.io/badge/📝%20Step%2017:%20Tries-Future-lightgrey?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/📝%20Step%2015:%20Tries-Future-lightgrey?style=for-the-badge" />
   ⬅️
-  <img src="https://img.shields.io/badge/🔡%20Step%2018:%20Advanced%20Strings-Future-lightgrey?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/🔡%20Step%2016:%20Advanced%20Strings-Future-lightgrey?style=for-the-badge" />
 </p>
 
 ---
 
 ## 📌 Visual Flowchart of Steps  
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/mermaid-js/mermaid-live-editor/master/public/img/diagram-example.png" width="600px" alt="DSA Flowchart">
-</p>
 
