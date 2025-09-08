@@ -1,20 +1,30 @@
-# Step 4 : Binary Search [1D, 2D Arrays, Search Space]
+# Binary Search on 1D Arrays (Striver Sheet)
 
-This section covers different problem types where Binary Search can be applied:
+This folder contains solutions for problems under **Lecture 1: Binary Search on 1D Arrays**.
 
-1. **Binary Search on 1D Arrays (13 problems)**
-   - Classic binary search (iterative & recursive)
-   - First/Last occurrence
-   - Count occurrences
-   - Search insert position
-   - Rotation-based problems, etc.
+Progress: **1 / 13 problems solved ✅**
 
-2. **Binary Search on Search Space (14 problems)**
-   - When answer lies in a range, not directly in array
-   - Examples: Minimum days to make bouquets, Allocate books, Aggressive cows, etc.
+---
 
-3. **Binary Search on 2D Arrays (5 problems)**
-   - Search in 2D matrix
-   - Search in row/column-wise sorted matrix
-   - Peak element in 2D arrays
+## 📌 Problems
 
+- [x] **Implement Binary Search**
+  - **Approach 1:** Iterative  
+    - Uses two pointers `low` and `high`.  
+    - Time Complexity: O(log n)  
+    - Space Complexity: O(1)  
+
+  - **Approach 2:** Recursive  
+    - Recursively divides the array until base case.  
+    - Time Complexity: O(log n)  
+    - Space Complexity: O(log n) (stack frames)  
+
+---
+
+## 🔜 Upcoming Problems
+- [ ] First and Last Occurrence of an Element  
+- [ ] Count Occurrences  
+- [ ] Search Insert Position  
+- [ ] Search in Rotated Sorted Array  
+- [ ] Find Minimum in Rotated Sorted Array  
+- [ ] … and more
