@@ -29,7 +29,7 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 | ✅ Arrays – Easy      | ✔️ Completed   | 14 / 14   |
 | 💡 Arrays – Medium   | ✔️ Completed   | 14 / 14   |
 | 🔥 Arrays – Hard     | ✔️ Completed   | 12 / 12   |
-| 🎯 Binary Search     | ⏳ In Progress | 1 / 32    |
+| 🎯 Binary Search     | ⏳ In Progress | 4 / 32    |
 
 </p>
 
@@ -88,13 +88,13 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 
 ---
 
-## 🎯 Binary Search (1 / 32)  
+## 🎯 Binary Search (4 / 32)  
 
 ### 📌 Lec 1 – Binary Search on 1D Arrays  
 - ✔️ Binary Search (Find X in Sorted Array)  
-- ⏳ Lower Bound (to-do)  
-- ⏳ Upper Bound (to-do)  
-- ⏳ Search Insert Position  
+- ✔️ Lower Bound (to-do)  
+- ✔️ Upper Bound (to-do)  
+- ✔️ Search Insert Position  
 - ⏳ Floor / Ceil in Sorted Array  
 - ⏳ First / Last Occurrence of Number  
 - ⏳ Count Occurrences in Sorted Array  
