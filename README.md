@@ -1,10 +1,8 @@
 <h1 align="center">🚀 Striver 450 DSA Sheet – Java Solutions</h1>
-
 <p align="center">
-  <img src="https://img.shields.io/badge/Binary%20Search-1%2F32-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Binary%20Search-4%2F32-yellow?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Arrays-40%2F40-green?style=for-the-badge" />
 </p>
-
 <p align="center">
 This repository contains <b>personal Java solutions</b> for problems from the <b>Striver 450 DSA Sheet</b>.<br>
 A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recursion ➝ Graphs ➝ DP ➝ Advanced</i> 🚀 <br>
@@ -14,15 +12,12 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 ---
 
 ## 📊 Progress Overview  
-
 <p align="center">
   <img src="https://img.shields.io/badge/Arrays%20Easy-100%25-brightgreen?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Arrays%20Medium-100%25-brightgreen?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Arrays%20Hard-100%25-brightgreen?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Binary%20Search-3%25-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Binary%20Search-13%25-yellow?style=for-the-badge" />
 </p>
-
-<p align="center">
 
 | Topic                | Status         | Progress  |
 |----------------------|----------------|-----------|
@@ -30,8 +25,6 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 | 💡 Arrays – Medium   | ✔️ Completed   | 14 / 14   |
 | 🔥 Arrays – Hard     | ✔️ Completed   | 12 / 12   |
 | 🎯 Binary Search     | ⏳ In Progress | 4 / 32    |
-
-</p>
 
 ---
 
@@ -89,11 +82,10 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 ---
 
 ## 🎯 Binary Search (4 / 32)  
-
 ### 📌 Lec 1 – Binary Search on 1D Arrays  
 - ✔️ Binary Search (Find X in Sorted Array)  
-- ✔️ Lower Bound (to-do)  
-- ✔️ Upper Bound (to-do)  
+- ✔️ Lower Bound  
+- ✔️ Upper Bound  
 - ✔️ Search Insert Position  
 - ⏳ Floor / Ceil in Sorted Array  
 - ⏳ First / Last Occurrence of Number  
@@ -114,14 +106,12 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 ---
 
 ## 🛠 Tech Stack  
-
 - 🖥️ Language: **Java**  
 - ⚙️ Tools: **Git, GitHub, VS Code**  
 
 ---
 
 ## 🔄 How to Use  
-
 - 🍴 Fork or clone this repo  
 - ✍️ Solve problems in Java  
 - ✅ Mark `[x]` in the checklist once solved  
@@ -130,19 +120,16 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 ---
 
 ## 🙌 Let’s Connect  
-
 <p align="center">
 <a href="https://github.com/YOUR_GITHUB_USERNAME"><img src="https://img.shields.io/badge/GitHub-181717.svg?&style=for-the-badge&logo=github&logoColor=white" /></a>
 <a href="https://www.linkedin.com/in/YOUR_LINKEDIN/"><img src="https://img.shields.io/badge/LinkedIn-0077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="mailto:YOUR_EMAIL@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
-
 <p align="center">⭐ Star this repo if you're also grinding the <b>Striver 450 DSA Sheet</b> 🔥<br>Let's grow together 🚀</p>
 
 ---
 
 ## 🗺️ DSA Journey Roadmap  
-
 <p align="center">
   <img src="https://img.shields.io/badge/✅%20Step%201:%20Arrays-Completed-brightgreen?style=for-the-badge" />
   ⬅️
@@ -196,4 +183,3 @@ L --> M[🌐 Step 13: Graphs]
 M --> N[📈 Step 14: Dynamic Programming]
 N --> O[📝 Step 15: Tries]
 O --> P[🔡 Step 16: Advanced Strings]
-
