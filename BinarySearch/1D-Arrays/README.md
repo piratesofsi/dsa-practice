@@ -1,60 +1,90 @@
 # 🚀 Binary Search on 1D Arrays (Striver Sheet)
 
-This folder contains solutions for problems under **Lecture 1: Binary Search on 1D Arrays**.  
-Progress: **5 / 13 problems solved ✅**
+This folder contains my solutions for **Lecture 1: Binary Search on 1D Arrays** from Striver’s DSA Sheet.  
+Progress so far: **8 / 13 problems solved ✅**
 
 ---
 
-## 📌 Problems
+## 📌 Problems Covered
 
 ### 1. Implement Binary Search
-- **Description:** Search for a target element in a sorted array.  
-- **Approach 1:** Iterative Binary Search  
-  - Maintains two pointers `low` and `high` and repeatedly checks the middle element.  
-- **Approach 2:** Recursive Binary Search  
-  - Divides the array recursively until the base case is reached.  
+- **Goal:** Search for a target element in a sorted array.  
+- **Approach 1 (Iterative):** Maintain `low` and `high` pointers, repeatedly check the middle element, and adjust search space.  
+- **Approach 2 (Recursive):** Recursively divide the array until the base case is reached.  
 - **Time Complexity:** O(log n)  
 - **Space Complexity:**  
   - Iterative → O(1)  
-  - Recursive → O(log n) (stack frames)  
+  - Recursive → O(log n) (stack space)  
+
+---
 
 ### 2. Lower Bound
-- **Description:** Find the first index `i` such that `arr[i] >= target`.  
-- **Approach 1:** Linear Search (brute force).  
-- **Approach 2:** Binary Search (optimized).  
-- **Time Complexity:**  
-  - Linear → O(n)  
-  - Binary → O(log n)  
+- **Goal:** Find the first index `i` such that `arr[i] >= target`.  
+- **Approach 1 (Brute):** Linear scan until the condition is met.  
+- **Approach 2 (Optimal):** Binary Search — shrink the right half when `arr[mid] >= target`.  
+- **Time Complexity:** O(n) / O(log n)  
 - **Space Complexity:** O(1)  
+
+---
 
 ### 3. Upper Bound
-- **Description:** Find the first index `i` such that `arr[i] > target`.  
-- **Approach:** Binary Search.  
+- **Goal:** Find the first index `i` such that `arr[i] > target`.  
+- **Approach:** Binary Search — shrink the right half when `arr[mid] > target`.  
 - **Time Complexity:** O(log n)  
 - **Space Complexity:** O(1)  
+
+---
 
 ### 4. Search Insert Position
-- **Description:** Given a sorted array and a target, return the index if found. If not found, return the index where it would be inserted in sorted order.  
-- **Approach:** Direct application of Lower Bound.  
+- **Goal:** Given a sorted array and a target, return the index if found; otherwise, return the index where it should be inserted.  
+- **Approach:** Direct use of Lower Bound.  
 - **Time Complexity:** O(log n)  
 - **Space Complexity:** O(1)  
 
+---
+
 ### 5. Floor and Ceil in a Sorted Array
-- **Description:**  
-  - **Floor:** Largest element in the array less than or equal to the target.  
-  - **Ceil:** Smallest element in the array greater than or equal to the target.  
-- **Approach:** Binary Search with slight modification:  
-  - Track potential `floor` and `ceil` values while searching.  
+- **Goal:**  
+  - **Floor:** Largest element ≤ target.  
+  - **Ceil:** Smallest element ≥ target.  
+- **Approach:** Modified Binary Search — track candidate floor and ceil while adjusting search space.  
+- **Time Complexity:** O(log n)  
+- **Space Complexity:** O(1)  
+
+---
+
+### 6. First and Last Occurrence of an Element
+- **Goal:** Return the first and last index of a given target in a sorted array.  
+- **Approach:** Use `lowerBound(target)` and `upperBound(target) - 1`.  
+- **Time Complexity:** O(log n)  
+- **Space Complexity:** O(1)  
+
+---
+
+### 7. Count Occurrences
+- **Goal:** Count how many times a target element appears in a sorted array.  
+- **Approach:** `(upperBound - lowerBound)` gives the frequency.  
+- **Time Complexity:** O(log n)  
+- **Space Complexity:** O(1)  
+
+---
+
+### 8. Search in Rotated Sorted Array (No Duplicates)
+- **Goal:** Find a target in a rotated sorted array (without duplicates).  
+- **Approach 1 (Brute):** Linear Search through all elements.  
+  - **Time Complexity:** O(n)  
+  - **Space Complexity:** O(1)  
+- **Approach 2 (Optimal):** Modified Binary Search:  
+  - Identify which half (left or right) is sorted.  
+  - Check if the target lies in the sorted half, else search the other.  
+  - Reduces to O(log n).  
 - **Time Complexity:** O(log n)  
 - **Space Complexity:** O(1)  
 
 ---
 
 ## 🔜 Upcoming Problems
-- [ ] First and Last Occurrence of an Element  
-- [ ] Count Occurrences  
-- [ ] Search in Rotated Sorted Array  
 - [ ] Find Minimum in Rotated Sorted Array  
 - [ ] Single Element in a Sorted Array  
 - [ ] Square Root (Binary Search based)  
-- [ ] … and more  
+- [ ] … more binary search variations
