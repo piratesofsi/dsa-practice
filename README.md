@@ -1,6 +1,6 @@
 <h1 align="center">🚀 Striver 450 DSA Sheet – Java Solutions</h1>
 <p align="center">
-  <img src="https://img.shields.io/badge/Binary%20Search-8%2F32-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Binary%20Search-10%2F32-yellow?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Arrays-40%2F40-green?style=for-the-badge" />
 </p>
 <p align="center">
@@ -16,15 +16,15 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
   <img src="https://img.shields.io/badge/Arrays%20Easy-100%25-brightgreen?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Arrays%20Medium-100%25-brightgreen?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Arrays%20Hard-100%25-brightgreen?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Binary%20Search-25%25-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Binary%20Search-31%25-yellow?style=for-the-badge" />
 </p>
 
-| Topic                | Status         | Progress  |
-|----------------------|----------------|-----------|
-| ✅ Arrays – Easy      | ✔️ Completed   | 14 / 14   |
-| 💡 Arrays – Medium   | ✔️ Completed   | 14 / 14   |
-| 🔥 Arrays – Hard     | ✔️ Completed   | 12 / 12   |
-| 🎯 Binary Search     | ⏳ In Progress | 8 / 32    |
+| Topic                  | Status         | Progress  |
+|------------------------|----------------|-----------|
+| ✅ Arrays – Easy       | ✔️ Completed   | 14 / 14   |
+| 💡 Arrays – Medium     | ✔️ Completed   | 14 / 14   |
+| 🔥 Arrays – Hard       | ✔️ Completed   | 12 / 12   |
+| 🎯 Binary Search       | ⏳ In Progress | 10 / 32   |
 
 ---
 
@@ -81,7 +81,7 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 
 ---
 
-## 🎯 Binary Search (8 / 32)  
+## 🎯 Binary Search (10 / 32)  
 ### 📌 Lec 1 – Binary Search on 1D Arrays  
 - ✔️ Binary Search (Find X in Sorted Array)  
 - ✔️ Lower Bound  
@@ -91,25 +91,18 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 - ✔️ First / Last Occurrence of Number  
 - ✔️ Count Occurrences in Sorted Array  
 - ✔️ Search in Rotated Sorted Array I  
+- ✔️ Minimum in Rotated Sorted Array  
+- ✔️ Find Peak Element  
 - ⏳ Search in Rotated Sorted Array II  
-- ⏳ Minimum in Rotated Sorted Array  
 - ⏳ Rotation Count of Sorted Array  
 - ⏳ Single Element in Sorted Array  
-- ⏳ Find Peak Element  
 
 ### 📌 Lec 2 – Binary Search on Answers (0 / 14)  
-*(To-do section 🚧)*  
-
-### 📌 Lec 3 – Binary Search on 2D Arrays (0 / 5)  
-*(To-do section 🚧)*  
-
----
+*(To-do section 🚧)* ### 📌 Lec 3 – Binary Search on 2D Arrays (0 / 5)  
+*(To-do section 🚧)* ---
 
 ## 🛠 Tech Stack  
-- 🖥️ Language: **Java**  
-- ⚙️ Tools: **Git, GitHub, VS Code**  
-
----
+- 🖥️ Language: **Java** - ⚙️ Tools: **Git, GitHub, VS Code** ---
 
 ## 🔄 How to Use  
 - 🍴 Fork or clone this repo  
