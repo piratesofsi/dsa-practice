@@ -1,7 +1,11 @@
-### 🚀 Binary Search on 1D Arrays (Striver Sheet)
+<h1 align="center">🚀 Binary Search on 1D Arrays (Striver Sheet)</h1>
 
-This folder contains my solutions for **Lecture 1: Binary Search on 1D Arrays** from Striver’s DSA Sheet. 
-Progress so far: **10 / 13 problems solved ✅**
+<p align="center">
+  <img src="https://img.shields.io/badge/Binary%20Search-13%2F13-brightgreen?style=for-the-badge" />
+</p>
+
+This folder contains my solutions for **Lecture 1: Binary Search on 1D Arrays** from Striver’s DSA Sheet.  
+Progress so far: **13 / 13 problems solved ✅**
 
 ---
 
@@ -10,14 +14,14 @@ Progress so far: **10 / 13 problems solved ✅**
 #### 1. Implement Binary Search
 - **Goal:** Efficiently locate a specific target value within a sorted array.
 - **Approach:** The core idea is to repeatedly divide the search interval in half. If the middle element is the target, we've found it. If the target is smaller, we continue searching in the left half; if it's larger, we search in the right half.
-- **Time Complexity:** O(log n) due to the halving of the search space.
-- **Space Complexity:** O(1) for the iterative approach and O(log n) for the recursive approach (due to the call stack).
+- **Time Complexity:** O(log n)
+- **Space Complexity:** O(1) for iterative, O(log n) for recursive (stack space).
 
 ---
 
 #### 2. Lower Bound
 - **Goal:** Find the index of the first element in a sorted array that is greater than or equal to a given target.
-- **Approach:** We use binary search to narrow down the possible indices. When we find an element that meets the condition ($arr[mid] \ge target$), we save its index and try to find an even smaller index by searching the left half.
+- **Approach:** Binary search, storing the index when condition `arr[mid] >= target` is met, then move left.
 - **Time Complexity:** O(log n)
 - **Space Complexity:** O(1)
 
@@ -25,69 +29,91 @@ Progress so far: **10 / 13 problems solved ✅**
 
 #### 3. Upper Bound
 - **Goal:** Find the index of the first element in a sorted array that is strictly greater than a given target.
-- **Approach:** Similar to the Lower Bound, we use binary search. When we find an element that is strictly greater than the target ($arr[mid] > target$), we save its index and try to find a smaller index in the left half.
+- **Approach:** Binary search, storing the index when condition `arr[mid] > target` is met, then move left.
 - **Time Complexity:** O(log n)
 - **Space Complexity:** O(1)
 
 ---
 
 #### 4. Search Insert Position
-- **Goal:** Given a sorted array and a target, return its index if found. If not, return the index where it would be if it were inserted in order.
-- **Approach:** This problem is a direct application of the Lower Bound concept. The index returned by a lower bound search is exactly where the target should be inserted to maintain the sorted order.
+- **Goal:** Given a sorted array and a target, return its index if found. Otherwise, return the index where it should be inserted.
+- **Approach:** Direct application of lower bound.
 - **Time Complexity:** O(log n)
 - **Space Complexity:** O(1)
 
 ---
 
 #### 5. Floor and Ceil in a Sorted Array
-- **Goal:** Find two values: the **floor** (the largest element less than or equal to the target) and the **ceil** (the smallest element greater than or equal to the target) in a sorted array.
-- **Approach:** We can find both values using a single binary search. We track potential floor and ceil values as we narrow the search space.
+- **Goal:** Find the **floor** (largest ≤ target) and **ceil** (smallest ≥ target).
+- **Approach:** Single binary search while tracking potential floor and ceil.
 - **Time Complexity:** O(log n)
 - **Space Complexity:** O(1)
 
 ---
 
 #### 6. First and Last Occurrence of an Element
-- **Goal:** Find the starting and ending indices of a target value in a sorted array that may contain duplicates.
-- **Approach:** We solve this efficiently by first finding the **first occurrence** using a modified binary search (or the Lower Bound logic). Then, we find the **last occurrence** by finding the upper bound of the target and subtracting one from the result.
+- **Goal:** Find start and end indices of a target in a sorted array (with duplicates).
+- **Approach:** Use lower bound for first occurrence, and `upperBound(target) - 1` for last.
 - **Time Complexity:** O(log n)
 - **Space Complexity:** O(1)
 
 ---
 
 #### 7. Count Occurrences
-- **Goal:** Count how many times a target element appears in a sorted array.
-- **Approach:** Leveraging the previous problem, the count of a target is simply the difference between the index of its last occurrence and the index of its first occurrence, plus one. This can be calculated using `upperBound(target) - lowerBound(target)`.
+- **Goal:** Count how many times a target appears.
+- **Approach:** `upperBound(target) - lowerBound(target)`
 - **Time Complexity:** O(log n)
 - **Space Complexity:** O(1)
 
 ---
 
 #### 8. Search in Rotated Sorted Array (No Duplicates)
-- **Goal:** Find a target value in a sorted array that has been rotated at some unknown pivot.
-- **Approach:** The key insight is that even after rotation, one half of the array will always remain sorted. We use binary search to identify the sorted half and check if the target lies within it. If it does, we continue the search there; otherwise, we search the unsorted half.
+- **Goal:** Find target in a rotated sorted array.
+- **Approach:** One half of the array is always sorted. Identify sorted half → check target → move accordingly.
 - **Time Complexity:** O(log n)
 - **Space Complexity:** O(1)
 
 ---
 
 #### 9. Find Minimum in Rotated Sorted Array
-- **Goal:** Find the smallest element in a rotated sorted array.
-- **Approach:** The minimum element is the only one in the array that is smaller than its predecessor. We can use binary search to efficiently locate this element by always moving toward the unsorted half of the array. The minimum element will always be in the unsorted portion.
+- **Goal:** Find the smallest element in rotated array.
+- **Approach:** The minimum lies in the unsorted half. Use binary search to move toward unsorted half until found.
 - **Time Complexity:** O(log n)
 - **Space Complexity:** O(1)
 
 ---
 
 #### 10. Find a Peak Element
-- **Goal:** Find a "peak" element, which is an element strictly greater than its immediate neighbors. An array can have multiple peaks.
-- **Approach:** Binary search is the optimal solution. We check the middle element. If it's a peak, we're done. If the element to its right is larger, a peak must exist in the right half of the array. If the element to its left is larger, a peak must exist in the left half. This approach guarantees finding at least one peak.
+- **Goal:** Find a peak element (greater than neighbors).
+- **Approach:** Binary search:  
+  - If mid is peak, return.  
+  - If right neighbor > mid → peak on right.  
+  - If left neighbor > mid → peak on left.
 - **Time Complexity:** O(log n)
 - **Space Complexity:** O(1)
 
 ---
 
-### 🔜 Upcoming Problems
-- [ ] Single Element in a Sorted Array
-- [ ] Square Root (Binary Search based)
-- [ ] ...more binary search variations
+#### 11. Single Element in a Sorted Array
+- **Goal:** Every element appears twice except one. Find that single element.
+- **Approach:** Binary search with even/odd index pairing logic. If alignment breaks → single element nearby.
+- **Time Complexity:** O(log n)
+- **Space Complexity:** O(1)
+
+---
+
+#### 12. How Many Times the Array is Rotated
+- **Goal:** Find how many times a sorted array has been rotated.
+- **Approach:** Index of the minimum element = number of rotations. Use binary search to find minimum.
+- **Time Complexity:** O(log n)
+- **Space Complexity:** O(1)
+
+---
+
+#### 13. Search in Rotated Sorted Array (With Duplicates)
+- **Goal:** Find a target value in rotated sorted array with duplicates.
+- **Approach:**  
+  - If `arr[low] == arr[mid] == arr[high]`, shrink both ends (`low++`, `high--`).  
+  - Otherwise, check sorted half (like no-duplicate case).  
+- **Time Complexity:** O(log n) on average, O(n) in worst case (due to duplicates).  
+- **Space Complexity:** O(1)
