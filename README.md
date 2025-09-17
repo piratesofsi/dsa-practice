@@ -1,7 +1,7 @@
 <h1 align="center">🚀 Striver 450 DSA Sheet – Java Solutions</h1>
 <p align="center">
-  <img src="https://img.shields.io/badge/Binary%20Search-14%2F32-yellow?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Arrays-40%2F40-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Binary%20Search-15%2F32-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Arrays-40%2F40-brightgreen?style=for-the-badge" />
 </p>
 <p align="center">
 This repository contains <b>personal Java solutions</b> for problems from the <b>Striver 450 DSA Sheet</b>.<br>
@@ -16,7 +16,7 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
   <img src="https://img.shields.io/badge/Arrays%20Easy-100%25-brightgreen?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Arrays%20Medium-100%25-brightgreen?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Arrays%20Hard-100%25-brightgreen?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Binary%20Search-44%25-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Binary%20Search-47%25-yellow?style=for-the-badge" />
 </p>
 
 | Topic                  | Status         | Progress  |
@@ -24,7 +24,7 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 | ✅ Arrays – Easy       | ✔️ Completed   | 14 / 14   |
 | 💡 Arrays – Medium     | ✔️ Completed   | 14 / 14   |
 | 🔥 Arrays – Hard       | ✔️ Completed   | 12 / 12   |
-| 🎯 Binary Search       | ⏳ In Progress | 14 / 32   |
+| 🎯 Binary Search       | ⏳ In Progress | 15 / 32   |
 
 ---
 
@@ -81,7 +81,7 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 
 ---
 
-## 🎯 Binary Search (14 / 32)  
+## 🎯 Binary Search (15 / 32)  
 ### 📌 Lec 1 – Binary Search on 1D Arrays (13 / 13 ✅)  
 - ✔️ Binary Search (Find X in Sorted Array)  
 - ✔️ Lower Bound  
@@ -97,8 +97,9 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 - ✔️ Rotation Count of Sorted Array  
 - ✔️ Search in Rotated Sorted Array II (With Duplicates)  
 
-### 📌 Lec 2 – Binary Search on Answers (1 / 14)  
+### 📌 Lec 2 – Binary Search on Answers (2 / 14)  
 - ✔️ Find Square Root of a Number (Brute Force, Math.sqrt, Binary Search)  
+- ✔️ Nth Root of M (Binary Search)  
 
 ### 📌 Lec 3 – Binary Search on 2D Arrays (0 / 5)  
 *(To-do section 🚧)*  
