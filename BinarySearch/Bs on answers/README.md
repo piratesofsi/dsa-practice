@@ -3,13 +3,13 @@
 This folder contains **Java solutions** for problems under **Lecture 2: Binary Search on Answers** from the [Striver A2Z DSA Sheet](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/).
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Binary%20Search%20on%20Answers-2%2F14-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Binary%20Search%20on%20Answers-3%2F14-yellow?style=for-the-badge" />
 </p>
 
 ---
 
 ## ✅ Progress
-- Problems Solved: **2 / 14**
+- Problems Solved: **3 / 14**
 
 ---
 
@@ -58,13 +58,6 @@ This folder contains **Java solutions** for problems under **Lecture 2: Binary S
   - Return **2** if `mid^n > m`.  
 - Adjust binary search based on result.  
 
-#### 🔹 Why Not `Math.pow()`?
-- `Math.pow()` works with floating-point numbers, which can lead to precision errors for large inputs.  
-- Our helper `function()` ensures:  
-  - Safe integer multiplication.  
-  - Early exit if the result already exceeds `m`.  
-  - Correct comparisons (equal, less, greater).  
-
 #### 🔹 Notes I Understood
 - `n` is the **power** (exponent), not the number itself.  
 - The loop multiplies `mid` `n` times.  
@@ -73,30 +66,53 @@ This folder contains **Java solutions** for problems under **Lecture 2: Binary S
 - If smaller even after all iterations, that means `mid` is too small.  
 - This prevents unnecessary work and avoids overflow.  
 
----
-
 #### 📝 Dry Run Example
-
 Find `3rd root of 27` → (n = 3, m = 27)
 
 - Search space: `[1, 27]`
-
-1. `low = 1, high = 27`  
-   `mid = 14`  
-   - Compute `14^3 = 2744` → exceeds 27 → return 2 → move `high = 13`
-
-2. `low = 1, high = 13`  
-   `mid = 7`  
-   - Compute `7^3 = 343` → exceeds 27 → return 2 → move `high = 6`
-
-3. `low = 1, high = 6`  
-   `mid = 3`  
-   - Compute:  
-     - 1st iteration: ans = 3  
-     - 2nd iteration: ans = 9  
-     - 3rd iteration: ans = 27 → equal to m → return 0 → **answer = 3**
+1. `low = 1, high = 27` → `mid = 14` → `14^3 = 2744` → too big → `high = 13`
+2. `low = 1, high = 13` → `mid = 7` → `7^3 = 343` → too big → `high = 6`
+3. `low = 1, high = 6` → `mid = 3` → `3^3 = 27` → equal → answer = 3
 
 ✅ Final Answer = 3
 
 ---
 
+### 3. Koko Eating Bananas
+
+#### 🔹 Problem Understanding
+- Given piles of bananas and `h` hours.  
+- Koko eats at speed `k` bananas/hour.  
+- Each pile takes `ceil(pile / k)` hours to finish.  
+- Goal: **Find minimum `k` such that Koko can eat all bananas in ≤ `h` hours.**
+
+#### 🔹 Brute Force
+- Check all speeds from `1` to `max(pile)`.  
+- For each speed, calculate total hours using:
+```java
+totalHours += (int)Math.ceil((double)pile / speed);
+Return first speed where totalHours <= h.
+
+Time Complexity: O(max(pile) * n) → slow for large inputs.
+
+🔹 Optimized – Binary Search on Answer
+
+- **Search space:** `[1, max(pile)]`
+
+- **Monotonic property:**  
+
+- **Binary search steps:**  
+  1. `mid = (low + high) / 2`  
+  2. If `function(mid) <= h` → valid, try smaller → `high = mid - 1`  
+  3. Else → too slow, increase → `low = mid + 1`  
+  4. Return `low` as the minimum valid speed
+
+🔹 Edge Cases & Important Notes
+
+- **Integer overflow:**  
+  `totalHours` can exceed `Integer.MAX_VALUE` for very large piles → use `long`.  
+  Example: `piles = [805306368,805306368,805306368], h = 1e9`
+
+- **Early exit optimization:**  
+```java
+if (totalHours > h) return totalHours;
