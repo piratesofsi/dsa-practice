@@ -82,6 +82,7 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 ---
 
 ## 🎯 Binary Search (15 / 32)  
+
 ### 📌 Lec 1 – Binary Search on 1D Arrays (13 / 13 ✅)  
 - ✔️ Binary Search (Find X in Sorted Array)  
 - ✔️ Lower Bound  
@@ -97,9 +98,10 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 - ✔️ Rotation Count of Sorted Array  
 - ✔️ Search in Rotated Sorted Array II (With Duplicates)  
 
-### 📌 Lec 2 – Binary Search on Answers (2 / 14)  
+### 📌 Lec 2 – Binary Search on Answers (3 / 14)  
 - ✔️ Find Square Root of a Number (Brute Force, Math.sqrt, Binary Search)  
 - ✔️ Nth Root of M (Binary Search)  
+- ✔️ Koko Eating Bananas  
 
 ### 📌 Lec 3 – Binary Search on 2D Arrays (0 / 5)  
 *(To-do section 🚧)*  
