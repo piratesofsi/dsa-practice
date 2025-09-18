@@ -116,3 +116,11 @@ Time Complexity: O(max(pile) * n) → slow for large inputs.
 - **Early exit optimization:**  
 ```java
 if (totalHours > h) return totalHours;
+🔹 Time Complexity
+- Binary search on range `[1, max(pile)]` → O(log(maxPile))  
+- For each mid, we iterate through all piles → O(n)  
+- **Total:** O(n * log(maxPile))
+
+🔹 Space Complexity
+- Only a few variables used → O(1)
+
