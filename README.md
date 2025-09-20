@@ -29,55 +29,55 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 ---
 
 ## ✅ Arrays – Easy Level (14 / 14)  
-✔️ Largest Element in an Array  
-✔️ Second Largest (without sorting)  
-✔️ Check if array is sorted  
-✔️ Remove Duplicates (Sorted Array)  
-✔️ Left Rotate by 1 Place  
-✔️ Left Rotate by D Places  
-✔️ Move all Zeros to End  
-✔️ Linear Search  
-✔️ Union of Two Arrays  
-✔️ Find Missing Number  
-✔️ Maximum Consecutive Ones  
-✔️ Number appearing once (others twice)  
-✔️ Longest Subarray with Sum K (Positives only)  
-✔️ Longest Subarray with Sum K (Mixed Pos/Neg)  
+- ✔️ Largest Element in an Array  
+- ✔️ Second Largest (without sorting)  
+- ✔️ Check if array is sorted  
+- ✔️ Remove Duplicates (Sorted Array)  
+- ✔️ Left Rotate by 1 Place  
+- ✔️ Left Rotate by D Places  
+- ✔️ Move all Zeros to End  
+- ✔️ Linear Search  
+- ✔️ Union of Two Arrays  
+- ✔️ Find Missing Number  
+- ✔️ Maximum Consecutive Ones  
+- ✔️ Number appearing once (others twice)  
+- ✔️ Longest Subarray with Sum K (Positives only)  
+- ✔️ Longest Subarray with Sum K (Mixed Pos/Neg)  
 
 ---
 
 ## 💡 Arrays – Medium Level (14 / 14)  
-✔️ 2 Sum Problem  
-✔️ Sort 0s, 1s, 2s (Dutch National Flag)  
-✔️ Majority Element (> n/2)  
-✔️ Majority Element (> n/3)  
-✔️ Kadane’s Algorithm  
-✔️ Extended Kadane (Print Subarray)  
-✔️ Stock Buy & Sell  
-✔️ Rearrange Pos/Neg Alternately  
-✔️ Next Permutation  
-✔️ Leaders in Array  
-✔️ Longest Consecutive Sequence  
-✔️ Set Matrix Zeros  
-✔️ Rotate Matrix by 90°  
-✔️ Spiral Order Printing  
-✔️ Count Subarrays with Sum K  
+- ✔️ 2 Sum Problem  
+- ✔️ Sort 0s, 1s, 2s (Dutch National Flag)  
+- ✔️ Majority Element (> n/2)  
+- ✔️ Majority Element (> n/3)  
+- ✔️ Kadane’s Algorithm  
+- ✔️ Extended Kadane (Print Subarray)  
+- ✔️ Stock Buy & Sell  
+- ✔️ Rearrange Pos/Neg Alternately  
+- ✔️ Next Permutation  
+- ✔️ Leaders in Array  
+- ✔️ Longest Consecutive Sequence  
+- ✔️ Set Matrix Zeros  
+- ✔️ Rotate Matrix by 90°  
+- ✔️ Spiral Order Printing  
+- ✔️ Count Subarrays with Sum K  
 
 ---
 
 ## 🔥 Arrays – Hard / Advanced Level (12 / 12)  
-✔️ Pascal’s Triangle  
-✔️ 3-Sum Problem  
-✔️ 4-Sum Problem  
-✔️ Largest Subarray with 0 Sum  
-✔️ Subarrays with XOR K  
-✔️ Merge Overlapping Intervals  
-✔️ Merge 2 Sorted Arrays (No Extra Space)  
-✔️ Repeating + Missing Number  
-✔️ Count Inversions  
-✔️ Reverse Pairs  
-✔️ Maximum Product Subarray  
-✔️ Majority Element (> n/3)  
+- ✔️ Pascal’s Triangle  
+- ✔️ 3-Sum Problem  
+- ✔️ 4-Sum Problem  
+- ✔️ Largest Subarray with 0 Sum  
+- ✔️ Subarrays with XOR K  
+- ✔️ Merge Overlapping Intervals  
+- ✔️ Merge 2 Sorted Arrays (No Extra Space)  
+- ✔️ Repeating + Missing Number  
+- ✔️ Count Inversions  
+- ✔️ Reverse Pairs  
+- ✔️ Maximum Product Subarray  
+- ✔️ Majority Element (> n/3)  
 
 ---
 
@@ -189,4 +189,3 @@ L --> M[🌐 Step 13: Graphs]
 M --> N[📈 Step 14: Dynamic Programming]
 N --> O[📝 Step 15: Tries]
 O --> P[🔡 Step 16: Advanced Strings]
-
