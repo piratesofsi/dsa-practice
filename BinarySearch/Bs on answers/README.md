@@ -3,13 +3,13 @@
 This folder contains **Java solutions** for problems under **Lecture 2: Binary Search on Answers** from the [Striver A2Z DSA Sheet](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/).
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Binary%20Search%20on%20Answers-6%2F14-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Binary%20Search%20on%20Answers-7%2F14-yellow?style=for-the-badge" />
 </p>
 
 ---
 
 ## ✅ Progress
-- Problems Solved: **6 / 14**
+- Problems Solved: **7 / 14**
 
 ---
 
@@ -45,16 +45,16 @@ This folder contains **Java solutions** for problems under **Lecture 2: Binary S
 
 #### 🔹 Brute Force
 - Iterate from `1` to `m`. For each number `i`, check if `i^n` equals `m`.
-- **Time Complexity:** $O(m \times n)$
-- **Space Complexity:** $O(1)$
+- **Time Complexity:** O(m × n)  
+- **Space Complexity:** O(1)
 
 #### 🔹 Optimized – Binary Search with Helper Function
 - Use binary search on `[1, m]` to guess the possible root.  
 - Helper function returns:
   - `0` if `mid^n == m`, `1` if `mid^n < m`, `2` if `mid^n > m`.
 - Adjust binary search range based on helper. Avoids `Math.pow()` overflow.  
-- **Time Complexity:** $O(log(m) \times n)$
-- **Space Complexity:** $O(1)$
+- **Time Complexity:** O(log(m) × n)  
+- **Space Complexity:** O(1)  
 
 ---
 
@@ -70,8 +70,8 @@ This folder contains **Java solutions** for problems under **Lecture 2: Binary S
 - Search space: speed `k` ∈ `[1, max(pile)]`.
 - **Helper function:** Checks if Koko can finish within `h` hours.
 - Binary search: decrease `high` if possible, increase `low` if too slow.
-- **Time Complexity:** $O(N \log(\text{maxPile}))$
-- **Space Complexity:** $O(1)$
+- **Time Complexity:** O(N × log(maxPile))  
+- **Space Complexity:** O(1)  
 
 ---
 
@@ -87,8 +87,8 @@ This folder contains **Java solutions** for problems under **Lecture 2: Binary S
 - **Helper:** `possible(day)` checks if `m` bouquets can be formed.
 - Binary search: decrease `high` if possible, increase `low` if too early.
 - **Pre-check:** If total flowers < `m * k`, return -1.
-- **Time Complexity:** $O(N \log(\text{maxDay} - \text{minDay}))$
-- **Space Complexity:** $O(1)$
+- **Time Complexity:** O(N × log(maxDay - minDay))  
+- **Space Complexity:** O(1)  
 
 ---
 
@@ -101,34 +101,62 @@ This folder contains **Java solutions** for problems under **Lecture 2: Binary S
 - Search space: divisor ∈ `[1, max(nums)]`.
 - **Helper:** `checkIf(divisor)` returns sum of divisions for given `divisor`.
 - Binary search: decrease `high` if sum ≤ threshold, increase `low` if sum > threshold.
-- **Time Complexity:** $O(N \log(\text{max(nums)}))$
-- **Space Complexity:** $O(1)$
+- **Time Complexity:** O(N × log(max(nums)))  
+- **Space Complexity:** O(1)  
 
 ---
 
-### 6. Minimum Capacity to Finish Work / Smallest Divisor Given `d` Days
+### 6. Least Capacity to Ship Packages in D Days
 
 #### 🔹 Problem Understanding
-- You have `nums` array (work/items) and `d` days.  
-- Find the **minimum capacity per day** to finish all work/items within `d` days.
+- You are given an array `weights[]`, where `weights[i]` is the weight of the i-th package.  
+- You need to ship all packages in **D days**. Each day, you load the ship with packages in order without breaking them.  
+- The capacity of the ship must be at least large enough to handle the heaviest item and at most the sum of all packages.  
+- **Goal:** Find the **minimum capacity** of the ship such that all packages can be shipped within `D` days.
 
 #### 🔹 Brute Force
-- Test capacities from `1` to `max(nums)`.
-- For each capacity, calculate total days: `days += ceil(nums[i] / capacity)`.
-- First capacity ≤ `d` is the answer.
-- **Time Complexity:** $O(N \times \text{max(nums)})$
-- **Space Complexity:** $O(1)$
+- Start testing possible capacities from `max(weights)` (minimum feasible capacity) to `sum(weights)` (upper bound).  
+- For each capacity, check how many days are needed:
+  - Keep adding package weights to the `load`.  
+  - If adding exceeds capacity, increase `days` and start a new load.  
+- The first capacity that allows shipping in ≤ `D` days is the answer.  
+- **Time Complexity:** O((sum(weights) - max(weights)) × N)  
+- **Space Complexity:** O(1)  
 
 #### 🔹 Optimized – Binary Search on Answer
-- **Observation:** Increasing capacity reduces total days (monotonic property).
-- Search space: `[1, max(nums)]`.
-- **Helper:** `canFinish(capacity)` → returns `true` if `sum(ceil(nums[i] / capacity)) <= d`.
-- Binary Search Steps:
-  1. `low = 1`, `high = max(nums)`.
-  2. While `low <= high`:
-     - `mid = low + (high - low) / 2`.
-     - If `canFinish(mid)` → store `mid` and try smaller capacity: `high = mid - 1`.
-     - Else → capacity too small: `low = mid + 1`.
-  3. `low` (or last stored valid `mid`) = **minimum capacity / smallest divisor**.
-- **Time Complexity:** $O(N \log(\text{max(nums)}))$
-- **Space Complexity:** $O(1)$
+- Use binary search over the range `[max(weights), sum(weights)]`.  
+- For each mid capacity, simulate shipping:
+  - If the required days ≤ `D`, try smaller capacities (move `high = mid - 1`).  
+  - Otherwise, increase capacity (move `low = mid + 1`).  
+- Final `low` will be the least capacity required.  
+- **Time Complexity:** O(N × log(sum(weights) - max(weights)))  
+- **Space Complexity:** O(1)  
+
+---
+
+### 7. Kth Missing Number
+
+#### 🔹 Brute Force 1 – Using HashSet
+- Insert all elements of the array into a `HashSet` for quick lookup.  
+- Iterate from `1` onwards and count missing numbers.  
+- When the count reaches `k`, return that number.  
+- **Time Complexity:** O(N + k)  
+- **Space Complexity:** O(N)  
+
+#### 🔹 Brute Force 2 – Iteration with Missing Count
+- Use the property: missing numbers until index `i` = `arr[i] - (i + 1)`.  
+- Traverse array:  
+  - If `missingTill(i) >= k`, then answer lies before or at `i`.  
+  - Return `k + i` once reached.  
+- **Time Complexity:** O(N)  
+- **Space Complexity:** O(1)  
+
+#### 🔹 Optimized – Binary Search
+- Observation: Number of missing elements before `arr[mid]` = `arr[mid] - (mid + 1)`.  
+- Use binary search:  
+  - If `missing >= k`, move left (`high = mid - 1`).  
+  - Else, move right (`low = mid + 1`).  
+- Final answer = `low + k`.  
+- **Time Complexity:** O(log N)  
+- **Space Complexity:** O(1)  
+
