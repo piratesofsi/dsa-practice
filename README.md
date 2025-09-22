@@ -1,6 +1,6 @@
 <h1 align="center">🚀 Striver 450 DSA Sheet – Java Solutions</h1>
 <p align="center">
-  <img src="https://img.shields.io/badge/Binary%20Search-20%2F32-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Binary%20Search-21%2F32-yellow?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Arrays-40%2F40-brightgreen?style=for-the-badge" />
 </p>
 <p align="center">
@@ -16,7 +16,7 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
   <img src="https://img.shields.io/badge/Arrays%20Easy-100%25-brightgreen?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Arrays%20Medium-100%25-brightgreen?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Arrays%20Hard-100%25-brightgreen?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Binary%20Search-62%25-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Binary%20Search-65%25-yellow?style=for-the-badge" />
 </p>
 
 | Topic                 | Status         | Progress  |
@@ -24,7 +24,7 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 | ✅ Arrays – Easy      | ✔️ Completed   | 14 / 14   |
 | 💡 Arrays – Medium    | ✔️ Completed   | 14 / 14   |
 | 🔥 Arrays – Hard      | ✔️ Completed   | 12 / 12   |
-| 🎯 Binary Search      | ⏳ In Progress | 20 / 32   |
+| 🎯 Binary Search      | ⏳ In Progress | 21 / 32   |
 
 ---
 
@@ -81,7 +81,7 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 
 ---
 
-## 🎯 Binary Search (20 / 32)  
+## 🎯 Binary Search (21 / 32)  
 
 ### 📌 Lec 1 – Binary Search on 1D Arrays (13 / 13 ✅)  
 - ✔️ Binary Search (Find X in Sorted Array)  
@@ -98,14 +98,15 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 - ✔️ Rotation Count of Sorted Array  
 - ✔️ Search in Rotated Sorted Array II (With Duplicates)  
 
-### 📌 Lec 2 – Binary Search on Answers (7 / 14)  
+### 📌 Lec 2 – Binary Search on Answers (8 / 14)  
 - ✔️ Find Square Root of a Number (Brute Force, Math.sqrt, Binary Search)  
 - ✔️ Nth Root of M (Binary Search)  
 - ✔️ Koko Eating Bananas  
-- ✔️ Minimum Days to Make m Bouquets
-- ✔️ Find the Smallest Divisor Given a Threshold
-- ✔️ Least Capacity to Ship within D Days
-- ✔️ Kth Missing Number (3 Approaches)
+- ✔️ Minimum Days to Make m Bouquets  
+- ✔️ Find the Smallest Divisor Given a Threshold  
+- ✔️ Least Capacity to Ship within D Days  
+- ✔️ Kth Missing Number (3 Approaches)  
+- ✔️ Aggressive Cows  
 
 ### 📌 Lec 3 – Binary Search on 2D Arrays (0 / 5)  
 *(To-do section 🚧)*
@@ -113,8 +114,8 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 ---
 
 ## 🛠 Tech Stack  
-- 🖥️ Language: **Java**
-- ⚙️ Tools: **Git, GitHub, VS Code**
+- 🖥️ Language: **Java**  
+- ⚙️ Tools: **Git, GitHub, VS Code**  
 
 ---
 
@@ -190,5 +191,3 @@ L --> M[🌐 Step 13: Graphs]
 M --> N[📈 Step 14: Dynamic Programming]
 N --> O[📝 Step 15: Tries]
 O --> P[🔡 Step 16: Advanced Strings]
-
----
