@@ -3,13 +3,13 @@
 This folder contains **Java solutions** for problems under **Lecture 2: Binary Search on Answers** from the [Striver A2Z DSA Sheet](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/).
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Binary%20Search%20on%20Answers-7%2F14-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Binary%20Search%20on%20Answers-8%2F15-yellow?style=for-the-badge" />
 </p>
 
 ---
 
 ## ✅ Progress
-- Problems Solved: **7 / 14**
+- Problems Solved: **8 / 15**
 
 ---
 
@@ -160,3 +160,29 @@ This folder contains **Java solutions** for problems under **Lecture 2: Binary S
 - **Time Complexity:** O(log N)  
 - **Space Complexity:** O(1)  
 
+---
+
+### 8. Aggressive Cows
+
+#### 🔹 Problem Understanding
+- You are given `n` stalls (array of positions) and `k` cows.  
+- Place the cows in the stalls such that the **minimum distance** between any two cows is maximized.  
+- **Goal:** Find the largest minimum distance possible.
+
+#### 🔹 Brute Force
+- Try every distance from `1` to `max(stall) - min(stall)`.  
+- For each distance, check if it’s possible to place all `k` cows.  
+- Return the largest valid distance.  
+- **Time Complexity:** O(n × (max-min))  
+- **Space Complexity:** O(1)  
+
+#### 🔹 Optimized – Binary Search on Answer
+- Sort stall positions first.  
+- Search space = `[1, max-min]`.  
+- **Helper function:** Checks if all cows can be placed with at least `mid` distance apart.  
+- Binary search:  
+  - If placement is possible, try larger distance (`low = mid + 1`).  
+  - Else, try smaller distance (`high = mid - 1`).  
+- Answer will be stored in `high` after the loop ends.  
+- **Time Complexity:** O(n log(max-min) + n log n)`  
+- **Space Complexity:** O(1)  
