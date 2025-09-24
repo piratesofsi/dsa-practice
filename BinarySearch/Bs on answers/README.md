@@ -9,7 +9,7 @@ This folder contains **Java solutions** for problems under **Lecture 2: Binary S
 ---
 
 ## ✅ Progress
-- Problems Solved: **8 / 15**
+- Problems Solved: **9 / 15**
 
 ---
 
@@ -185,4 +185,34 @@ This folder contains **Java solutions** for problems under **Lecture 2: Binary S
   - Else, try smaller distance (`high = mid - 1`).  
 - Answer will be stored in `high` after the loop ends.  
 - **Time Complexity:** O(n log(max-min) + n log n)`  
+- **Space Complexity:** O(1)
+
+---
+
+### 9. Book Allocation Problem
+
+#### 🔹 Problem Understanding
+- You are given `n` books, each with some pages, and `m` students.  
+- The books must be allocated **in order** (no shuffling).  
+- Each student gets at least one book.  
+- **Goal:** Minimize the **maximum pages allocated** to any student.
+
+#### 🔹 Brute Force
+- Try every possible way to divide books among students (recursive / backtracking).  
+- Calculate maximum pages for each division, and track the minimum among them.  
+- **Time Complexity:** Exponential (not feasible).  
+- **Space Complexity:** O(1).  
+
+#### 🔹 Optimized – Binary Search on Answer
+- Search space: `[max(pages[]), sum(pages[])]`.  
+- **Helper function (`noOfStudents`)**: Given a limit `mid`, calculate how many students are required.  
+  - Start allocating sequentially until sum exceeds `mid`, then assign books to a new student.  
+- Binary search:  
+  - If `studentsRequired ≤ m`, try smaller limit (`high = mid - 1`).  
+  - Else, increase limit (`low = mid + 1`).  
+- Final answer is stored in `low`.  
+- **Time Complexity:** O(N × log(sum - max))  
 - **Space Complexity:** O(1)  
+
+---
+
