@@ -16,7 +16,7 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
   <img src="https://img.shields.io/badge/Arrays%20Easy-100%25-brightgreen?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Arrays%20Medium-100%25-brightgreen?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Arrays%20Hard-100%25-brightgreen?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Binary%20Search-65%25-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Binary%20Search-68%25-yellow?style=for-the-badge" />
 </p>
 
 | Topic                 | Status         | Progress  |
