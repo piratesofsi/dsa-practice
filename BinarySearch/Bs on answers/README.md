@@ -3,7 +3,7 @@
 This folder contains **Java solutions** for problems under **Lecture 2: Binary Search on Answers** from the [Striver A2Z DSA Sheet](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/).
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Binary%20Search%20on%20Answers-8%2F15-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Binary%20Search%20on%20Answers-9%2F15-yellow?style=for-the-badge" />
 </p>
 
 ---
