@@ -24,7 +24,7 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 | ✅ Arrays – Easy      | ✔️ Completed   | 14 / 14   |
 | 💡 Arrays – Medium    | ✔️ Completed   | 14 / 14   |
 | 🔥 Arrays – Hard      | ✔️ Completed   | 12 / 12   |
-| 🎯 Binary Search      | ⏳ In Progress | 21 / 32   |
+| 🎯 Binary Search      | ⏳ In Progress | 22 / 32   |
 
 ---
 
@@ -98,7 +98,7 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 - ✔️ Rotation Count of Sorted Array  
 - ✔️ Search in Rotated Sorted Array II (With Duplicates)  
 
-### 📌 Lec 2 – Binary Search on Answers (8 / 14)  
+### 📌 Lec 2 – Binary Search on Answers (9 / 14)  
 - ✔️ Find Square Root of a Number (Brute Force, Math.sqrt, Binary Search)  
 - ✔️ Nth Root of M (Binary Search)  
 - ✔️ Koko Eating Bananas  
@@ -106,8 +106,9 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 - ✔️ Find the Smallest Divisor Given a Threshold  
 - ✔️ Least Capacity to Ship within D Days  
 - ✔️ Kth Missing Number (3 Approaches)  
-- ✔️ Aggressive Cows  
-
+- ✔️ Aggressive Cows
+- ✔️ Book Allocation Problem
+  
 ### 📌 Lec 3 – Binary Search on 2D Arrays (0 / 5)  
 *(To-do section 🚧)*
 
