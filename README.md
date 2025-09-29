@@ -1,6 +1,6 @@
 <h1 align="center">🚀 Striver 450 DSA Sheet – Java Solutions</h1>
 <p align="center">
-  <img src="https://img.shields.io/badge/Binary%20Search-21%2F32-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Binary%20Search-25%2F32-yellow?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Arrays-40%2F40-brightgreen?style=for-the-badge" />
 </p>
 <p align="center">
