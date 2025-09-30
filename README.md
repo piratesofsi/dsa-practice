@@ -1,6 +1,6 @@
 <h1 align="center">🚀 Striver 450 DSA Sheet – Java Solutions</h1>
 <p align="center">
-  <img src="https://img.shields.io/badge/Binary%20Search-25%2F32-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Binary%20Search-26%2F32-yellow?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Arrays-40%2F40-brightgreen?style=for-the-badge" />
 </p>
 <p align="center">
@@ -16,7 +16,7 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
   <img src="https://img.shields.io/badge/Arrays%20Easy-100%25-brightgreen?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Arrays%20Medium-100%25-brightgreen?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Arrays%20Hard-100%25-brightgreen?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Binary%20Search-78%25-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Binary%20Search-81%25-yellow?style=for-the-badge" />
 </p>
 
 | Topic                 | Status         | Progress  |
@@ -24,7 +24,7 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 | ✅ Arrays – Easy      | ✔️ Completed   | 14 / 14   |
 | 💡 Arrays – Medium    | ✔️ Completed   | 14 / 14   |
 | 🔥 Arrays – Hard      | ✔️ Completed   | 12 / 12   |
-| 🎯 Binary Search      | ⏳ In Progress | 25 / 32   |
+| 🎯 Binary Search      | ⏳ In Progress | 26 / 32   |
 
 ---
 
@@ -113,8 +113,8 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 - ✔️ Median of Two Sorted Arrays of Different Size
 
   
-### 📌 Lec 3 – Binary Search on 2D Arrays (0 / 5)  
-*(To-do section 🚧)*
+### 📌 Lec 3 – Binary Search on 2D Arrays (1 / 5)  
+- ✔️ Search In 2D matrix
 
 ---
 
