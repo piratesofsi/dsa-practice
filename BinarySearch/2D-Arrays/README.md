@@ -8,16 +8,16 @@ This section focuses on the application of Binary Search techniques to solve pro
 
 We have a total of **5** problems in this sub-topic.
 
-**Progress:** 1/5 Solved (20%)
+**Progress:** 2/5 Solved (40%)
 
 | Status | Solved Count | Total | Percentage |
 | :---: | :---: | :---: | :---: |
-| ✅ | 1 | 5 | 20% |
+| ✅ | 2 | 5 | 40% |
 
 **Progress Bar:**
 
 <p align="center">
-  <img src="https://progress-bar.dev/60/" />
+  <img src="https://progress-bar.dev/40/" />
 </p>
 
 ---
@@ -85,3 +85,68 @@ $$O(\log(m \cdot n))$$
 $$O(1)$$
 
 **Code File:** `searchin2dmatrixoptimal.java`
+
+---
+
+## 💻 Problem SR-2: Search in a 2D Matrix II
+
+### 📜 Problem Statement
+
+You are given an $m \times n$ integer matrix `matrix` and an integer `target`. The matrix has the following properties:
+1. Each row is sorted in ascending order from left to right.
+2. Each column is sorted in ascending order from top to bottom.
+
+The goal is to write a function that returns `true` if `target` is in the matrix or `false` otherwise.
+
+### 💡 Approaches
+
+We explore three different methods to solve this problem, improving step by step:
+
+---
+
+### 1️⃣ Brute Force Approach
+
+#### Intuition
+Check every element one by one until we either find the `target` or exhaust the matrix.
+
+#### Time Complexity
+$$O(m \cdot n)$$
+
+#### Space Complexity
+$$O(1)$$
+
+**Code File:** `searchin2Dmatrix2brute.java`
+
+---
+
+### 2️⃣ Row-wise Binary Search Approach (Better)
+
+#### Intuition
+Since each row is sorted, perform a Binary Search in each row individually until we either find the `target` or finish scanning all rows.
+
+#### Time Complexity
+$$O(m \cdot \log n)$$
+
+#### Space Complexity
+$$O(1)$$
+
+**Code File:** `searchin2Dmatrix2better.java`
+
+---
+
+### 3️⃣ Optimal Staircase Search Approach
+
+#### Intuition
+Start from the **top-right corner** (or bottom-left).  
+- If the current element equals the `target`, return `true`.  
+- If the current element is greater, move left.  
+- If it is smaller, move down.  
+This way, we eliminate one row or column at every step.
+
+#### Time Complexity
+$$O(m + n)$$
+
+#### Space Complexity
+$$O(1)$$
+
+**Code File:** `searchin2Dmatrix2optimal.java`
