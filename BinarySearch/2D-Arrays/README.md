@@ -8,11 +8,11 @@ This section focuses on the application of Binary Search techniques to solve pro
 
 We have a total of **5** problems in this sub-topic.
 
-**Progress:** 2/5 Solved (40%)
+**Progress:** 4/5 Solved (80%)
 
 | Status | Solved Count | Total | Percentage |
 | :---: | :---: | :---: | :---: |
-| ✅ | 2 | 5 | 40% |
+| ✅ | 4 | 5 | 80% |
 
 **Progress Bar:**
 
@@ -150,3 +150,85 @@ $$O(m + n)$$
 $$O(1)$$
 
 **Code File:** `searchin2Dmatrix2optimal.java`
+
+---
+
+
+## 💻 Problem SR-3: Peak Element in a 2D Matrix
+
+### 📜 Problem Statement
+
+You are given an $m \times n$ integer matrix where each row and each column may or may not be sorted.  
+A **peak element** is an element that is **strictly greater** than its adjacent neighbors (up, down, left, right).  
+Your task is to find the position (row index and column index) of any one peak element.
+
+### 💡 Approaches
+
+We explore three approaches for this problem: Brute Force, Better (Largest Element), and Binary Search.
+
+#### 1️⃣ Brute Force Approach
+
+**Intuition:** Check every element and compare with its neighbors to find a peak.  
+
+**Time Complexity:** $O(m \cdot n)$  
+**Space Complexity:** $O(1)$  
+
+**Code File:** `peak2dmatrixbrute.java`
+
+#### 2️⃣ Better Approach (Largest Element)
+
+**Intuition:** The largest element in the matrix will always be a peak.  
+Scan the matrix once to find this maximum element and return its position.  
+
+**Time Complexity:** $O(m \cdot n)$  
+**Space Complexity:** $O(1)$  
+
+**Code File:** `peak2dmatrixbetter.java`
+
+#### 3️⃣ Binary Search Approach (Optimal)
+
+**Intuition:** Use Binary Search on columns to narrow down the search efficiently.  
+
+**Time Complexity:** $O(m \cdot \log n)$  
+**Space Complexity:** $O(1)$  
+
+**Code File:** `peak2dmatrixoptimal.java`
+
+---
+
+## 💻 Problem SR-4: Row with Maximum Number of 1’s
+
+### 📜 Problem Statement
+
+You are given a binary matrix of size $m \times n$ where **each row is sorted in non-decreasing order**.  
+Find the **row index with the maximum number of 1’s** and return the count of 1’s in that row.  
+If multiple rows have the same number of 1’s, return the smallest row index.
+
+### 💡 Approaches
+
+We explore two approaches: Brute Force and Optimal Binary Search.
+
+#### 1️⃣ Brute Force Approach
+
+**Intuition:** For each row, find the first occurrence of `1` using linear search and calculate number of ones.  
+
+**Time Complexity:** $O(m \cdot n)$  
+**Space Complexity:** $O(1)$  
+
+**Code File:** `rowwithmaximumonesbrute.java`
+
+#### 2️⃣ Optimal Binary Search Approach
+
+**Intuition:** Since rows are sorted, use Binary Search to find the first occurrence of `1`.  
+
+**Time Complexity:** $O(m \cdot \log n)$  
+**Space Complexity:** $O(1)$  
+
+**Code File:** `rowwithmaximumonesoptimal.java`
+
+---
+
+## 💻 Problem SR-5: [Next Problem Placeholder]
+
+*(Will be added once solved)*
+
