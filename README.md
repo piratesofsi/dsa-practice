@@ -1,6 +1,6 @@
 <h1 align="center">🚀 Striver 450 DSA Sheet – Java Solutions</h1>
 <p align="center">
-  <img src="https://img.shields.io/badge/Binary%20Search-28%2F32-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Binary%20Search-30%2F32-yellow?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Arrays-40%2F40-brightgreen?style=for-the-badge" />
 </p>
 <p align="center">
@@ -16,7 +16,7 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
   <img src="https://img.shields.io/badge/Arrays%20Easy-100%25-brightgreen?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Arrays%20Medium-100%25-brightgreen?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Arrays%20Hard-100%25-brightgreen?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Binary%20Search-87%25-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Binary%20Search-93%25-yellow?style=for-the-badge" />
 </p>
 
 | Topic                 | Status         | Progress  |
@@ -24,7 +24,7 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 | ✅ Arrays – Easy      | ✔️ Completed   | 14 / 14   |
 | 💡 Arrays – Medium    | ✔️ Completed   | 14 / 14   |
 | 🔥 Arrays – Hard      | ✔️ Completed   | 12 / 12   |
-| 🎯 Binary Search      | ⏳ In Progress | 28 / 32   |
+| 🎯 Binary Search      | ⏳ In Progress | 30 / 32   |
 
 ---
 
@@ -81,7 +81,7 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 
 ---
 
-## 🎯 Binary Search (27 / 32)  
+## 🎯 Binary Search (30 / 32)  
 
 ### 📌 Lec 1 – Binary Search on 1D Arrays (13 / 13 ✅)  
 - ✔️ Binary Search (Find X in Sorted Array)  
@@ -113,10 +113,11 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 - ✔️ Median of Two Sorted Arrays of Different Size
 - ✔️ Kth element of two sorted arrays   
 
-### 📌 Lec 3 – Binary Search on 2D Arrays (2 / 5)  
+### 📌 Lec 3 – Binary Search on 2D Arrays (4 / 5)  
 - ✔️ Search In 2D Matrix (Brute, Better, Optimal)
 - ✔️ Search In 2D Matrix -2  (Brute, Better, Optimal) 
-- ⏳ Remaining: 3 Problems  
+- ✔️ Find the row with maximum number of 1's
+- ✔️ Find Peak Element (2D Matrix)
 
 ---
 
