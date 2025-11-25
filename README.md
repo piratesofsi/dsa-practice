@@ -18,6 +18,8 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
   <img src="https://img.shields.io/badge/Arrays%20Medium-100%25-brightgreen?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Arrays%20Hard-100%25-brightgreen?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Binary%20Search-93%25-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/LinkedList-4%2F31-blue?style=for-the-badge" />
+
 </p>
 
 | Topic                 | Status         | Progress  |
@@ -115,15 +117,13 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 - ✔️ Split Array  
 - ✔️ Median of Two Sorted Arrays of Different Size
 - ✔️ Kth element of two sorted arrays   
-
+---
 ### 📌 Lec 3 – Binary Search on 2D Arrays (4 / 5)  
 - ✔️ Search In 2D Matrix (Brute, Better, Optimal)
 - ✔️ Search In 2D Matrix -2  (Brute, Better, Optimal) 
 - ✔️ Find the row with maximum number of 1's
 - ✔️ Find Peak Element (2D Matrix)
 
-  Got you 😭
-Here's JUST the **Linked List section**—clean, simple, copy-paste ready.
 
 ---
 
@@ -135,7 +135,7 @@ Here's JUST the **Linked List section**—clean, simple, copy-paste ready.
 * ✔️ Inserting a Node in LinkedList
 * ✔️ Deleting a Node in LinkedList
 * ✔️ Find the Length of the LinkedList
-* ⏳ Search an Element in the LinkedList
+* ✔️ Search an Element in the LinkedList
 
 ---
 
