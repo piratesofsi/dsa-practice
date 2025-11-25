@@ -2,6 +2,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Binary%20Search-30%2F32-yellow?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Arrays-40%2F40-brightgreen?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/LinkedList-4%2F31-blue?style=for-the-badge" />
 </p>
 <p align="center">
 This repository contains <b>personal Java solutions</b> for problems from the <b>Striver 450 DSA Sheet</b>.<br>
@@ -25,6 +26,8 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 | 💡 Arrays – Medium    | ✔️ Completed   | 14 / 14   |
 | 🔥 Arrays – Hard      | ✔️ Completed   | 12 / 12   |
 | 🎯 Binary Search      | ⏳ In Progress | 31 / 32   |
+| 🔗 Linked List        | ⏳ In Progress | 4 / 31    |
+
 
 ---
 
@@ -119,7 +122,26 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 - ✔️ Find the row with maximum number of 1's
 - ✔️ Find Peak Element (2D Matrix)
 
+  Got you 😭
+Here's JUST the **Linked List section**—clean, simple, copy-paste ready.
+
 ---
+
+# 🔗 Linked List (4 / 31)
+
+### 📌 Lec 1 – Learn 1D LinkedList (4 / 5)
+
+* ✔️ Introduction to LinkedList (Node Structure)
+* ✔️ Inserting a Node in LinkedList
+* ✔️ Deleting a Node in LinkedList
+* ✔️ Find the Length of the LinkedList
+* ⏳ Search an Element in the LinkedList
+
+---
+
+
+
+
 
 ## 🛠 Tech Stack  
 - 🖥️ Language: **Java**  
@@ -153,7 +175,8 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
   ⬅️
   <img src="https://img.shields.io/badge/🔡%20Step%203:%20Strings-Next%20Up-blue?style=for-the-badge" />
   ⬅️
-  <img src="https://img.shields.io/badge/🔗%20Step%204:%20Linked%20List-Future-lightgrey?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Linked%20List-4%2F31-blue?style=for-the-badge" />
+
   ⬅️
   <img src="https://img.shields.io/badge/🌀%20Step%205:%20Recursion-Future-lightgrey?style=for-the-badge" />
   ⬅️
