@@ -81,7 +81,7 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 
 ---
 
-## 🎯 Binary Search (30 / 32)  
+## 🎯 Binary Search (31 / 32)  
 
 ### 📌 Lec 1 – Binary Search on 1D Arrays (13 / 13 ✅)  
 - ✔️ Binary Search (Find X in Sorted Array)  
