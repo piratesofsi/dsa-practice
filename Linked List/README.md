@@ -90,4 +90,3 @@ Returns true or false based on whether the value is found.
 
 ---
 
-If you want, I can convert your **Medium** and **Hard** Linked List topics into this same clean format too!
