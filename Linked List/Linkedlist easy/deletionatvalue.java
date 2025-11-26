@@ -39,7 +39,7 @@ public class deletionatvalue {
         }
     }
 
-    //deleting from any postion 
+    //deleting at value
     static Node deleteatValuNode(Node head,int el){
         if(head==null)
             return null;
@@ -76,3 +76,4 @@ public class deletionatvalue {
              printAll(head2);
     }
 }
+
