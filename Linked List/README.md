@@ -67,7 +67,7 @@ Handles:
 * deleting last node
 * invalid positions
 
-### **Delete Node by Value **
+### Delete Node by Value 
 
 📌 **[Code](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/Linkedlist%20easy/deletionatvalue.java)**
 Deletes the *first* node whose value matches the given key.
