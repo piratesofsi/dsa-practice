@@ -154,14 +154,14 @@ Time Complexity → **O(n)**.
 
 ## 1. Node Structure
 
-📌 **[Code](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/Doubly%20Linked%20List/implementation.java)**
+📌 **[Code](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/Doubly%20LInkedList/implementation.java)**
 A Doubly Linked List node contains:
 
-* **data** → the stored value
+* **data** → stored value
 * **next pointer** → points to the next node
 * **prev pointer** → points to the previous node
 
-This structure allows **two-way traversal**.
+Allows **two-way traversal**.
 
 ---
 
@@ -169,14 +169,14 @@ This structure allows **two-way traversal**.
 
 ## ❌ 2.1 Delete at Head
 
-📌 **[Code](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/Doubly%20Linked%20List/deletionAtHead.java)**
-Removes the first node of the list.
+📌 **[Code](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/Doubly%20LInkedList/deletionAtHead.java)**
+Removes the first node.
 
 Steps:
 
 * Move head to `head.next`
 * Set `head.prev = null`
-* Old head gets removed
+* Old head is removed
 
 Time Complexity → **O(1)**
 
@@ -184,19 +184,18 @@ Time Complexity → **O(1)**
 
 ## ❌ 2.2 Delete at Tail
 
-📌 **[Code](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/Doubly%20Linked%20List/deletionAtTail.java)**
-Removes the last node of the list.
+📌 **[Code](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/Doubly%20LInkedList/deletionAtTail.java)**
+Removes the last node.
 
 Steps:
 
 * Traverse to the last node
-* Update previous node’s `next` to `null`
-* Remove the last node
+* Set previous node’s `next = null`
+* Last node is removed
 
 Time Complexity → **O(n)**
 
 ---
-
 
 
 
