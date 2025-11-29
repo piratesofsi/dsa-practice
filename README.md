@@ -2,7 +2,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Binary%20Search-30%2F32-yellow?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Arrays-40%2F40-brightgreen?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/LinkedList-4%2F31-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/LinkedList-6%2F31-blue?style=for-the-badge" />
 </p>
 <p align="center">
 This repository contains <b>personal Java solutions</b> for problems from the <b>Striver 450 DSA Sheet</b>.<br>
@@ -18,7 +18,7 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
   <img src="https://img.shields.io/badge/Arrays%20Medium-100%25-brightgreen?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Arrays%20Hard-100%25-brightgreen?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Binary%20Search-93%25-yellow?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/LinkedList-13%25-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/LinkedList-19%25-blue?style=for-the-badge" />
 
 
 </p>
@@ -29,7 +29,7 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 | 💡 Arrays – Medium    | ✔️ Completed   | 14 / 14   |
 | 🔥 Arrays – Hard      | ✔️ Completed   | 12 / 12   |
 | 🎯 Binary Search      | ⏳ In Progress | 31 / 32   |
-| 🔗 Linked List        | ⏳ In Progress | 4 / 31    |
+| 🔗 Linked List        | ⏳ In Progress | 6 / 31    |
 
 
 ---
@@ -128,7 +128,9 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 
 ---
 
-# 🔗 Linked List (4 / 31)
+
+
+# 🔗 Linked List (6 / 31)
 
 ### 📌 Lec 1 – Learn 1D LinkedList (4 / 5)
 
@@ -137,6 +139,17 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 * ✔️ Deleting a Node in LinkedList
 * ✔️ Find the Length of the LinkedList
 * ✔️ Search an Element in the LinkedList
+
+---
+
+### 📌 Lec 2 – Learn Doubly LinkedList (2 / 4)
+
+* ✔️ Introduction to DLL
+* ✔️ Delete a Node in DLL
+* ⏳ Insert a Node in DLL
+* ⏳ Reverse a DLL
+
+
 
 ---
 
@@ -176,7 +189,7 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
   ⬅️
   <img src="https://img.shields.io/badge/🔡%20Step%203:%20Strings-Next%20Up-blue?style=for-the-badge" />
   ⬅️
-  <img src="https://img.shields.io/badge/Linked%20List-4%2F31-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Linked%20List-6%2F31-blue?style=for-the-badge" />
 
   ⬅️
   <img src="https://img.shields.io/badge/🌀%20Step%205:%20Recursion-Future-lightgrey?style=for-the-badge" />
