@@ -149,6 +149,7 @@ Time Complexity → **O(n)**.
 
 ---
 
+
 # 🔗 Doubly Linked List – Topic Wise Descriptions (Striver A2Z DSA Sheet)
 
 ## 1. Node Structure
@@ -193,6 +194,9 @@ Steps:
 * Remove the last node
 
 Time Complexity → **O(n)**
+
+---
+
 
 
 
