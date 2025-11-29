@@ -149,4 +149,50 @@ Time Complexity → **O(n)**.
 
 ---
 
+# 🔗 Doubly Linked List – Topic Wise Descriptions (Striver A2Z DSA Sheet)
+
+## 1. Node Structure
+
+📌 **[Code](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/Doubly%20Linked%20List/implementation.java)**
+A Doubly Linked List node contains:
+
+* **data** → the stored value
+* **next pointer** → points to the next node
+* **prev pointer** → points to the previous node
+
+This structure allows **two-way traversal**.
+
+---
+
+# 2. Deletions in Doubly Linked List
+
+## ❌ 2.1 Delete at Head
+
+📌 **[Code](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/Doubly%20Linked%20List/deletionAtHead.java)**
+Removes the first node of the list.
+
+Steps:
+
+* Move head to `head.next`
+* Set `head.prev = null`
+* Old head gets removed
+
+Time Complexity → **O(1)**
+
+---
+
+## ❌ 2.2 Delete at Tail
+
+📌 **[Code](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/Doubly%20Linked%20List/deletionAtTail.java)**
+Removes the last node of the list.
+
+Steps:
+
+* Traverse to the last node
+* Update previous node’s `next` to `null`
+* Remove the last node
+
+Time Complexity → **O(n)**
+
+
 
