@@ -33,26 +33,7 @@ public class deletionatvalue {
         return a;
     }
 
-    // deletionatTail
-    static ListNode deleteAtTAListNode(ListNode head) {
-        if (head == null) {
-            return null;
-        }
-        if (head.next == null) {
-            head.next = null;
-            head.prev = null;
-            return null;
-        }
-        ListNode temp = head;
-        while (temp.next != null) {
-            temp = temp.next;
-        }
-        ListNode previous = temp.prev;
-        previous.next = null;
-        temp.prev = null;
-
-        return head;
-    }
+  
 
     // deletion at a give value (so you've provided that node )
     static void deleteAtValue(ListNode curr) {
@@ -89,3 +70,4 @@ public class deletionatvalue {
         printAll(result);
     }
 }
+
