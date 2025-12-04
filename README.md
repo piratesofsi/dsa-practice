@@ -1,8 +1,8 @@
 <h1 align="center">🚀 Striver 450 DSA Sheet – Java Solutions</h1>
 <p align="center">
   <img src="https://img.shields.io/badge/Binary%20Search-30%2F32-yellow?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Arrays-40%2F40-brightgreen?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/LinkedList-6%2F31-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Arrays-41%2F41-brightgreen?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/LinkedList-8%2F31-blue?style=for-the-badge" />
 </p>
 <p align="center">
 This repository contains <b>personal Java solutions</b> for problems from the <b>Striver 450 DSA Sheet</b>.<br>
@@ -18,18 +18,16 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
   <img src="https://img.shields.io/badge/Arrays%20Medium-100%25-brightgreen?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Arrays%20Hard-100%25-brightgreen?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Binary%20Search-93%25-yellow?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/LinkedList-19%25-blue?style=for-the-badge" />
-
-
+  <img src="https://img.shields.io/badge/LinkedList-26%25-blue?style=for-the-badge" />
 </p>
 
 | Topic                 | Status         | Progress  |
 |-----------------------|----------------|-----------|
 | ✅ Arrays – Easy      | ✔️ Completed   | 14 / 14   |
-| 💡 Arrays – Medium    | ✔️ Completed   | 14 / 14   |
+| 💡 Arrays – Medium    | ✔️ Completed   | 15 / 15   |
 | 🔥 Arrays – Hard      | ✔️ Completed   | 12 / 12   |
-| 🎯 Binary Search      | ⏳ In Progress | 31 / 32   |
-| 🔗 Linked List        | ⏳ In Progress | 6 / 31    |
+| 🎯 Binary Search      | ⏳ In Progress | 30 / 32   |
+| 🔗 Linked List        | ⏳ In Progress | 8 / 31    |
 
 
 ---
@@ -52,7 +50,7 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 
 ---
 
-## 💡 Arrays – Medium Level (14 / 14)  
+## 💡 Arrays – Medium Level (15 / 15)  
 - ✔️ 2 Sum Problem  
 - ✔️ Sort 0s, 1s, 2s (Dutch National Flag)  
 - ✔️ Majority Element (> n/2)  
@@ -87,7 +85,7 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 
 ---
 
-## 🎯 Binary Search (31 / 32)  
+## 🎯 Binary Search (30 / 32)  
 
 ### 📌 Lec 1 – Binary Search on 1D Arrays (13 / 13 ✅)  
 - ✔️ Binary Search (Find X in Sorted Array)  
@@ -116,23 +114,23 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 - ✔️ Book Allocation Problem  
 - ✔️ Painter's Partition Problem  
 - ✔️ Split Array  
-- ✔️ Median of Two Sorted Arrays of Different Size
+- ✔️ Median of Two Sorted Arrays of Different Size  
 - ✔️ Kth element of two sorted arrays   
+
 ---
+
 ### 📌 Lec 3 – Binary Search on 2D Arrays (4 / 5)  
-- ✔️ Search In 2D Matrix (Brute, Better, Optimal)
-- ✔️ Search In 2D Matrix -2  (Brute, Better, Optimal) 
-- ✔️ Find the row with maximum number of 1's
+- ✔️ Search In 2D Matrix (Brute, Better, Optimal)  
+- ✔️ Search In 2D Matrix -2  (Brute, Better, Optimal)  
+- ✔️ Find the row with maximum number of 1's  
 - ✔️ Find Peak Element (2D Matrix)
 
 
 ---
 
+# 🔗 Linked List (8 / 31)
 
-
-# 🔗 Linked List (6 / 31)
-
-### 📌 Lec 1 – Learn 1D LinkedList (4 / 5)
+### 📌 Lec 1 – Learn 1D LinkedList (5 / 5)
 
 * ✔️ Introduction to LinkedList (Node Structure)
 * ✔️ Inserting a Node in LinkedList
@@ -142,20 +140,14 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 
 ---
 
-### 📌 Lec 2 – Learn Doubly LinkedList (2 / 4)
+### 📌 Lec 2 – Learn Doubly LinkedList (4 / 4)
 
 * ✔️ Introduction to DLL
 * ✔️ Delete a Node in DLL
-* ⏳ Insert a Node in DLL
-* ⏳ Reverse a DLL
-
-
+* ✔️ Insert a Node in DLL
+* ✔️ Reverse a DLL
 
 ---
-
-
-
-
 
 ## 🛠 Tech Stack  
 - 🖥️ Language: **Java**  
@@ -189,8 +181,7 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
   ⬅️
   <img src="https://img.shields.io/badge/🔡%20Step%203:%20Strings-Next%20Up-blue?style=for-the-badge" />
   ⬅️
-  <img src="https://img.shields.io/badge/Linked%20List-6%2F31-blue?style=for-the-badge" />
-
+  <img src="https://img.shields.io/badge/🔗%20Step%204:%20Linked%20List-8%2F31-blue?style=for-the-badge" />
   ⬅️
   <img src="https://img.shields.io/badge/🌀%20Step%205:%20Recursion-Future-lightgrey?style=for-the-badge" />
   ⬅️
