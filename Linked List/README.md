@@ -1,3 +1,5 @@
+
+
 # 🔗 Linked List – Complete Readme
 
 # 🔵 Singly Linked List
@@ -184,6 +186,8 @@ DLL node contains `data`, `next`, and `prev` pointers.
 
 ## **2. Insertions in Doubly Linked List**
 
+---
+
 ### ✅ **2.1 Insert at Head**
 
 📌 **[Code](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/Doubly%20LInkedList/insertionAtHead.java)**
@@ -252,7 +256,7 @@ DLL node contains `data`, `next`, and `prev` pointers.
 
 ---
 
-## 3. Deletions in Doubly Linked List
+## **3. Deletions in Doubly Linked List**
 
 ---
 
@@ -313,11 +317,35 @@ DLL node contains `data`, `next`, and `prev` pointers.
 
 ---
 
-*Done — all sections now include short descriptions and step-by-step actions for every function. If you'd like, I can now:*
+## **4. Reverse a Doubly Linked List (Brute – Using Data Array)**
 
-* *Add time-complexity on each line,*
-* *Insert small code snippets under each heading,*
-* *Export the doc as Markdown or PDF,*
-* *Or add simple ASCII diagrams to explain pointer links.*
+📌 **[Code](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/Doubly%20LInkedList/reversingDLL.java)**
+**Description:** Reverses the DLL by **storing data in an array/list** and then writing it back in reverse order. Links (`next`, `prev`) remain the same; only node values are swapped.
 
-Tell me which (if any) and I’ll apply it directly.
+**Steps:**
+
+1. Traverse the DLL and push all `node.data` into an array/list.
+2. Reset a pointer `curr` to `head`.
+3. Traverse again from `head`, and for each node assign data from the array in reverse order.
+4. Stop when you reach the end → list appears reversed by data.
+
+---
+
+## **5. Reverse a Doubly Linked List (Optimal – In-Place Pointer Swap)**
+
+📌 **[Code](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/Doubly%20LInkedList/reversingDLLoptimal.java)**
+**Description:** Reverses the DLL **in-place** by swapping `next` and `prev` pointers of every node and then fixing the head. No extra array is used.
+
+**Steps:**
+
+1. Take a pointer `curr = head`.
+2. For each node:
+
+   * Temporarily store `curr.prev`.
+   * Swap `curr.prev` and `curr.next`.
+   * Move `curr` to the “new next” (which is old `prev`).
+3. While traversing, keep track of the last processed node – that becomes the new `head`.
+4. After the loop, update `head` to that last node (the original tail).
+
+---
+
