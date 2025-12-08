@@ -1,8 +1,9 @@
+
 <h1 align="center">🚀 Striver 450 DSA Sheet – Java Solutions</h1>
 <p align="center">
   <img src="https://img.shields.io/badge/Binary%20Search-30%2F32-yellow?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Arrays-41%2F41-brightgreen?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/LinkedList-8%2F31-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/LinkedList-13%2F31-blue?style=for-the-badge" />
 </p>
 <p align="center">
 This repository contains <b>personal Java solutions</b> for problems from the <b>Striver 450 DSA Sheet</b>.<br>
@@ -18,7 +19,7 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
   <img src="https://img.shields.io/badge/Arrays%20Medium-100%25-brightgreen?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Arrays%20Hard-100%25-brightgreen?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Binary%20Search-93%25-yellow?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/LinkedList-26%25-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/LinkedList-41%25-blue?style=for-the-badge" />
 </p>
 
 | Topic                 | Status         | Progress  |
@@ -27,7 +28,7 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 | 💡 Arrays – Medium    | ✔️ Completed   | 15 / 15   |
 | 🔥 Arrays – Hard      | ✔️ Completed   | 12 / 12   |
 | 🎯 Binary Search      | ⏳ In Progress | 30 / 32   |
-| 🔗 Linked List        | ⏳ In Progress | 8 / 31    |
+| 🔗 Linked List        | ⏳ In Progress | 13 / 31   |
 
 
 ---
@@ -128,7 +129,7 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 
 ---
 
-# 🔗 Linked List (8 / 31)
+# 🔗 Linked List (16 / 31)
 
 ### 📌 Lec 1 – Learn 1D LinkedList (5 / 5)
 
@@ -148,34 +149,26 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 * ✔️ Reverse a DLL
 
 ---
-Got it — you don't want explanation tables or notes here.
-You just want **the question names added under Linked List Medium section**, same format as other topics in your README list.
 
-Here is the **exact block to paste right after Doubly Linked List section**:
+### 📌 Lec 3 – Medium Problems of LinkedList (4 / 15)
 
----
-
-### 📌 Lec 3 – Medium Problems of LinkedList (7 / 15)
-
-* ✔️ Middle of a LinkedList (2 Approaches – Length / Fast & Slow)
-* ✔️ Detect Loop in Linked List
-* ✔️ Find the Starting Point of Loop
-* ⏳ Length of Loop in Linked List (Upcoming)
-* ⏳ Check if LinkedList is Palindrome (Upcoming)
-* ⏳ Segregate odd & even nodes in LinkedList (Upcoming)
-* ⏳Remove N-th node from end of LinkedList (Upcoming)
-* ⏳Delete Middle node of LinkedList (Upcoming)
-* ✔️ **Sort LinkedList (Brute + Optimal Merge Sort)**
-* ⏳ Sort LL of 0s,1s,2s by changing links
-* ⏳ Find Intersection Point of Y LinkedList
-* ⏳ Add 1 to a number represented as LL
-* ⏳ Add two numbers in LinkedList
-* ⏳ More problems will be added…
+* ✔️ Middle of a LinkedList [TortoiseHare Method]
+* ⏳Reverse a LinkedList [Iterative]
+* ⏳Reverse a LL [Recursive]
+* ✔️ Detect a loop in LL
+* ✔️ Find the starting point in LL
+* ⏳ Length of Loop in LL
+* ✔️ Sort LL
+* ⏳ Check if LL is palindrome or not
+* ⏳ Segrregate odd and even nodes in LL
+* ⏳ Remove Nth node from the back of the LL
+* ⏳ Delete the middle node of LL
+* ⏳ Sort a LL of 0's 1's and 2's by changing links
+* ⏳ Find the intersection point of Y LL
+* ⏳ Add 1 to a number represented by LL
+* ⏳ Add 2 numbers in LL
 
 ---
-
-
-
 
 ## 🛠 Tech Stack  
 - 🖥️ Language: **Java**  
@@ -191,7 +184,10 @@ Here is the **exact block to paste right after Doubly Linked List section**:
 
 ---
 
-## 🙌 Let’s Connect  
+
+
+## 🙌 Let’s Connect
+
 <p align="center">
 <a href="https://github.com/piratesofsi"><img src="https://img.shields.io/badge/GitHub-181717.svg?&style=for-the-badge&logo=github&logoColor=white" /></a>
 <a href="https://www.linkedin.com/in/YOUR_LINKEDIN/"><img src="https://img.shields.io/badge/LinkedIn-0077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
@@ -201,7 +197,8 @@ Here is the **exact block to paste right after Doubly Linked List section**:
 
 ---
 
-## 🗺️ DSA Journey Roadmap  
+## 🗺️ DSA Journey Roadmap
+
 <p align="center">
   <img src="https://img.shields.io/badge/✅%20Step%201:%20Arrays-Completed-brightgreen?style=for-the-badge" />
   ⬅️
@@ -209,7 +206,7 @@ Here is the **exact block to paste right after Doubly Linked List section**:
   ⬅️
   <img src="https://img.shields.io/badge/🔡%20Step%203:%20Strings-Next%20Up-blue?style=for-the-badge" />
   ⬅️
-  <img src="https://img.shields.io/badge/🔗%20Step%204:%20Linked%20List-8%2F31-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/🔗%20Step%204:%20Linked%20List-52%25-blue?style=for-the-badge" />
   ⬅️
   <img src="https://img.shields.io/badge/🌀%20Step%205:%20Recursion-Future-lightgrey?style=for-the-badge" />
   ⬅️
@@ -238,7 +235,8 @@ Here is the **exact block to paste right after Doubly Linked List section**:
 
 ---
 
-## 📌 Visual Flowchart of Steps  
+## 📌 Visual Flowchart of Steps
+
 flowchart TD
 A[✅ Step 1: Arrays] --> B[🎯 Step 2: Binary Search]
 B --> C[🔡 Step 3: Strings]
@@ -255,3 +253,8 @@ L --> M[🌐 Step 13: Graphs]
 M --> N[📈 Step 14: Dynamic Programming]
 N --> O[📝 Step 15: Tries]
 O --> P[🔡 Step 16: Advanced Strings]
+
+```
+
+If you later change `linked_solved` to, say, `20`, just rerun the script and update the three LinkedList badge lines + table row with the new output.
+```
