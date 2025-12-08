@@ -129,7 +129,7 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 
 ---
 
-# 🔗 Linked List (16 / 31)
+# 🔗 Linked List (13 / 31)
 
 ### 📌 Lec 1 – Learn 1D LinkedList (5 / 5)
 
@@ -153,14 +153,14 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 ### 📌 Lec 3 – Medium Problems of LinkedList (4 / 15)
 
 * ✔️ Middle of a LinkedList [TortoiseHare Method]
-* ⏳Reverse a LinkedList [Iterative]
-* ⏳Reverse a LL [Recursive]
+* ⏳ Reverse a LinkedList [Iterative]
+* ⏳ Reverse a LL [Recursive]
 * ✔️ Detect a loop in LL
 * ✔️ Find the starting point in LL
 * ⏳ Length of Loop in LL
 * ✔️ Sort LL
 * ⏳ Check if LL is palindrome or not
-* ⏳ Segrregate odd and even nodes in LL
+* ⏳ Segregate odd and even nodes in LL
 * ⏳ Remove Nth node from the back of the LL
 * ⏳ Delete the middle node of LL
 * ⏳ Sort a LL of 0's 1's and 2's by changing links
@@ -206,7 +206,7 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
   ⬅️
   <img src="https://img.shields.io/badge/🔡%20Step%203:%20Strings-Next%20Up-blue?style=for-the-badge" />
   ⬅️
-  <img src="https://img.shields.io/badge/🔗%20Step%204:%20Linked%20List-52%25-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/🔗%20Step%204:%20Linked%20List-41%25-blue?style=for-the-badge" />
   ⬅️
   <img src="https://img.shields.io/badge/🌀%20Step%205:%20Recursion-Future-lightgrey?style=for-the-badge" />
   ⬅️
@@ -253,7 +253,4 @@ L --> M[🌐 Step 13: Graphs]
 M --> N[📈 Step 14: Dynamic Programming]
 N --> O[📝 Step 15: Tries]
 O --> P[🔡 Step 16: Advanced Strings]
-
-```
-
 
