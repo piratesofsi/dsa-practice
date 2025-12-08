@@ -148,6 +148,34 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 * ✔️ Reverse a DLL
 
 ---
+Got it — you don't want explanation tables or notes here.
+You just want **the question names added under Linked List Medium section**, same format as other topics in your README list.
+
+Here is the **exact block to paste right after Doubly Linked List section**:
+
+---
+
+### 📌 Lec 3 – Medium Problems of LinkedList (7 / 15)
+
+* ✔️ Middle of a LinkedList (2 Approaches – Length / Fast & Slow)
+* ✔️ Detect Loop in Linked List
+* ✔️ Find the Starting Point of Loop
+* ⏳ Length of Loop in Linked List (Upcoming)
+* ⏳ Check if LinkedList is Palindrome (Upcoming)
+* ⏳ Segregate odd & even nodes in LinkedList (Upcoming)
+* ⏳Remove N-th node from end of LinkedList (Upcoming)
+* ⏳Delete Middle node of LinkedList (Upcoming)
+* ✔️ **Sort LinkedList (Brute + Optimal Merge Sort)**
+* ⏳ Sort LL of 0s,1s,2s by changing links
+* ⏳ Find Intersection Point of Y LinkedList
+* ⏳ Add 1 to a number represented as LL
+* ⏳ Add two numbers in LinkedList
+* ⏳ More problems will be added…
+
+---
+
+
+
 
 ## 🛠 Tech Stack  
 - 🖥️ Language: **Java**  
