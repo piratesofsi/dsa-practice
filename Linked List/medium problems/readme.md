@@ -1,7 +1,4 @@
-Here is your **full formatted README.md** including all four questions and both approaches each.
-You can directly **copy → paste into GitHub / OneNote**.
 
----
 
 # 📘 Linked List – Medium Problems
 
@@ -20,10 +17,10 @@ If there are two middle nodes, return the **second middle**.
 
 **Logic**
 
-1. Traverse LL & count length.
-2. Middle index = `n/2`.
-3. Traverse again till middle index.
-4. Return middle node.
+1. Traverse LL & count total nodes.
+2. Middle = `n/2`.
+3. Traverse again till that index.
+4. Return the middle node.
 
 ---
 
@@ -33,54 +30,84 @@ If there are two middle nodes, return the **second middle**.
 
 **Logic**
 
-1. `slow` → 1 step, `fast` → 2 steps at a time.
-2. When fast reaches end, slow = **middle**.
-3. Return slow.
+1. `slow` → moves 1 step.
+2. `fast` → moves 2 steps.
+3. When fast reaches end → slow = middle.
+4. Return slow.
 
 ---
 
 ---
 
-## 🔥 2. Detect Cycle & Find Starting Node
+## 🔥 2. Detect Cycle in Linked List (Only Check if Loop Exists)
 
-Given the head of a linked list, determine if there is a cycle.
-If cycle exists, return the **starting node of the cycle**, else return `null`.
+Given the head of a linked list, **return true if a cycle exists**, else `false`.
+(Does NOT return starting node)
 
 ---
 
-### ✔ Approach 1: HashSet
+### ✔ Approach 1: HashSet (Brute Force)
 
 📌 **[Code](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/medium%20problems/DetectCycleHashSet.java)**
 
 **Logic**
 
-1. Use a HashSet.
-2. While traversing:
-
-   * if node already exists → this is the cycle start.
-   * else add node.
-3. If traversal ends → no cycle.
+1. Use HashSet to track visited nodes.
+2. If a node repeats → loop exists.
+3. If LL ends → no loop.
 
 ---
 
-### ✔ Approach 2: Floyd’s Cycle Detection (Tortoise-Hare)
+### ✔ Approach 2: Floyd’s Cycle Detection (Optimal)
 
-📌 **[Code](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/medium%20problems/DetectCycleFloyd.java)**
+📌 **[Code](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/medium%20problems/DetectCycleOptimal.java)**
 
 **Logic**
 
-1. Use `slow` & `fast` pointers to detect meeting.
-2. If never meet → no cycle.
-3. If meet → set `fast = head`.
-4. Move slow & fast one step each → where they meet = **cycle start**.
+1. `slow` → 1 step & `fast` → 2 steps.
+2. If both meet → cycle exists.
+3. If fast ends → no cycle.
 
 ---
 
 ---
 
-## 🔥 3. Sort a Linked List
+## 🔥 3. Find Starting Node of Cycle
 
-Given the head of a linked list, **sort in ascending order**.
+Given a linked list with a cycle, return the **node where the loop begins**, else return `null`.
+
+---
+
+### ✔ Approach 1: HashSet (Brute)
+
+📌 **[Code](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/medium%20problems/startingofloopbrute.java)**
+
+**Logic**
+
+1. Traverse LL while storing nodes in a HashSet.
+2. First repeating node found = **start of loop**.
+3. If no repetition → no cycle.
+
+---
+
+### ✔ Approach 2: Floyd’s Algorithm (Optimal)
+
+📌 **[Code](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/medium%20problems/startingofloopfloyd.java)**
+
+**Logic**
+
+1. Detect cycle using slow & fast pointers.
+2. After meeting → move `slow = head`.
+3. Move both **1-1 step** each.
+4. The point they meet again = **start of loop**.
+
+---
+
+---
+
+## 🔥 4. Sort a Linked List
+
+Given the head of a linked list, **sort it in ascending order**.
 
 ---
 
@@ -90,27 +117,25 @@ Given the head of a linked list, **sort in ascending order**.
 
 **Logic**
 
-1. Extract values to ArrayList.
-2. Sort list using `Collections.sort`.
-3. Rewrite sorted values back into linked list.
+1. Store values in ArrayList.
+2. Sort using `Collections.sort()`.
+3. Put values back into linked list.
 4. Return head.
 
 ---
 
-### ✔ Approach 2: Optimal – Merge Sort on Linked List
+### ✔ Approach 2: Merge Sort on Linked List (Optimal)
 
 📌 **[Code](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/medium%20problems/sortLLoptimal.java)**
 
 **Logic**
 
-1. Find mid (slow-fast approach).
+1. Find middle using slow/fast pointer.
 2. Split list into two halves.
 3. Recursively sort both halves.
-4. Merge both sorted halves like **merge two sorted lists**.
-5. Return sorted final head.
+4. Merge both sorted lists.
+5. Return final sorted head.
 
 ---
-
-
 
 
