@@ -256,5 +256,4 @@ O --> P[🔡 Step 16: Advanced Strings]
 
 ```
 
-If you later change `linked_solved` to, say, `20`, just rerun the script and update the three LinkedList badge lines + table row with the new output.
-```
+
