@@ -1,4 +1,7 @@
+Here is your **complete updated README.md**, including the **new Segregate Odd-Even Linked List problem** in the same format & styling you showed.
+Just **copy → paste** inside your repo.
 
+---
 
 # 📘 Linked List – Medium Problems
 
@@ -18,9 +21,9 @@ If there are two middle nodes, return the **second middle**.
 **Logic**
 
 1. Traverse LL & count total nodes.
-2. Middle = `n/2`.
-3. Traverse again till that index.
-4. Return the middle node.
+2. Middle index = `n/2`.
+3. Traverse again to that node.
+4. Return middle.
 
 ---
 
@@ -30,31 +33,29 @@ If there are two middle nodes, return the **second middle**.
 
 **Logic**
 
-1. `slow` → moves 1 step.
-2. `fast` → moves 2 steps.
-3. When fast reaches end → slow = middle.
-4. Return slow.
+1. `slow` → 1 step, `fast` → 2 steps.
+2. When fast reaches end → slow at middle.
+3. Return slow.
 
 ---
 
 ---
 
-## 🔥 2. Detect Cycle in Linked List (Only Check if Loop Exists)
+## 🔥 2. Detect Cycle in Linked List (Only Check Loop Exists)
 
-Given the head of a linked list, **return true if a cycle exists**, else `false`.
-(Does NOT return starting node)
+Return **true** if loop exists, else **false**.
 
 ---
 
-### ✔ Approach 1: HashSet (Brute Force)
+### ✔ Approach 1: HashSet (Brute)
 
 📌 **[Code](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/medium%20problems/DetectCycleHashSet.java)**
 
 **Logic**
 
-1. Use HashSet to track visited nodes.
-2. If a node repeats → loop exists.
-3. If LL ends → no loop.
+1. Store visited nodes in set.
+2. If node repeats → cycle exists.
+3. If end reached → no cycle.
 
 ---
 
@@ -64,8 +65,8 @@ Given the head of a linked list, **return true if a cycle exists**, else `false`
 
 **Logic**
 
-1. `slow` → 1 step & `fast` → 2 steps.
-2. If both meet → cycle exists.
+1. `slow`=1 step, `fast`=2 steps.
+2. If they meet → cycle exists.
 3. If fast ends → no cycle.
 
 ---
@@ -74,7 +75,7 @@ Given the head of a linked list, **return true if a cycle exists**, else `false`
 
 ## 🔥 3. Find Starting Node of Cycle
 
-Given a linked list with a cycle, return the **node where the loop begins**, else return `null`.
+Return the node where loop begins.
 
 ---
 
@@ -84,22 +85,21 @@ Given a linked list with a cycle, return the **node where the loop begins**, els
 
 **Logic**
 
-1. Traverse LL while storing nodes in a HashSet.
-2. First repeating node found = **start of loop**.
-3. If no repetition → no cycle.
+1. Use set to track visited.
+2. First repeated node = start of loop.
 
 ---
 
-### ✔ Approach 2: Floyd’s Algorithm (Optimal)
+### ✔ Approach 2: Floyd's Algorithm (Optimal)
 
 📌 **[Code](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/medium%20problems/startingofloopfloyd.java)**
 
 **Logic**
 
-1. Detect cycle using slow & fast pointers.
-2. After meeting → move `slow = head`.
-3. Move both **1-1 step** each.
-4. The point they meet again = **start of loop**.
+1. Detect cycle using fast/slow.
+2. Move slow → head.
+3. Move both 1 step until meet.
+4. Meet point = loop start.
 
 ---
 
@@ -107,34 +107,63 @@ Given a linked list with a cycle, return the **node where the loop begins**, els
 
 ## 🔥 4. Sort a Linked List
 
-Given the head of a linked list, **sort it in ascending order**.
+Sort the LL in ascending order.
 
 ---
 
-### ✔ Approach 1: Brute Force (ArrayList + Sort)
+### ✔ Approach 1: Brute (ArrayList + Sort)
 
 📌 **[Code](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/medium%20problems/sortLLbrute.java)**
 
 **Logic**
 
-1. Store values in ArrayList.
-2. Sort using `Collections.sort()`.
-3. Put values back into linked list.
-4. Return head.
+1. Push all values in list.
+2. Sort it.
+3. Rewrite nodes.
 
 ---
 
-### ✔ Approach 2: Merge Sort on Linked List (Optimal)
+### ✔ Approach 2: Merge Sort on LL (Optimal)
 
 📌 **[Code](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/medium%20problems/sortLLoptimal.java)**
 
 **Logic**
 
-1. Find middle using slow/fast pointer.
-2. Split list into two halves.
-3. Recursively sort both halves.
-4. Merge both sorted lists.
-5. Return final sorted head.
+1. Find mid using fast/slow.
+2. Recursively sort halves.
+3. Merge sorted lists.
+
+---
+
+---
+
+## 🔥 5. Segregate Odd and Even Nodes in Linked List
+
+Place **odd indexed nodes first**, then even ones.
+
+---
+
+### ✔ Approach 1: Brute (ArrayList)
+
+📌 **[Code](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/medium%20problems/SegregateOddEvenNodesLLBrute.java)**
+
+**Logic**
+
+1. Traverse & store odd values first.
+2. Then even values.
+3. Rewrite list.
+
+---
+
+### ✔ Approach 2: Optimal O(1) Space
+
+📌 **[Code](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/medium%20problems/SegregateOddEvenNodesLLOptimal.java)**
+
+**Logic**
+
+1. Maintain `odd` & `even` ptrs.
+2. Link alternate nodes.
+3. Attach even list after odd.
 
 ---
 
