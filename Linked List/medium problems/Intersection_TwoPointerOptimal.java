@@ -11,11 +11,23 @@ public class Intersection_TwoPointerOptimal {
 
         ListNode t1 = headA;
         ListNode t2 = headB;
-
+    // we chose this condition as it is the only left conditon 
         while(t1 != t2){
-            t1 = (t1 == null) ? headB : t1.next;
-            t2 = (t2 == null) ? headA : t2.next;
+            // keep moving them when reaches null switch the head 
+          t1=t1.next;
+          t2=t2.next;
+            // if both are same then intersection is hit 
+            if(t1==t2){
+                return t1;
+            }
+         if(t1==null)
+             t1=headB;
+
+         if(t2==null)
+             t2=headA;
+            
         }
+        // it'll return the intersected node or null 
         return t1;
     }
 
@@ -52,3 +64,4 @@ public class Intersection_TwoPointerOptimal {
         System.out.println(ans != null ? ans.val : "No Intersection");
     }
 }
+
