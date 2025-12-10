@@ -202,9 +202,9 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 <p align="center">
   <img src="https://img.shields.io/badge/✅%20Step%201:%20Arrays-Completed-brightgreen?style=for-the-badge" />
   ⬅️
-  <img src="https://img.shields.io/badge/🎯%20Step%202:%20Binary%20Search-In%20Progress-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/🎯%20Step%202:%20Binary%20Search-Completed-brightgreen?style=for-the-badge" />
   ⬅️
-  <img src="https://img.shields.io/badge/🔡%20Step%203:%20Strings-Next%20Up-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/🔡%20Step%203:%20StringsCompleted-brightgreen?style=for-the-badge" />
   ⬅️
   <img src="https://img.shields.io/badge/🔗%20Step%204:%20Linked%20List-41%25-blue?style=for-the-badge" />
   ⬅️
