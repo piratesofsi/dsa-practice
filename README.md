@@ -204,7 +204,7 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
   ⬅️
   <img src="https://img.shields.io/badge/🎯%20Step%202:%20Binary%20Search-Completed-brightgreen?style=for-the-badge" />
   ⬅️
-  <img src="https://img.shields.io/badge/🔡%20Step%203:%20StringsCompleted-brightgreen?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/🔡%20Step%203:%20Strings-Completed-brightgreen?style=for-the-badge" />
   ⬅️
   <img src="https://img.shields.io/badge/🔗%20Step%204:%20Linked%20List-41%25-blue?style=for-the-badge" />
   ⬅️
