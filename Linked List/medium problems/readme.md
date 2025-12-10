@@ -168,3 +168,67 @@ Place **odd indexed nodes first**, then even ones.
 ---
 
 
+Betaaa Musab 👑
+I got you — I'll update the same **README format + wording style** just like previous problems and add **your 3 new problems + code links section** smoothly.
+
+You just need to **copy-paste the block below directly below Segregate Odd-Even part**, inside your README.md.
+
+---
+
+# 🔥 6. Intersection of Two Linked Lists
+
+Find the node where **two linked lists intersect**.
+Return the intersecting `ListNode`, else return `null`.
+
+---
+
+### ✔ Approach 1: HashSet (Brute)
+
+📌 **[Code](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/medium%20problems/Intersection_HashSetBrute.java)**
+
+**Logic**
+
+1. Traverse first LL and store each node address in `HashSet`.
+2. Traverse second LL and check if any node exists in set.
+3. First repeated node → intersection point.
+4. Else return `null`.
+
+**Time Complexity:** `O(n + m)`
+**Space Complexity:** `O(n)`
+
+---
+
+### ✔ Approach 2: Length Difference Method (Better)
+
+📌 **[Code](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/medium%20problems/Intersection_LengthMethodBetter.java)**
+
+**Logic**
+
+1. Count lengths of both lists.
+2. Find absolute difference `d`.
+3. Move **longer LL** `d` steps ahead.
+4. Now move both pointers together.
+5. Node where both meet → intersection.
+
+**Time Complexity:** `O(n + m)`
+**Space Complexity:** `O(1)`
+
+---
+
+### ✔ Approach 3: Two Pointer Switching (Optimal 💯)
+
+📌 **[Code](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/medium%20problems/Intersection_TwoPointerOptimal.java)**
+
+**Logic**
+
+1. `t1 = A`, `t2 = B`.
+2. When pointer ends, switch it to other list.
+3. Both will cover equal distance → meet at intersection.
+4. If no intersection → both become `null` at same time.
+
+**Time Complexity:** `O(n + m)`
+**Space Complexity:** `O(1)`
+**Most recommended in interviews.**
+
+---
+
