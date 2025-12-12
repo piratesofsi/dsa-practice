@@ -28,7 +28,7 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 | 💡 Arrays – Medium    | ✔️ Completed   | 15 / 15   |
 | 🔥 Arrays – Hard      | ✔️ Completed   | 12 / 12   |
 | 🎯 Binary Search      | ⏳ In Progress | 30 / 32   |
-| 🔗 Linked List        | ⏳ In Progress | 17 / 31   |
+| 🔗 Linked List        | ⏳ In Progress | 19 / 31   |
 
 
 ---
