@@ -299,3 +299,92 @@ Delete the **middle node** and return the head.
 
 ---
 
+
+# 🔥 **9. Length of Loop in a Linked List**
+
+Given the head of a linked list, return the **number of nodes in the loop**.
+If no loop exists, return **0**.
+
+---
+
+### ✔ Approach 1: HashSet (Brute)
+
+📌 **[Code](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/medium%20problems/CycleLengthHashSetbrute.java)**
+
+**Logic**
+
+1. Traverse the linked list while storing each node in a HashSet
+2. When a node repeats, a cycle exists
+3. From that repeated node, move forward until you return to it
+4. Count steps → loop length
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(n)
+
+---
+
+### ✔ Approach 2: Floyd’s Cycle Detection (Optimal)
+
+📌 **[Code](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/medium%20problems/CycleLengthFloydoptimal.java)**
+
+**Logic**
+
+1. Use slow and fast pointers
+2. If they meet, a cycle exists
+3. Move fast one step at a time until it meets slow again
+4. Count steps → loop length
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+---
+
+# 🔥 **10. Remove Nth Node From End of Linked List**
+
+Given the head of a linked list, remove the **N-th node from the end**.
+
+---
+
+### ✔ Approach 1: Brute Force (Count Length)
+
+📌 **[Code](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/medium%20problems/RemoveNthBrute.java)**
+
+**Logic**
+
+1. Traverse the list to count total nodes
+2. Convert the nth-from-end to a forward index:
+
+   ```
+   del = length - n + 1
+   ```
+3. If `del == 1`, delete head
+4. Otherwise move to `(del - 1)`th node
+5. Unlink the next node
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+### ✔ Approach 2: Two Pointer Method (Optimal)
+
+📌 **[Code](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/medium%20problems/RemoveNthTwoPointeroptimal.java)**
+
+**Logic**
+
+1. Move fast pointer `n` steps ahead
+2. If fast becomes null → delete head
+3. Move both pointers until `fast.next == null`
+4. Slow now stands before the node to delete
+5. Remove `slow.next`
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
+---
+
+
+
+
