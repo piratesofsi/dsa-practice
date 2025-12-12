@@ -3,19 +3,19 @@
 # 📘 Linked List – Medium Problems
 
 ---
+| #  | Problem Name                     | Approaches | Difficulty | Jump To                                                      |
+| -- | -------------------------------- | ---------- | ---------- | ------------------------------------------------------------ |
+| 1  | Middle of Linked List            | 2          | ⭐ Medium   | [Go](#-1-find-the-middle-of-a-linked-list)                   |
+| 2  | Detect Cycle (Check Loop)        | 2          | ⭐ Medium   | [Go](#-2-detect-cycle-in-linked-list-only-check-loop-exists) |
+| 3  | Starting Node of Cycle           | 2          | ⭐ Medium   | [Go](#-3-find-starting-node-of-cycle)                        |
+| 4  | Sort Linked List                 | 2          | ⭐ Medium   | [Go](#-4-sort-a-linked-list)                                 |
+| 5  | Segregate Odd-Even Nodes         | 2          | ⭐ Medium   | [Go](#-5-segregate-odd-and-even-nodes-in-linked-list)        |
+| 6  | Palindrome Linked List           | 3          | ⭐ Medium   | [Go](#-6-palindrome-linked-list)                             |
+| 7  | Intersection of Two Linked Lists | 3          | ⭐ Medium   | [Go](#-7-intersection-of-two-linked-lists)                   |
+| 8  | Delete Middle Node               | 2          | ⭐ Medium   | [Go](#-8-delete-the-middle-node-of-a-linked-list)            |
+| 9  | Length of Loop in Linked List    | 2          | ⭐ Medium   | [Go](#-9-length-of-loop-in-a-linked-list)                    |
+| 10 | Remove Nth Node From End         | 2          | ⭐ Medium   | [Go](#-10-remove-nth-node-from-end-of-linked-list)           |
 
-# 📊 **Summary of Questions**
-
-| # | Problem Name                     | Approaches | Difficulty | Jump To                                                      |
-| - | -------------------------------- | ---------- | ---------- | ------------------------------------------------------------ |
-| 1 | Middle of Linked List            | 2          | ⭐ Medium   | [Go](#-1-find-the-middle-of-a-linked-list)                   |
-| 2 | Detect Cycle (Check Loop)        | 2          | ⭐ Medium   | [Go](#-2-detect-cycle-in-linked-list-only-check-loop-exists) |
-| 3 | Starting Node of Cycle           | 2          | ⭐ Medium   | [Go](#-3-find-starting-node-of-cycle)                        |
-| 4 | Sort Linked List                 | 2          | ⭐ Medium   | [Go](#-4-sort-a-linked-list)                                 |
-| 5 | Segregate Odd-Even Nodes         | 2          | ⭐ Medium   | [Go](#-5-segregate-odd-and-even-nodes-in-linked-list)        |
-| 6 | Palindrome Linked List           | 3          | ⭐ Medium   | [Go](#-6-palindrome-linked-list)                             |
-| 7 | Intersection of Two Linked Lists | 3          | ⭐ Medium   | [Go](#-7-intersection-of-two-linked-lists)                   |
-| 8 | Delete Middle Node               | 2          | ⭐ Medium   | [Go](#-8-delete-the-middle-node-of-a-linked-list)            |
 
 ---
 
