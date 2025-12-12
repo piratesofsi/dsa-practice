@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Binary%20Search-30%2F32-yellow?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Arrays-41%2F41-brightgreen?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/LinkedList-17%2F31-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/LinkedList-19%2F31-blue?style=for-the-badge" />
 </p>
 <p align="center">
 This repository contains <b>personal Java solutions</b> for problems from the <b>Striver 450 DSA Sheet</b>.<br>
@@ -19,7 +19,7 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
   <img src="https://img.shields.io/badge/Arrays%20Medium-100%25-brightgreen?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Arrays%20Hard-100%25-brightgreen?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Binary%20Search-93%25-yellow?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/LinkedList-54%25-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/LinkedList-61%25-blue?style=for-the-badge" />
 </p>
 
 | Topic                 | Status         | Progress  |
@@ -129,7 +129,7 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 
 ---
 
-# 🔗 Linked List (17 / 31)
+# 🔗 Linked List (19 / 31)
 
 ### 📌 Lec 1 – Learn 1D LinkedList (5 / 5)
 
@@ -150,18 +150,18 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 
 ---
 
-### 📌 Lec 3 – Medium Problems of LinkedList (8 / 15)
+### 📌 Lec 3 – Medium Problems of LinkedList (10 / 15)
 
 * ✔️ Middle of a LinkedList [TortoiseHare Method]
 * ⏳ Reverse a LinkedList [Iterative]
 * ⏳ Reverse a LL [Recursive]
 * ✔️ Detect a loop in LL
 * ✔️ Find the starting point in LL
-* ⏳ Length of Loop in LL
+* ✔️ Length of Loop in LL
 * ✔️ Sort LL
 * ✔️ Check if LL is palindrome or not
 * ✔️ Segregate odd and even nodes in LL
-* ⏳ Remove Nth node from the back of the LL
+* ✔️ Remove Nth node from the back of the LL
 * ✔️ Delete the middle node of LL
 * ⏳ Sort a LL of 0's 1's and 2's by changing links
 * ✔️ Find the intersection point of Y LL
@@ -206,7 +206,7 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
   ⬅️
   <img src="https://img.shields.io/badge/🔡%20Step%203:%20Strings-Completed-brightgreen?style=for-the-badge" />
   ⬅️
-  <img src="https://img.shields.io/badge/🔗%20Step%204:%20Linked%20List-54%25-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/🔗%20Step%204:%20Linked%20List-61%25-blue?style=for-the-badge" />
   ⬅️
   <img src="https://img.shields.io/badge/🌀%20Step%205:%20Recursion-Future-lightgrey?style=for-the-badge" />
   ⬅️
