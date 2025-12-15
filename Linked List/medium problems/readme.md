@@ -384,6 +384,66 @@ Given the head of a linked list, remove the **N-th node from the end**.
 **Space Complexity:** O(1)
 
 ---
+Perfect 👍
+Here’s **Question 11 updated**, **same format**, now with **Time & Space Complexity added for BOTH approaches**.
+
+---
+
+# 🔥 11. Add 1 to a Number Represented as Linked List
+
+You are given a linked list representing a non-negative number.
+Each node contains a single digit.
+Add **1** to the number and return the updated linked list.
+
+---
+
+### ✔ Approach 1: Iterative (Reverse + Carry)
+
+📌 **[Code](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/medium%20problems/add1noinLLIterative.java)**
+
+**Logic**
+
+1. Reverse the linked list.
+2. Initialize carry as `1`.
+3. Traverse the list and add carry to each node.
+4. If sum `< 10`, update node and stop.
+5. If sum `>= 10`, set node value to `0` and continue carry.
+6. If carry remains after traversal, add a new node.
+7. Reverse the list again and return the result.
+
+**Complexity**
+
+* **Time Complexity:** `O(n)`
+  (reversing the list + traversal)
+
+* **Space Complexity:** `O(1)`
+  (in-place operations, no extra data structures)
+
+---
+
+### ✔ Approach 2: Recursive (Backtracking)
+
+📌 **[Code](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/medium%20problems/add1noinLLRecursive.java)**
+
+**Logic**
+
+1. Use recursion to reach the last node.
+2. Add `1` while backtracking.
+3. Handle carry propagation during backtracking.
+4. If carry remains after full recursion, create a new node at the head.
+5. Return the updated linked list.
+
+**Complexity**
+
+* **Time Complexity:** `O(n)`
+  (each node is visited once)
+
+* **Space Complexity:** `O(n)`
+  (recursive call stack)
+
+---
+
+
 
 
 
