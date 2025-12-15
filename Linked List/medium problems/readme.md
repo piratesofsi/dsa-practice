@@ -2,7 +2,9 @@
 
 # 📘 Linked List – Medium Problems
 
+
 ---
+
 | #  | Problem Name                     | Approaches | Difficulty | Jump To                                                      |
 | -- | -------------------------------- | ---------- | ---------- | ------------------------------------------------------------ |
 | 1  | Middle of Linked List            | 2          | ⭐ Medium   | [Go](#-1-find-the-middle-of-a-linked-list)                   |
@@ -15,9 +17,11 @@
 | 8  | Delete Middle Node               | 2          | ⭐ Medium   | [Go](#-8-delete-the-middle-node-of-a-linked-list)            |
 | 9  | Length of Loop in Linked List    | 2          | ⭐ Medium   | [Go](#-9-length-of-loop-in-a-linked-list)                    |
 | 10 | Remove Nth Node From End         | 2          | ⭐ Medium   | [Go](#-10-remove-nth-node-from-end-of-linked-list)           |
-
+| 11 | Add 1 to a Number in Linked List | 2          | ⭐ Medium   | [Go](#-11-add-1-to-a-number-represented-as-linked-list)      |
 
 ---
+
+
 
 # 🔥 1. Find the Middle of a Linked List
 
