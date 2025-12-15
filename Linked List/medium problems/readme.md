@@ -403,7 +403,7 @@ Add **1** to the number and return the updated linked list.
 
 ### ✔ Approach 1: Iterative (Reverse + Carry)
 
-📌 **[Code](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/medium%20problems/add1noinLLIterative.java)**
+📌 **[Code](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/medium%20problems/add1noinLLiterative.java)**
 
 **Logic**
 
@@ -427,7 +427,7 @@ Add **1** to the number and return the updated linked list.
 
 ### ✔ Approach 2: Recursive (Backtracking)
 
-📌 **[Code](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/medium%20problems/add1noinLLRecursive.java)**
+📌 **[Code](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/medium%20problems/add1noinLLrecursive.java)**
 
 **Logic**
 
