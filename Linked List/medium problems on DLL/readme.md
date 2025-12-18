@@ -2,6 +2,10 @@
 
 # 🔗 Doubly Linked List – Medium Problems (with Multiple Approaches)
 
+| # | Problem Name                            | Approaches | Difficulty | Jump To                                                  |
+| - | --------------------------------------- | ---------- | ---------- | -------------------------------------------------------- |
+| 1 | Delete All Occurrences of X in DLL      | 1          | ⭐ Medium   | [Go](#-1-delete-all-occurrences-of-a-given-value-in-dll) |
+| 2 | Find Pairs with Given Sum in Sorted DLL | 2          | ⭐ Medium   | [Go](#-2-find-pairs-with-given-sum-in-sorted-dll)        |
 
 
 ---
