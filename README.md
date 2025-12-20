@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Binary%20Search-30%2F32-yellow?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Arrays-41%2F41-brightgreen?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/LinkedList-26%2F31-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/LinkedList-29%2F31-blue?style=for-the-badge" />
 </p>
 <p align="center">
 This repository contains <b>personal Java solutions</b> for problems from the <b>Striver 450 DSA Sheet</b>.<br>
@@ -19,7 +19,7 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
   <img src="https://img.shields.io/badge/Arrays%20Medium-100%25-brightgreen?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Arrays%20Hard-100%25-brightgreen?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Binary%20Search-93%25-yellow?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/LinkedList-83%25-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/LinkedList-93%25-blue?style=for-the-badge" />
 </p>
 
 | Topic                 | Status         | Progress  |
@@ -28,7 +28,7 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 | 💡 Arrays – Medium    | ✔️ Completed   | 15 / 15   |
 | 🔥 Arrays – Hard      | ✔️ Completed   | 12 / 12   |
 | 🎯 Binary Search      | ⏳ In Progress | 30 / 32   |
-| 🔗 Linked List        | ⏳ In Progress | 26 / 31   |
+| 🔗 Linked List        | ⏳ In Progress | 29 / 31   |
 
 
 ---
@@ -129,7 +129,7 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 
 ---
 
-# 🔗 Linked List (26 / 31)
+# 🔗 Linked List (29 / 31)
 
 ### 📌 Lec 1 – Learn 1D LinkedList (5 / 5)
 
@@ -177,6 +177,16 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 ---
 
 
+### 📌 Lec 4 – Hard Problems of Linked List (3 / 4)
+
+* ✔️ Reverse Linked List in Group of Given Size K
+* ✔️ Rotate a Linked List
+* ⌛ Flattening of Linked List
+* ✔️ Clone a Linked List with Random and Next Pointer
+
+---
+
+
 ## 🛠 Tech Stack  
 - 🖥️ Language: **Java**  
 - ⚙️ Tools: **Git, GitHub, VS Code**  
@@ -213,7 +223,7 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
   ⬅️
   <img src="https://img.shields.io/badge/🔡%20Step%203:%20Strings-Completed-brightgreen?style=for-the-badge" />
   ⬅️
-  <img src="https://img.shields.io/badge/🔗%20Step%204:%20Linked%20List-83%25-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/🔗%20Step%204:%20Linked%20List-93%25-blue?style=for-the-badge" />
   ⬅️
   <img src="https://img.shields.io/badge/🌀%20Step%205:%20Recursion-Future-lightgrey?style=for-the-badge" />
   ⬅️
