@@ -1,12 +1,14 @@
 
 
+---
+
 # 🔗 Doubly Linked List – Medium Problems (with Multiple Approaches)
 
 | # | Problem Name                            | Approaches | Difficulty | Jump To                                                  |
 | - | --------------------------------------- | ---------- | ---------- | -------------------------------------------------------- |
 | 1 | Delete All Occurrences of X in DLL      | 1          | ⭐ Medium   | [Go](#-1-delete-all-occurrences-of-a-given-value-in-dll) |
 | 2 | Find Pairs with Given Sum in Sorted DLL | 2          | ⭐ Medium   | [Go](#-2-find-pairs-with-given-sum-in-sorted-dll)        |
-
+| 3 | Remove Duplicates from Sorted DLL       | 2          | ⭐ Medium   | [Go](#-3-remove-duplicates-from-sorted-dll)              |
 
 ---
 
@@ -18,7 +20,8 @@ Given a doubly linked list and an integer `x`, delete **all nodes** whose value 
 📌 **File:**
 `deleteAllOccurOfXinDLL.java`
 
-📌 **[Code](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/medium%20problems%20on%20DLL/deleteAllOccurOfXinDLL.java)**
+📌 **Code:**
+[https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/medium%20problems%20on%20DLL/deleteAllOccurOfXinDLL.java](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/medium%20problems%20on%20DLL/deleteAllOccurOfXinDLL.java)
 
 ---
 
@@ -48,7 +51,8 @@ Given a **sorted doubly linked list**, find all pairs whose sum is equal to a gi
 📌 **File:**
 `PairSumDLL_BruteForce.java`
 
-📌 **[Code](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/medium%20problems%20on%20DLL/PairSumDLL_BruteForce.java)**
+📌 **Code:**
+[https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/medium%20problems%20on%20DLL/PairSumDLL_BruteForce.java](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/medium%20problems%20on%20DLL/PairSumDLL_BruteForce.java)
 
 #### 💡 Idea
 
@@ -72,7 +76,8 @@ Given a **sorted doubly linked list**, find all pairs whose sum is equal to a gi
 📌 **File:**
 `PairSumDLL_TwoPointers.java`
 
-📌 **[Code](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/medium%20problems%20on%20DLL/PairSumDLL_TwoPointers.java)**
+📌 **Code:**
+[https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/medium%20problems%20on%20DLL/PairSumDLL_TwoPointers.java](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/medium%20problems%20on%20DLL/PairSumDLL_TwoPointers.java)
 
 #### 💡 Idea
 
@@ -92,11 +97,23 @@ while (left != right && right.next != left)
 
 ---
 
+## 🔵 3. Remove Duplicates from Sorted DLL
+
+📌 **Problem Statement**
+Given a **sorted doubly linked list**, remove all duplicate nodes such that each element appears only once.
+The relative order of elements must be maintained.
+
+---
+
 ### 🔹 Approach 1: Using Extra Space
 
-📌 **Code File:** `remove_duplicates_dll_hashset.java`
+📌 **File:**
+`remove_duplicates_dll_hashset.java`
 
-**Approach Used:**
+📌 **Code:**
+[https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/medium%20problems%20on%20DLL/remove_duplicates_dll_hashset.java](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/medium%20problems%20on%20DLL/remove_duplicates_dll_hashset.java)
+
+#### 💡 Idea
 
 * Traverse the linked list
 * Store visited values in a HashSet
@@ -110,15 +127,22 @@ while (left != right && right.next != left)
 * Extra space usage
 * DLL pointer adjustment
 
+**Time Complexity:** `O(n)`
+**Space Complexity:** `O(n)`
+
 **Difficulty:** ⭐ Easy
 
 ---
 
 ### 🔹 Approach 2: In-Place Pointer Manipulation (Optimized)
 
-📌 **Code File:** `removeDuplicatesinDLLoptimal.java`
+📌 **File:**
+`removeDuplicatesinDLLoptimal.java`
 
-**Approach Used:**
+📌 **Code:**
+[https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/medium%20problems%20on%20DLL/removeDuplicatesinDLLoptimal.java](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/medium%20problems%20on%20DLL/removeDuplicatesinDLLoptimal.java)
+
+#### 💡 Idea
 
 * Traverse the doubly linked list using a single pointer
 * If the current node and next node have the same value:
@@ -132,11 +156,16 @@ while (left != right && right.next != left)
 * Pointer manipulation (`next` and `prev`)
 * In-place modification
 
+**Time Complexity:** `O(n)`
+**Space Complexity:** `O(1)`
+
 **Difficulty:** ⭐ Medium
 
 ---
 
 
+* Refactor this for **Hard DLL problems**
+* Do the same cleanup for **Singly Linked List**
+* Add **revision checkboxes / status column**
 
-
-
+Just tell me 👊
