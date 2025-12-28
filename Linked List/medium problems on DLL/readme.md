@@ -90,10 +90,53 @@ while (left != right && right.next != left)
 **Time Complexity:** `O(n)`
 **Space Complexity:** `O(1)`
 
-#### 📌 Key Pattern
+---
 
-> Sorted DLL + Pair Sum → Two Pointer Technique
+### 🔹 Approach 1: Using Extra Space
+
+📌 **Code File:** `remove_duplicates_dll_hashset.java`
+
+**Approach Used:**
+
+* Traverse the linked list
+* Store visited values in a HashSet
+* If a duplicate value is found:
+
+  * Remove the node by reconnecting its `prev` and `next` nodes
+
+**Key Concepts:**
+
+* HashSet for duplicate detection
+* Extra space usage
+* DLL pointer adjustment
+
+**Difficulty:** ⭐ Easy
 
 ---
+
+### 🔹 Approach 2: In-Place Pointer Manipulation (Optimized)
+
+📌 **Code File:** `removeDuplicatesinDLLoptimal.java`
+
+**Approach Used:**
+
+* Traverse the doubly linked list using a single pointer
+* If the current node and next node have the same value:
+
+  * Skip the duplicate node by adjusting `next` and `prev` pointers
+* Continue until the end of the list
+
+**Key Concepts:**
+
+* Doubly linked list traversal
+* Pointer manipulation (`next` and `prev`)
+* In-place modification
+
+**Difficulty:** ⭐ Medium
+
+---
+
+
+
 
 
