@@ -1,7 +1,4 @@
-Got it 👍 — **only anchor tags, no raw URLs shown**.
-Below is your **cleaned & corrected README**, same content, just **proper Markdown links**.
 
-You can **directly paste this**.
 
 ---
 
@@ -19,6 +16,7 @@ You can **directly paste this**.
 
 📌 **Problem Statement**
 Given a doubly linked list and an integer `x`, delete **all nodes** whose value is equal to `x`.
+After deletion, the list should remain properly linked in both forward and backward directions.
 
 📌 **File:**
 `deleteAllOccurOfXinDLL.java`
@@ -30,12 +28,12 @@ Given a doubly linked list and an integer `x`, delete **all nodes** whose value 
 
 ### 💡 Approach: Single Traversal (Optimal)
 
-* Traverse the DLL once
-* For every node with value `x`:
+* Traverse the doubly linked list once
+* For each node with value `x`:
 
-  * Fix `prev.next`
-  * Fix `next.prev`
-* Handle deletion of the head separately
+  * Update `prev.next`
+  * Update `next.prev`
+* Handle deletion of the head node separately
 
 **Time Complexity:** `O(n)`
 **Space Complexity:** `O(1)`
@@ -45,7 +43,7 @@ Given a doubly linked list and an integer `x`, delete **all nodes** whose value 
 ## 🔵 2. Find Pairs with Given Sum in Sorted DLL
 
 📌 **Problem Statement**
-Given a **sorted doubly linked list**, find all pairs whose sum is equal to a given value `k`.
+Given a **sorted doubly linked list** and an integer `k`, find all pairs of nodes whose sum is equal to `k`.
 
 ---
 
@@ -60,9 +58,9 @@ Given a **sorted doubly linked list**, find all pairs whose sum is equal to a gi
 #### 💡 Idea
 
 * Fix one pointer (`temp1`)
-* Traverse remaining list using another pointer (`temp2`)
-* Check sum for every possible pair
-* Since list is sorted, stop early when sum exceeds `k`
+* Traverse the remaining list using another pointer (`temp2`)
+* Check the sum for every possible pair
+* Since the list is sorted, stop early when the sum exceeds `k`
 
 **Time Complexity:** `O(n²)`
 **Space Complexity:** `O(1)` (excluding output)
@@ -79,8 +77,11 @@ Given a **sorted doubly linked list**, find all pairs whose sum is equal to a gi
 
 #### 💡 Idea
 
-* `left` starts from head
-* `right` starts from tail
+* Use the doubly linked list’s `prev` pointer advantage
+* Initialize:
+
+  * `left` at head
+  * `right` at tail
 * Move pointers based on sum comparison
 
 #### 🔁 Loop Condition
@@ -98,6 +99,7 @@ while (left != right && right.next != left)
 
 📌 **Problem Statement**
 Given a **sorted doubly linked list**, remove all duplicate nodes such that each element appears only once.
+The relative order of elements must be preserved.
 
 ---
 
@@ -109,8 +111,17 @@ Given a **sorted doubly linked list**, remove all duplicate nodes such that each
 📌 **Code:**
 [Code](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/medium%20problems%20on%20DLL/remove_duplicates_dll_hashset.java)
 
+#### 💡 Idea
+
+* Traverse the linked list
+* Store visited values in a HashSet
+* If a duplicate value is found:
+
+  * Remove the node by reconnecting its `prev` and `next` pointers
+
 **Time Complexity:** `O(n)`
 **Space Complexity:** `O(n)`
+**Difficulty:** ⭐ Easy
 
 ---
 
@@ -122,8 +133,17 @@ Given a **sorted doubly linked list**, remove all duplicate nodes such that each
 📌 **Code:**
 [Code](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/medium%20problems%20on%20DLL/removeDuplicatesinDLLoptimal.java)
 
+#### 💡 Idea
+
+* Traverse the doubly linked list using a single pointer
+* If the current node and next node have the same value:
+
+  * Skip the duplicate node by adjusting `next` and `prev` pointers
+* Continue until the end of the list
+
 **Time Complexity:** `O(n)`
 **Space Complexity:** `O(1)`
+**Difficulty:** ⭐ Medium
 
 ---
 
