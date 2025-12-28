@@ -2,26 +2,27 @@
 
 # 📘 Linked List – Medium Problems
 
-
 ---
 
-| #  | Problem Name                     | Approaches | Difficulty | Jump To                                                      |
-| -- | -------------------------------- | ---------- | ---------- | ------------------------------------------------------------ |
-| 1  | Middle of Linked List            | 2          | ⭐ Medium   | [Go](#-1-find-the-middle-of-a-linked-list)                   |
-| 2  | Detect Cycle (Check Loop)        | 2          | ⭐ Medium   | [Go](#-2-detect-cycle-in-linked-list-only-check-loop-exists) |
-| 3  | Starting Node of Cycle           | 2          | ⭐ Medium   | [Go](#-3-find-starting-node-of-cycle)                        |
-| 4  | Sort Linked List                 | 2          | ⭐ Medium   | [Go](#-4-sort-a-linked-list)                                 |
-| 5  | Segregate Odd-Even Nodes         | 2          | ⭐ Medium   | [Go](#-5-segregate-odd-and-even-nodes-in-linked-list)        |
-| 6  | Palindrome Linked List           | 3          | ⭐ Medium   | [Go](#-6-palindrome-linked-list)                             |
-| 7  | Intersection of Two Linked Lists | 3          | ⭐ Medium   | [Go](#-7-intersection-of-two-linked-lists)                   |
-| 8  | Delete Middle Node               | 2          | ⭐ Medium   | [Go](#-8-delete-the-middle-node-of-a-linked-list)            |
-| 9  | Length of Loop in Linked List    | 2          | ⭐ Medium   | [Go](#-9-length-of-loop-in-a-linked-list)                    |
-| 10 | Remove Nth Node From End         | 2          | ⭐ Medium   | [Go](#-10-remove-nth-node-from-end-of-linked-list)           |
-| 11 | Add 1 to a Number in Linked List | 2          | ⭐ Medium   | [Go](#-11-add-1-to-a-number-represented-as-linked-list)      |
+## 📑 Problem Index
+
+| #  | Problem Name                                | Approaches | Difficulty | Jump To                                                      |
+| -- | ------------------------------------------- | ---------- | ---------- | ------------------------------------------------------------ |
+| 1  | Middle of Linked List                       | 2          | ⭐ Medium   | [Go](#-1-find-the-middle-of-a-linked-list)                   |
+| 2  | Detect Cycle (Check Loop Exists)            | 2          | ⭐ Medium   | [Go](#-2-detect-cycle-in-linked-list-only-check-loop-exists) |
+| 3  | Starting Node of Cycle                      | 2          | ⭐ Medium   | [Go](#-3-find-starting-node-of-cycle)                        |
+| 4  | Sort Linked List                            | 2          | ⭐ Medium   | [Go](#-4-sort-a-linked-list)                                 |
+| 5  | Segregate Odd-Even Nodes                    | 2          | ⭐ Medium   | [Go](#-5-segregate-odd-and-even-nodes-in-linked-list)        |
+| 6  | Palindrome Linked List                      | 3          | ⭐ Medium   | [Go](#-6-palindrome-linked-list)                             |
+| 7  | Intersection of Two Linked Lists            | 3          | ⭐ Medium   | [Go](#-7-intersection-of-two-linked-lists)                   |
+| 8  | Delete Middle Node                          | 2          | ⭐ Medium   | [Go](#-8-delete-the-middle-node-of-a-linked-list)            |
+| 9  | Length of Loop in Linked List               | 2          | ⭐ Medium   | [Go](#-9-length-of-loop-in-a-linked-list)                    |
+| 10 | Remove Nth Node From End                    | 2          | ⭐ Medium   | [Go](#-10-remove-nth-node-from-end-of-linked-list)           |
+| 11 | Add 1 to a Number in Linked List            | 2          | ⭐ Medium   | [Go](#-11-add-1-to-a-number-represented-as-linked-list)      |
+| 12 | Sort a Linked List of 0s, 1s and 2s         | 2          | ⭐ Medium   | [Go](#-12-sort-a-linked-list-of-0s-1s-and-2s)                |
+| 13 | Add Two Numbers Represented by Linked Lists | 1          | ⭐ Medium   | [Go](#-13-add-two-numbers-represented-by-linked-lists)       |
 
 ---
-
-
 
 # 🔥 1. Find the Middle of a Linked List
 
@@ -446,6 +447,103 @@ Add **1** to the number and return the updated linked list.
   (recursive call stack)
 
 ---
+Perfect, now everything is clear 👍
+You’ve **implemented both missing questions**, so I’ve:
+
+* ✅ **Added both questions to the table**
+* ✅ **Inserted them in correct order**
+* ✅ **Used the SAME style you’ve been following**
+* ✅ **Mentioned separate files per approach**
+* ✅ **Kept anchor-tag code links only**
+* ✅ **Matched how you like files structured (separate files per approach)**
+
+Below is the **FULLY UPDATED README** 👇
+👉 You can **directly paste this**.
+
+---
+
+
+
+## 🔥 12. Sort a Linked List of 0s, 1s and 2s
+
+📌 **Problem Statement**
+Given a linked list consisting only of `0`, `1`, and `2`, sort the list **by changing links**, not data.
+
+---
+
+### ✔ Approach 1: Counting (Brute – Data Replacement)
+
+📌 **File:**
+`sort012LLBrute.java`
+
+📌 **Code:**
+[Code](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/medium%20problems/sort012LLBrute.java)
+
+**Logic**
+
+1. Traverse the list and count number of `0s`, `1s`, and `2s`
+2. Traverse again and overwrite node values accordingly
+
+**Time Complexity:** `O(n)`
+**Space Complexity:** `O(1)`
+**Note:** Not allowed if data modification is restricted
+
+---
+
+### ✔ Approach 2: Dummy Nodes (Optimal – Change Links)
+
+📌 **File:**
+`sort012LLOptimal.java`
+
+📌 **Code:**
+[Code](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/medium%20problems/sort012LLOptimal.java)
+
+**Logic**
+
+1. Create three dummy lists for `0`, `1`, and `2`
+2. Traverse original list and attach nodes accordingly
+3. Connect the three lists
+4. Set `next` of last node to `null`
+
+**Time Complexity:** `O(n)`
+**Space Complexity:** `O(1)`
+**Difficulty:** ⭐ Medium
+
+---
+
+## 🔥 13. Add Two Numbers Represented by Linked Lists
+
+📌 **Problem Statement**
+You are given two non-empty linked lists representing two non-negative integers.
+Digits are stored in **reverse order**. Add the two numbers and return the sum as a linked list.
+
+---
+
+### ✔ Approach: Iterative with Carry (Optimal)
+
+📌 **File:**
+`addTwoNumbersLL.java`
+
+📌 **Code:**
+[Code](https://github.com/piratesofsi/dsa-practice/blob/main/Linked%20List/medium%20problems/addTwoNumbersLL.java)
+
+**Logic**
+
+1. Initialize a dummy node for result list
+2. Traverse both lists simultaneously
+3. Add digits along with carry
+4. Store `sum % 10` as node value
+5. Update carry as `sum / 10`
+6. If carry remains, add a new node
+
+**Time Complexity:** `O(max(n, m))`
+**Space Complexity:** `O(1)` (excluding output list)
+**Difficulty:** ⭐ Medium
+
+---
+
+
+
 
 
 
