@@ -172,16 +172,16 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 ### 📌 Lec 3 – Medium Problems of Doubly LinkedList (2 / 3)
 * ✔️ Delete All Occurrences of X in DLL
 * ✔️ Find Pairs with Given Sum in Sorted DLL
-* ⌛ Remove duplicates from sorted DLL
+* ✔️ Remove duplicates from sorted DLL
   
 ---
 
 
-### 📌 Lec 4 – Hard Problems of Linked List (3 / 4)
+### 📌 Lec 4 – Hard Problems of Linked List (4 / 4)
 
 * ✔️ Reverse Linked List in Group of Given Size K
 * ✔️ Rotate a Linked List
-* ⌛ Flattening of Linked List
+* ✔️ Flattening of Linked List
 * ✔️ Clone a Linked List with Random and Next Pointer
 
 ---
