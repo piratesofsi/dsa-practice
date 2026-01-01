@@ -20,6 +20,8 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
   <img src="https://img.shields.io/badge/Arrays%20Hard-100%25-brightgreen?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Binary%20Search-93%25-yellow?style=for-the-badge" />
   <img src="https://img.shields.io/badge/LinkedList-100%25-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Recursion-40%25-yellow?style=for-the-badge" />
+
 </p>
 
 | Topic                 | Status         | Progress  |
@@ -29,6 +31,8 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 | 🔥 Arrays – Hard      | ✔️ Completed   | 12 / 12   |
 | 🎯 Binary Search      | ⏳ In Progress | 30 / 32   |
 | 🔗 Linked List        | ✔️ Completed | 31 / 31   |
+| 🌀 Recursion          | ⏳ In Progress | 2 / 5     |
+
 
 
 ---
@@ -183,6 +187,15 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 * ✔️ Rotate a Linked List
 * ✔️ Flattening of Linked List
 * ✔️ Clone a Linked List with Random and Next Pointer
+
+---
+
+#  🌀 Recursion (2 / 25)
+
+### 📌 Lec 1 – Get a Strong Hold (2 / 5)
+* ✔️ pow(x,n)
+* ✔️ Count Good Numbers
+
 
 ---
 
