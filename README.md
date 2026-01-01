@@ -238,9 +238,8 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
   <img src="https://img.shields.io/badge/🔡%20Step%203:%20Strings-Completed-brightgreen?style=for-the-badge" />
   ⬅️
   <img src="https://img.shields.io/badge/✅%20Step%204:%20Linked%20List-Completed-brightgreen?style=for-the-badge" />
-  
+  ⬅️
   ⬅️<img src="https://img.shields.io/badge/🌀%20Step%205:%20Recursion-In%20Progress-yellow?style=for-the-badge" />
-
   ⬅️
   <img src="https://img.shields.io/badge/⚡%20Step%206:%20Bit%20Manipulation-Future-lightgrey?style=for-the-badge" />
   ⬅️
