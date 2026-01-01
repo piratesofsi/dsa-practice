@@ -44,7 +44,7 @@ Multiply `x` exactly `n` times using a loop.
 
 ### 2️⃣ Recursive – Binary Exponentiation
 
-📌 **[Code](https://github.com/piratesofsi/dsa-practice/blob/main/recursion%20%5Bpatternwise%5D/Getastronghold/PowerRecursive.java)**
+📌 [Code](PowerRecursive.java)
 
 **Idea:**
 Use divide and conquer to reduce the power by half.
@@ -63,8 +63,7 @@ Eliminates redundant multiplications.
 ---
 
 ### 3️⃣ Iterative – Binary Exponentiation
-
-📌 **[Code](https://github.com/piratesofsi/dsa-practice/blob/main/recursion%20%5Bpatternwise%5D/Getastronghold/binaryexponetiationbetter.java)**
+📌 [Code](binaryexponetiationbetter.java)
 
 **Idea:**
 Same logic as recursive binary exponentiation but implemented iteratively to avoid recursion stack overhead.
@@ -88,7 +87,7 @@ Given an integer `n`, count the number of digit strings of length `n` such that:
 
 ### 1️⃣ Recursive – Binary Exponentiation
 
-📌 **[Code](https://github.com/piratesofsi/dsa-practice/blob/main/recursion%20%5Bpatternwise%5D/Getastronghold/CountGoodNumbersbinaryexponentiationrecursion.java)**
+📌 [Code](CountGoodNumbersbinaryexponentiationrecursion.java)
 
 **Approach:**
 
