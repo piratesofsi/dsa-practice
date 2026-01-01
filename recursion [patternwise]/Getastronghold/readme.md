@@ -2,38 +2,33 @@
 
 # 🔁 Recursion – PatternWise
 
-
+This section focuses on **understanding recursion patterns**, identifying **base cases**, and applying **binary exponentiation** to optimize time complexity.
 
 ---
 
+## 📊 Progress Table
+
 | # | Problem Name       | Approaches | Difficulty | Jump To                      |
 | - | ------------------ | ---------- | ---------- | ---------------------------- |
-| 1 | Pow(x, n)          | 3          | Easy       | [Go](#-1-powx-n)             |
+| 1 | Pow(x, n)          | 4          | Easy       | [Go](#-1-powx-n)             |
 | 2 | Count Good Numbers | 1          | Easy       | [Go](#-2-count-good-numbers) |
 
 ---
 
 ## 🔵 1. Pow(x, n)
 
-📌 **[Brute Force Code](https://github.com/piratesofsi/dsa-practice/blob/main/Recursion/PowerBruteForce.java)**
-📌 **[Recursive Binary Exponentiation Code](https://github.com/piratesofsi/dsa-practice/blob/main/Recursion/PowerRecursive.java)**
-📌 **[Iterative Binary Exponentiation Code](https://github.com/piratesofsi/dsa-practice/blob/main/Recursion/binaryexponetiationbetter.java)**
-
 **Description:**
-Computes (x^n) using recursion and binary exponentiation while handling negative powers safely.
+Given a base `x` and an integer `n`, compute (x^n).
+The solution must correctly handle negative powers and large values of `n`.
 
 ---
 
-### 🔹 Brute Force Approach
+### 1️⃣ Brute Force (Iterative)
+
+📌 **[Code](Recursion/PowerBruteForce.java)**
 
 **Idea:**
-Multiply `x` repeatedly `n` times.
-
-**Steps:**
-
-1. Take absolute value of `n`
-2. Multiply `x` in a loop `n` times
-3. If `n` is negative, return reciprocal
+Multiply `x` exactly `n` times using a loop.
 
 **Complexity:**
 
@@ -42,69 +37,89 @@ Multiply `x` repeatedly `n` times.
 
 ---
 
-### 🔹 Optimized Approach (Binary Exponentiation)
+### 2️⃣ Recursive – Linear Recursion
+
+📌 **[Code](Recursion/PowerRecursive.java)**
 
 **Idea:**
-Reduce the problem size by half using:
+Reduce the problem by 1 in each recursive call.
 
-* (x^n = (x^2)^{n/2}) when `n` is even
-* (x^n = x × x^{n-1}) when `n` is odd
+[
+x^n = x \times x^{n-1}
+]
 
-**Why it works:**
-Avoids repeated multiplication and drastically reduces operations.
+**Why it’s inefficient:**
+Recursion depth grows linearly with `n`.
+
+**Complexity:**
+
+* Time: `O(N)`
+* Space: `O(N)` (recursion stack)
+
+---
+
+### 3️⃣ Recursive – Binary Exponentiation
+
+📌 **[Code](Recursion/PowerRecursive.java)**
+
+**Idea:**
+Use divide and conquer to reduce the power by half.
+
+* If `n` is even → (x^n = (x^2)^{n/2})
+* If `n` is odd → (x^n = x \times x^{n-1})
+
+**Why it’s optimal:**
+Eliminates redundant multiplications.
 
 **Complexity:**
 
 * Time: `O(log N)`
-* Space:
+* Space: `O(log N)`
 
-  * Recursive: `O(log N)`
-  * Iterative: `O(1)`
+---
+
+### 4️⃣ Iterative – Binary Exponentiation
+
+📌 **[Code](Recursion/binaryexponetiationbetter.java)**
+
+**Idea:**
+Same logic as recursive binary exponentiation but avoids recursion stack overhead.
+
+**Complexity:**
+
+* Time: `O(log N)`
+* Space: `O(1)`
 
 ---
 
 ## 🔵 2. Count Good Numbers
 
-📌 **[Code](https://github.com/piratesofsi/dsa-practice/blob/main/Recursion/CountGoodNumbersbinaryexponentiationrecursion.java)**
-
 **Description:**
-Counts the number of valid digit strings of length `n` such that:
+Given an integer `n`, count the number of digit strings of length `n` such that:
 
-* **Even indices** → `{0, 2, 4, 6, 8}` → 5 choices
-* **Odd indices** → `{2, 3, 5, 7}` → 4 choices
+* Digits at **even indices** are even → `{0, 2, 4, 6, 8}` (5 choices)
+* Digits at **odd indices** are prime → `{2, 3, 5, 7}` (4 choices)
 
 ---
 
-### 🔹 Mathematical Breakdown
+### 1️⃣ Recursive – Binary Exponentiation
+
+📌 **[Code](Recursion/CountGoodNumbersbinaryexponentiationrecursion.java)**
+
+**Approach:**
 
 * Even positions = ⌈n / 2⌉
 * Odd positions = ⌊n / 2⌋
 
 [
-\text{Answer} = 5^{\lceil n/2 \rceil} \times 4^{\lfloor n/2 \rfloor} \mod (10^9 + 7)
+5^{\lceil n/2 \rceil} \times 4^{\lfloor n/2 \rfloor} \mod (10^9 + 7)
 ]
 
----
-
-### 🔹 Approach Used
-
-* Count number of even and odd positions
-* Compute large powers using **binary exponentiation with recursion**
-* Apply modulo at every step to prevent overflow
-
----
-
-### 🔹 Complexity
+**Complexity:**
 
 * Time: `O(log N)`
-* Space: `O(log N)` (recursion stack)
+* Space: `O(log N)`
 
 ---
 
 
-
-* Refactor this into a **table-style README**
-* Add a **progress tracker section**
-* Align it **exactly with Striver’s Recursion Sheet format**
-
-Just tell me 👍
