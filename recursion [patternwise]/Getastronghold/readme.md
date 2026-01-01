@@ -37,28 +37,9 @@ Multiply `x` exactly `n` times using a loop.
 
 ---
 
-### 2️⃣ Recursive – Linear Recursion
 
-📌 **[Code](Recursion/PowerRecursive.java)**
 
-**Idea:**
-Reduce the problem by 1 in each recursive call.
-
-[
-x^n = x \times x^{n-1}
-]
-
-**Why it’s inefficient:**
-Recursion depth grows linearly with `n`.
-
-**Complexity:**
-
-* Time: `O(N)`
-* Space: `O(N)` (recursion stack)
-
----
-
-### 3️⃣ Recursive – Binary Exponentiation
+### 2️⃣ Recursive – Binary Exponentiation
 
 📌 **[Code](Recursion/PowerRecursive.java)**
 
@@ -78,7 +59,7 @@ Eliminates redundant multiplications.
 
 ---
 
-### 4️⃣ Iterative – Binary Exponentiation
+### 3️⃣ Iterative – Binary Exponentiation
 
 📌 **[Code](Recursion/binaryexponetiationbetter.java)**
 
