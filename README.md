@@ -20,7 +20,7 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
   <img src="https://img.shields.io/badge/Arrays%20Hard-100%25-brightgreen?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Binary%20Search-93%25-yellow?style=for-the-badge" />
   <img src="https://img.shields.io/badge/LinkedList-100%25-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Recursion-40%25-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Recursion-8%25-yellow?style=for-the-badge" />
 
 </p>
 
@@ -31,7 +31,7 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 | 🔥 Arrays – Hard      | ✔️ Completed   | 12 / 12   |
 | 🎯 Binary Search      | ⏳ In Progress | 30 / 32   |
 | 🔗 Linked List        | ✔️ Completed | 31 / 31   |
-| 🌀 Recursion          | ⏳ In Progress | 2 / 5     |
+| 🌀 Recursion          | ⏳ In Progress | 2 / 25     |
 
 
 
