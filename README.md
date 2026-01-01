@@ -4,6 +4,7 @@
   <img src="https://img.shields.io/badge/Binary%20Search-30%2F32-yellow?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Arrays-41%2F41-brightgreen?style=for-the-badge" />
   <img src="https://img.shields.io/badge/LinkedList-31%2F31-blue?style=for-the-badge" />
+   <img src="https://img.shields.io/badge/recursion-2%2F31-blue?style=for-the-badge" />
 </p>
 <p align="center">
 This repository contains <b>personal Java solutions</b> for problems from the <b>Striver 450 DSA Sheet</b>.<br>
