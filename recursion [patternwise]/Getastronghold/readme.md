@@ -10,7 +10,7 @@ This section focuses on **understanding recursion patterns**, identifying **base
 
 | # | Problem Name       | Approaches | Difficulty | Jump To                      |
 | - | ------------------ | ---------- | ---------- | ---------------------------- |
-| 1 | Pow(x, n)          | 4          | Easy       | [Go](#-1-powx-n)             |
+| 1 | Pow(x, n)          | 3          | Easy       | [Go](#-1-powx-n)             |
 | 2 | Count Good Numbers | 1          | Easy       | [Go](#-2-count-good-numbers) |
 
 ---
@@ -19,13 +19,17 @@ This section focuses on **understanding recursion patterns**, identifying **base
 
 **Description:**
 Given a base `x` and an integer `n`, compute (x^n).
-The solution must correctly handle negative powers and large values of `n`.
+The solution must correctly handle:
+
+* Negative powers
+* Very large values of `n`
+* Precision constraints
 
 ---
 
 ### 1️⃣ Brute Force (Iterative)
 
-📌 **[Code](Recursion/PowerBruteForce.java)**
+📌 **[Code](https://github.com/piratesofsi/dsa-practice/blob/main/recursion%20%5Bpatternwise%5D/Getastronghold/PowerBruteForce.java)**
 
 **Idea:**
 Multiply `x` exactly `n` times using a loop.
@@ -37,11 +41,9 @@ Multiply `x` exactly `n` times using a loop.
 
 ---
 
-
-
 ### 2️⃣ Recursive – Binary Exponentiation
 
-📌 **[Code](Recursion/PowerRecursive.java)**
+📌 **[Code](https://github.com/piratesofsi/dsa-practice/blob/main/recursion%20%5Bpatternwise%5D/Getastronghold/PowerRecursive.java)**
 
 **Idea:**
 Use divide and conquer to reduce the power by half.
@@ -61,10 +63,10 @@ Eliminates redundant multiplications.
 
 ### 3️⃣ Iterative – Binary Exponentiation
 
-📌 **[Code](Recursion/binaryexponetiationbetter.java)**
+📌 **[Code](https://github.com/piratesofsi/dsa-practice/blob/main/recursion%20%5Bpatternwise%5D/Getastronghold/binaryexponetiationbetter.java)**
 
 **Idea:**
-Same logic as recursive binary exponentiation but avoids recursion stack overhead.
+Same logic as recursive binary exponentiation but implemented iteratively to avoid recursion stack overhead.
 
 **Complexity:**
 
@@ -85,7 +87,7 @@ Given an integer `n`, count the number of digit strings of length `n` such that:
 
 ### 1️⃣ Recursive – Binary Exponentiation
 
-📌 **[Code](Recursion/CountGoodNumbersbinaryexponentiationrecursion.java)**
+📌 **[Code](https://github.com/piratesofsi/dsa-practice/blob/main/recursion%20%5Bpatternwise%5D/Getastronghold/CountGoodNumbersbinaryexponentiationrecursion.java)**
 
 **Approach:**
 
