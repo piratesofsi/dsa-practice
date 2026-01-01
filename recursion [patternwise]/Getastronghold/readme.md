@@ -29,7 +29,8 @@ The solution must correctly handle:
 
 ### 1️⃣ Brute Force (Iterative)
 
-📌 **[Code](https://github.com/piratesofsi/dsa-practice/blob/main/recursion%20%5Bpatternwise%5D/Getastronghold/PowerBruteForce.java)**
+ 📌 [Code](PowerBruteForce.java)
+
 
 **Idea:**
 Multiply `x` exactly `n` times using a loop.
