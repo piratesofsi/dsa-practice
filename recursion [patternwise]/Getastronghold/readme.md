@@ -2,10 +2,8 @@
 
 # 🔁 Recursion – PatternWise
 
-This section focuses on **understanding recursion patterns**, identifying **base cases**, and mastering the
-**pop → recurse → backtrack → insert** technique instead of memorizing solutions.
-
-The goal is to **transfer patterns** across problems.
+This section focuses on **understanding recursion patterns**, identifying **base cases**, and mastering
+**pop → recurse → backtrack → insert** based problems instead of memorizing solutions.
 
 ---
 
@@ -25,17 +23,17 @@ The goal is to **transfer patterns** across problems.
 **Description:**
 Given a base `x` and an integer `n`, compute (x^n).
 
-The solution must correctly handle:
+Handles:
 
 * Negative powers
-* Very large values of `n`
+* Large values of `n`
 * Precision constraints
 
 ---
 
 ### 1️⃣ Brute Force (Iterative)
 
-📌 **Code:** `PowerBruteForce.java`
+📌 **Code:** [PowerBruteForce.java](PowerBruteForce.java)
 
 **Idea:**
 Multiply `x` exactly `n` times using a loop.
@@ -49,14 +47,12 @@ Multiply `x` exactly `n` times using a loop.
 
 ### 2️⃣ Recursive – Binary Exponentiation
 
-📌 **Code:** `PowerRecursive.java`
+📌 **Code:** [PowerRecursive.java](PowerRecursive.java)
 
 **Idea:**
 
 * If `n` is even → (x^n = (x^2)^{n/2})
 * If `n` is odd → (x^n = x \times x^{n-1})
-
-Uses divide & conquer to reduce repeated work.
 
 **Complexity:**
 
@@ -67,10 +63,10 @@ Uses divide & conquer to reduce repeated work.
 
 ### 3️⃣ Iterative – Binary Exponentiation
 
-📌 **Code:** `BinaryExponentiationBetter.java`
+📌 **Code:** [BinaryExponentiationBetter.java](BinaryExponentiationBetter.java)
 
 **Idea:**
-Same logic as recursive binary exponentiation but implemented iteratively to avoid recursion stack overhead.
+Same logic as recursive binary exponentiation but implemented iteratively.
 
 **Complexity:**
 
@@ -84,14 +80,15 @@ Same logic as recursive binary exponentiation but implemented iteratively to avo
 **Description:**
 Given an integer `n`, count the number of digit strings of length `n` such that:
 
-* Digits at **even indices** are even → `{0, 2, 4, 6, 8}` (5 choices)
-* Digits at **odd indices** are prime → `{2, 3, 5, 7}` (4 choices)
+* Even indices → `{0,2,4,6,8}` → **5 choices**
+* Odd indices → `{2,3,5,7}` → **4 choices**
 
 ---
 
 ### 1️⃣ Recursive – Binary Exponentiation
 
-📌 **Code:** `CountGoodNumbersBinaryExponentiationRecursion.java`
+📌 **Code:**
+[CountGoodNumbersBinaryExponentiationRecursion.java](CountGoodNumbersBinaryExponentiationRecursion.java)
 
 **Approach:**
 
@@ -113,18 +110,18 @@ Given an integer `n`, count the number of digit strings of length `n` such that:
 
 **Description:**
 Reverse a stack using **recursion only**.
-No extra data structures are allowed.
+No extra data structures allowed.
 
 ---
 
 ### 1️⃣ Recursive – Insert at Bottom Pattern
 
-📌 **Code:** `ReverseStack.java`
+📌 **Code:** [ReverseStack.java](ReverseStack.java)
 
 **Idea:**
 
-1. Remove elements one by one until the stack becomes empty
-2. While backtracking, insert each removed element **at the bottom**
+1. Remove elements until stack becomes empty
+2. While backtracking, insert each element at the **bottom**
 
 **Key Pattern:**
 
@@ -142,19 +139,19 @@ pop → recurse → insert at bottom
 ## 🔵 4. Sort Stack
 
 **Description:**
-Sort a stack using **recursion only** such that the smallest element remains at the bottom.
+Sort a stack using **recursion only** such that the smallest element stays at the bottom.
 
 ---
 
 ### 1️⃣ Recursive – Sorted Insert Pattern
 
-📌 **Code:** `SortStack.java`
+📌 **Code:** [SortStack.java](SortStack.java)
 
 **Idea:**
 
-1. Remove the top element
+1. Pop the top element
 2. Recursively sort the remaining stack
-3. Insert the removed element back in its **correct sorted position**
+3. Insert the popped element in its **correct sorted position**
 
 **Key Pattern:**
 
@@ -168,4 +165,3 @@ pop → recurse → insert in sorted order
 * Space: `O(N)` (recursion stack)
 
 ---
-
