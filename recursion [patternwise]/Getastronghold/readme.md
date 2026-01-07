@@ -2,7 +2,10 @@
 
 # 🔁 Recursion – PatternWise
 
-This section focuses on **understanding recursion patterns**, identifying **base cases**, and applying **binary exponentiation** to optimize time complexity.
+This section focuses on **understanding recursion patterns**, identifying **base cases**, and mastering the
+**pop → recurse → backtrack → insert** technique instead of memorizing solutions.
+
+The goal is to **transfer patterns** across problems.
 
 ---
 
@@ -12,6 +15,8 @@ This section focuses on **understanding recursion patterns**, identifying **base
 | - | ------------------ | ---------- | ---------- | ---------------------------- |
 | 1 | Pow(x, n)          | 3          | Easy       | [Go](#-1-powx-n)             |
 | 2 | Count Good Numbers | 1          | Easy       | [Go](#-2-count-good-numbers) |
+| 3 | Reverse Stack      | 1          | Medium     | [Go](#-3-reverse-stack)      |
+| 4 | Sort Stack         | 1          | Medium     | [Go](#-4-sort-stack)         |
 
 ---
 
@@ -19,6 +24,7 @@ This section focuses on **understanding recursion patterns**, identifying **base
 
 **Description:**
 Given a base `x` and an integer `n`, compute (x^n).
+
 The solution must correctly handle:
 
 * Negative powers
@@ -29,8 +35,7 @@ The solution must correctly handle:
 
 ### 1️⃣ Brute Force (Iterative)
 
- 📌 [Code](PowerBruteForce.java)
-
+📌 **Code:** `PowerBruteForce.java`
 
 **Idea:**
 Multiply `x` exactly `n` times using a loop.
@@ -44,16 +49,14 @@ Multiply `x` exactly `n` times using a loop.
 
 ### 2️⃣ Recursive – Binary Exponentiation
 
-📌 [Code](PowerRecursive.java)
+📌 **Code:** `PowerRecursive.java`
 
 **Idea:**
-Use divide and conquer to reduce the power by half.
 
 * If `n` is even → (x^n = (x^2)^{n/2})
 * If `n` is odd → (x^n = x \times x^{n-1})
 
-**Why it’s optimal:**
-Eliminates redundant multiplications.
+Uses divide & conquer to reduce repeated work.
 
 **Complexity:**
 
@@ -63,7 +66,8 @@ Eliminates redundant multiplications.
 ---
 
 ### 3️⃣ Iterative – Binary Exponentiation
-📌 [Code](binaryexponetiationbetter.java)
+
+📌 **Code:** `BinaryExponentiationBetter.java`
 
 **Idea:**
 Same logic as recursive binary exponentiation but implemented iteratively to avoid recursion stack overhead.
@@ -87,7 +91,7 @@ Given an integer `n`, count the number of digit strings of length `n` such that:
 
 ### 1️⃣ Recursive – Binary Exponentiation
 
-📌 [Code](CountGoodNumbersbinaryexponentiationrecursion.java)
+📌 **Code:** `CountGoodNumbersBinaryExponentiationRecursion.java`
 
 **Approach:**
 
@@ -105,4 +109,63 @@ Given an integer `n`, count the number of digit strings of length `n` such that:
 
 ---
 
+## 🔵 3. Reverse Stack
+
+**Description:**
+Reverse a stack using **recursion only**.
+No extra data structures are allowed.
+
+---
+
+### 1️⃣ Recursive – Insert at Bottom Pattern
+
+📌 **Code:** `ReverseStack.java`
+
+**Idea:**
+
+1. Remove elements one by one until the stack becomes empty
+2. While backtracking, insert each removed element **at the bottom**
+
+**Key Pattern:**
+
+```
+pop → recurse → insert at bottom
+```
+
+**Complexity:**
+
+* Time: `O(N²)`
+* Space: `O(N)` (recursion stack)
+
+---
+
+## 🔵 4. Sort Stack
+
+**Description:**
+Sort a stack using **recursion only** such that the smallest element remains at the bottom.
+
+---
+
+### 1️⃣ Recursive – Sorted Insert Pattern
+
+📌 **Code:** `SortStack.java`
+
+**Idea:**
+
+1. Remove the top element
+2. Recursively sort the remaining stack
+3. Insert the removed element back in its **correct sorted position**
+
+**Key Pattern:**
+
+```
+pop → recurse → insert in sorted order
+```
+
+**Complexity:**
+
+* Time: `O(N²)`
+* Space: `O(N)` (recursion stack)
+
+---
 
