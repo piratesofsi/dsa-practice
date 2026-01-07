@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/badge/Binary%20Search-30%2F32-yellow?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Arrays-41%2F41-brightgreen?style=for-the-badge" />
   <img src="https://img.shields.io/badge/LinkedList-31%2F31-blue?style=for-the-badge" />
-   <img src="https://img.shields.io/badge/recursion-2%2F31-blue?style=for-the-badge" />
+   <img src="https://img.shields.io/badge/recursion-10%2F31-blue?style=for-the-badge" />
 </p>
 <p align="center">
 This repository contains <b>personal Java solutions</b> for problems from the <b>Striver 450 DSA Sheet</b>.<br>
@@ -21,7 +21,7 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
   <img src="https://img.shields.io/badge/Arrays%20Hard-100%25-brightgreen?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Binary%20Search-93%25-yellow?style=for-the-badge" />
   <img src="https://img.shields.io/badge/LinkedList-100%25-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Recursion-8%25-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Recursion-40%25-yellow?style=for-the-badge" />
 
 </p>
 
@@ -32,7 +32,7 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 | 🔥 Arrays – Hard      | ✔️ Completed   | 12 / 12   |
 | 🎯 Binary Search      | ⏳ In Progress | 30 / 32   |
 | 🔗 Linked List        | ✔️ Completed | 31 / 31   |
-| 🌀 Recursion          | ⏳ In Progress | 2 / 25     |
+| 🌀 Recursion          | ⏳ In Progress | 10 / 25     |
 
 
 
@@ -191,14 +191,32 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 
 ---
 
-#  🌀 Recursion (2 / 25)
+#  🌀 Recursion (10 / 25)
 
-### 📌 Lec 1 – Get a Strong Hold (2 / 5)
+### 📌 Lec 1 – Get a Strong Hold (4 / 5)
 * ✔️ pow(x,n)
 * ✔️ Count Good Numbers
+* ✔️ Sort a stack using recursion
+* ✔️ Reverse a stack using recursion
 
 
 ---
+
+### 📌 Lec 2 – Subsequence Pattern (5 / 12)
+* ✔️ Generate Paranthesis
+* ✔️ Combination Sum
+* ✔️ Combination Sum-II
+* ✔️ Subset Sum-I
+* ✔️ Subset Sum-II
+
+---
+
+
+### 📌 Lec 3 – Trying All Combos (1 / 8)
+* ✔️ N Queen -(Both variants n-queens-1 and n-queens-2)
+
+---
+
 
 
 ## 🛠 Tech Stack  
