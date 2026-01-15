@@ -1,10 +1,12 @@
 
+
 ## 📊 Progress Table
 
 | # | Problem Name  | Variants | Difficulty | Jump To                 |
 | - | ------------- | -------- | ---------- | ----------------------- |
 | 1 | N Queen       | 2        | Hard       | [Go](#-1-n-queen)       |
 | 2 | Sudoku Solver | 1        | Hard       | [Go](#-2-sudoku-solver) |
+| 3 | Rat in a Maze | 1        | Medium     | [Go](#-3-rat-in-a-maze) |
 
 ---
 
@@ -104,13 +106,63 @@ The input board is **modified in-place** to a valid solved Sudoku.
 **Why this approach is intuitive:**
 
 * Matches natural human thinking for Sudoku
-* No manual row/column pointer handling
-* Clean recursion with clear base condition
+* Clean recursion with a clear base condition
 
 **Complexity:**
 
 * Time: `O(9^(empty_cells))` (practically optimized via pruning)
 * Space: `O(81)` (recursion stack in worst case)
+
+---
+
+## 🔵 3. Rat in a Maze
+
+**Description:**
+Given an `n × n` maze where `1` represents an open cell and `0` represents a blocked cell, find **all possible paths** from the top-left corner `(0,0)` to the bottom-right corner `(n-1,n-1)`.
+
+Allowed movements:
+
+* **D** → Down
+* **L** → Left
+* **R** → Right
+* **U** → Up
+
+The rat cannot visit the same cell more than once in a single path.
+
+---
+
+### 1️⃣ Variant – Return All Possible Paths (Backtracking)
+
+📌 **Code:** [`ratinamaze.java`](ratinamaze.java)
+
+**Output:**
+`ArrayList<String>` (each string represents a valid path)
+
+**Idea:**
+
+* Start from `(0,0)` and explore all four directions
+* Use a `visited[][]` matrix to avoid cycles
+* Use `StringBuilder` to efficiently build paths
+* Apply **backtracking**:
+
+  * Append direction
+  * Recurse
+  * Remove the last character on return
+* When destination is reached, store the path
+
+**Why this approach is important:**
+
+* Classic **backtracking template**
+* Builds a foundation for problems like:
+
+  * Grid paths
+  * Flood fill
+  * DFS on matrices
+
+**Complexity:**
+
+* Time: `O(4^(n²))` (worst case)
+* Space: `O(n²)` (visited matrix + recursion stack)
 
 ---
 
