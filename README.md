@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/badge/Binary%20Search-30%2F32-yellow?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Arrays-41%2F41-brightgreen?style=for-the-badge" />
   <img src="https://img.shields.io/badge/LinkedList-31%2F31-blue?style=for-the-badge" />
-   <img src="https://img.shields.io/badge/recursion-11%2F31-blue?style=for-the-badge" />
+   <img src="https://img.shields.io/badge/recursion-12%2F31-blue?style=for-the-badge" />
 </p>
 <p align="center">
 This repository contains <b>personal Java solutions</b> for problems from the <b>Striver 450 DSA Sheet</b>.<br>
@@ -21,7 +21,7 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
   <img src="https://img.shields.io/badge/Arrays%20Hard-100%25-brightgreen?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Binary%20Search-93%25-yellow?style=for-the-badge" />
   <img src="https://img.shields.io/badge/LinkedList-100%25-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Recursion-44%25-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Recursion-48%25-yellow?style=for-the-badge" />
 
 </p>
 
@@ -32,7 +32,7 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 | 🔥 Arrays – Hard      | ✔️ Completed   | 12 / 12   |
 | 🎯 Binary Search      | ⏳ In Progress | 30 / 32   |
 | 🔗 Linked List        | ✔️ Completed | 31 / 31   |
-| 🌀 Recursion          | ⏳ In Progress | 11 / 25     |
+| 🌀 Recursion          | ⏳ In Progress | 12 / 25     |
 
 
 
@@ -191,7 +191,7 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 
 ---
 
-#  🌀 Recursion (11 / 25)
+#  🌀 Recursion (12 / 25)
 
 ### 📌 Lec 1 – Get a Strong Hold (4 / 5)
 * ✔️ pow(x,n)
@@ -212,9 +212,10 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 ---
 
 
-### 📌 Lec 3 – Trying All Combos (2 / 8)
+### 📌 Lec 3 – Trying All Combos (3 / 8)
 * ✔️ N Queen -(Both variants n-queens-1 and n-queens-2)
 * ✔️ Sudoku Solver
+* ✔️ Rat In A Maze
 
 ---
 
