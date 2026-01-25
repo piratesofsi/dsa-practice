@@ -1,4 +1,5 @@
 
+---
 
 ## 📊 Progress Table
 
@@ -7,6 +8,7 @@
 | 1 | N Queen       | 2        | Hard       | [Go](#-1-n-queen)       |
 | 2 | Sudoku Solver | 1        | Hard       | [Go](#-2-sudoku-solver) |
 | 3 | Rat in a Maze | 1        | Medium     | [Go](#-3-rat-in-a-maze) |
+| 4 | Word Search   | 1        | Medium     | [Go](#-4-word-search)   |
 
 ---
 
@@ -22,7 +24,7 @@ Given an integer `n`, place `n` queens on an `n × n` chessboard such that:
 
 ### 1️⃣ Variant 1 – Return All Valid Boards
 
-📌 **Code:** [`NQueens1.java`](NQueens1.java)
+📌 **Code:** [`NQueens1.java`](./NQueens1.java)
 
 **Output:**
 `List<List<String>>`
@@ -49,120 +51,119 @@ Required when the problem asks for **actual configurations**, not just the count
 
 ### 2️⃣ Variant 2 – Count Number of Solutions Only
 
-📌 **Code:** [`NQueens2.java`](NQueens2.java)
+📌 **Code:** [`NQueens2.java`](./NQueens2.java)
 
 **Output:**
-`int` (number of valid configurations)
+`int`
 
 **Idea:**
 
 * Use backtracking to try all valid placements
-* Instead of storing boards, **increment a counter** when a valid configuration is found
-* This reduces memory usage
-
-**Why this variant matters:**
-Many interview problems ask **only the number of solutions**, not the boards.
+* Instead of storing boards, **increment a counter**
+* Reduces memory usage
 
 **Complexity:**
 
 * Time: `O(N!)`
-* Space: `O(N)` (recursion stack only)
+* Space: `O(N)`
 
 ---
 
 ## 🔵 2. Sudoku Solver
 
 **Description:**
-Given a partially filled `9 × 9` Sudoku board, fill the empty cells (`.`) such that:
-
-* Each row contains digits `1–9` exactly once
-* Each column contains digits `1–9` exactly once
-* Each `3 × 3` subgrid contains digits `1–9` exactly once
+Given a partially filled `9 × 9` Sudoku board, fill the empty cells (`.`).
 
 ---
 
-### 1️⃣ Variant – Solve the Sudoku Board (Backtracking)
+### 1️⃣ Variant – Solve the Sudoku Board
 
-📌 **Code:** [`sudokusolver.java`](sudokusolver.java)
+📌 **Code:** [`sudokusolver.java`](./sudokusolver.java)
 
 **Output:**
-The input board is **modified in-place** to a valid solved Sudoku.
+Board modified **in-place**.
 
 **Idea:**
 
-* Traverse the board to find an empty cell
-* Try placing digits `1–9`
-* Before placing, check if the digit is **safe**:
-
-  * Row
-  * Column
-  * `3 × 3` subgrid
-* Use **backtracking**:
-
-  * If a digit leads to a dead end, undo the placement
-  * Try the next digit
-* If no empty cell remains, the board is solved
-
-**Why this approach is intuitive:**
-
-* Matches natural human thinking for Sudoku
-* Clean recursion with a clear base condition
+* Locate empty cell
+* Try digits `1–9`
+* Validate row / column / box
+* Backtrack on failure
 
 **Complexity:**
 
-* Time: `O(9^(empty_cells))` (practically optimized via pruning)
-* Space: `O(81)` (recursion stack in worst case)
+* Time: `O(9^(empty_cells))`
+* Space: `O(81)`
 
 ---
 
 ## 🔵 3. Rat in a Maze
 
 **Description:**
-Given an `n × n` maze where `1` represents an open cell and `0` represents a blocked cell, find **all possible paths** from the top-left corner `(0,0)` to the bottom-right corner `(n-1,n-1)`.
-
-Allowed movements:
-
-* **D** → Down
-* **L** → Left
-* **R** → Right
-* **U** → Up
-
-The rat cannot visit the same cell more than once in a single path.
+Find **all possible paths** from `(0,0)` to `(n-1,n-1)`.
 
 ---
 
-### 1️⃣ Variant – Return All Possible Paths (Backtracking)
+### 1️⃣ Variant – Return All Paths
 
-📌 **Code:** [`ratinamaze.java`](ratinamaze.java)
+📌 **Code:** [`ratinamaze.java`](./ratinamaze.java)
 
 **Output:**
-`ArrayList<String>` (each string represents a valid path)
+`ArrayList<String>`
 
 **Idea:**
 
-* Start from `(0,0)` and explore all four directions
-* Use a `visited[][]` matrix to avoid cycles
-* Use `StringBuilder` to efficiently build paths
-* Apply **backtracking**:
-
-  * Append direction
-  * Recurse
-  * Remove the last character on return
-* When destination is reached, store the path
-
-**Why this approach is important:**
-
-* Classic **backtracking template**
-* Builds a foundation for problems like:
-
-  * Grid paths
-  * Flood fill
-  * DFS on matrices
+* DFS in 4 directions
+* Track visited
+* Backtrack path
 
 **Complexity:**
 
-* Time: `O(4^(n²))` (worst case)
-* Space: `O(n²)` (visited matrix + recursion stack)
+* Time: `O(4^(n²))`
+* Space: `O(n²)`
 
 ---
 
+## 🔵 4. Word Search
+
+**Description:**
+Given a grid of characters and a word, determine if the word exists by sequentially adjacent letters.
+
+Adjacency allowed:
+
+* up
+* down
+* left
+* right
+
+Each cell may be used **once** per path.
+
+---
+
+### 1️⃣ Variant – DFS + Backtracking
+
+📌 **Code:** [`WordSearch.java`](./WordSearch.java)
+
+**Output:**
+`boolean`
+
+**Idea:**
+
+* Start DFS from every cell
+* Match characters sequentially
+* Temporarily mark visited
+* Explore all 4 directions
+* Backtrack after recursion
+
+**Why this belongs here:**
+
+* Classic **grid backtracking**
+* Same family as maze & sudoku
+* Teaches DFS pruning
+
+**Complexity:**
+
+* Time: `O(N × M × 4^L)`
+* Space: `O(L)`
+
+---
