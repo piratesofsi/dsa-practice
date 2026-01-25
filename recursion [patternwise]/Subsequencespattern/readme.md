@@ -23,10 +23,11 @@ These problems help in mastering **recursion flow**, **state management**, and *
 | 2 | Subsets II (With Duplicates)          | 1          | Medium     | [Go](#-2-subsets-ii-with-duplicates)            |
 | 3 | Generate Parentheses                  | 2          | Medium     | [Go](#-3-generate-parentheses)                  |
 | 4 | Letter Combinations of a Phone Number | 1          | Medium     | [Go](#-4-letter-combinations-of-a-phone-number) |
+| 5 | Combination Sum Series                | 3          | Medium     | [Go](#-5-combination-sum-series)                |
 
 ---
 
-## 🔵 1. Subsets
+# 🔵 1. Subsets
 
 **Description:**
 Given an integer array `nums`, return **all possible subsets (power set)**.
@@ -35,15 +36,7 @@ Given an integer array `nums`, return **all possible subsets (power set)**.
 
 ### 1️⃣ Copy-Based Recursion
 
-📌 **Code:** `Subsets_CopyBased.java`
-
-**Idea:**
-
-* At each index, create a **new list**
-* Add current element
-* Pass it to recursive calls
-
-This avoids manual backtracking but uses extra space.
+📌 **Code:** [`Subsets_CopyBased.java`](./Subsets_CopyBased.java)
 
 **Complexity:**
 
@@ -54,39 +47,7 @@ This avoids manual backtracking but uses extra space.
 
 ### 2️⃣ Backtracking (Pick / Not Pick)
 
-📌 **Code:** `Subsets_backtracking.java`
-
-**Idea:**
-
-* Use the same list
-* Pick → recurse
-* Backtrack
-* Not pick → recurse
-
-This is the **classic subsequence recursion pattern**.
-
-**Complexity:**
-
-* Time: `O(2^N)`
-* Space: `O(N)` (recursion stack)
-
----
-
-## 🔵 2. Subsets II (With Duplicates)
-
-**Description:**
-Given an integer array that may contain duplicates, return all **unique subsets**.
-
----
-
-### 1️⃣ Backtracking + Skipping Duplicates
-
-📌 **Code:** `SubsetsWithDup.java`
-
-**Idea:**
-
-* Sort the array
-* Skip duplicate elements at the same recursion level
+📌 **Code:** [`Subsets_backtracking.java`](./Subsets_backtracking.java)
 
 **Complexity:**
 
@@ -95,104 +56,107 @@ Given an integer array that may contain duplicates, return all **unique subsets*
 
 ---
 
-## 🔵 3. Generate Parentheses
+# 🔵 2. Subsets II (With Duplicates)
 
 **Description:**
-Given `n` pairs of parentheses, generate all combinations of **well-formed parentheses**.
+Given an integer array that may contain duplicates, return all **unique subsets**.
 
 ---
 
-### 1️⃣ New String on Each Recursive Call
+### ✅ Backtracking + Skip Duplicates
 
-📌 **Code:** `GenerateParentheses_NewStringEachCall.java`
-
-**Idea:**
-
-* Create a new string at each recursion step
-* Add `'('` or `')'` if valid
-* No explicit backtracking required
+📌 **Code:** [`SubsetsWithDup.java`](./SubsetsWithDup.java)
 
 **Complexity:**
 
-* Time: `O(2^(2N))` (pruned)
-* Space: `O(2N × answers)`
+* Time: `O(2^N)`
+* Space: `O(N)`
+
+---
+
+# 🔵 3. Generate Parentheses
+
+**Description:**
+Generate all combinations of **well-formed parentheses**.
+
+---
+
+### 1️⃣ New String Each Call
+
+📌 **Code:** [`GenerateParentheses_NewStringEachCall.java`](./GenerateParentheses_NewStringEachCall.java)
 
 ---
 
 ### 2️⃣ Backtracking with StringBuilder
 
-📌 **Code:** `GenerateParentheses_Backtracking.java`
+📌 **Code:** [`GenerateParentheses_Backtracking.java`](./GenerateParentheses_Backtracking.java)
 
-**Idea:**
+---
 
-* Use a single `StringBuilder`
-* Append character
-* Recurse
-* Remove last character (backtrack)
+# 🔵 4. Letter Combinations of a Phone Number
 
-This is **memory efficient**.
+**Description:**
+Return all possible letter combinations for digits `2–9`.
+
+---
+
+### ✅ Backtracking DFS
+
+📌 **Code:** [`Lettercombinationofaphoneno.java`](./Lettercombinationofaphoneno.java)
 
 **Complexity:**
 
-* Time: `O(2^(2N))`
-* Space: `O(2N)` (recursion + builder)
+* Time: `O(4^N)`
+* Space: `O(N)`
 
 ---
 
-## 🔵 4. Letter Combinations of a Phone Number
+# 🔵 5. Combination Sum Series
 
-**Description:**
-Given a string containing digits from `2–9`, return all possible letter combinations based on phone keypad mapping.
+These problems revolve around **DFS + backtracking + pruning**:
 
----
-
-### 🧠 Core Insight
-
-Although this problem is **not classic pick / not-pick**, it still fits the **subsequence-style recursion mindset** because:
-
-* recursion progresses **index by index**
-* one character is added per recursive call
-* state is maintained using backtracking
-* result is built incrementally
+* reuse or skip numbers
+* move index-wise
+* avoid duplicates
+* prune early when sum exceeds
 
 ---
 
-### 🔁 Recursion Design
+## 🔹 5.1 Combination Sum I
 
-**State:**
+**Unlimited usage allowed.**
 
-* `index` → current digit
-* `StringBuilder` → current combination
+📌 **Code:** [`CombinationSum1.java`](./CombinationSum1.java)
 
-**Choices:**
+**Complexity:**
 
-* letters mapped to `digits[index]`
-
-**Base Case:**
-
-```java
-sb.length() == digits.length()
-```
+* Time: `O(2^T)`
+* Space: `O(T)`
 
 ---
 
-### ✅ Backtracking Approach
+## 🔹 5.2 Combination Sum II
 
-📌 **Code:** `Lettercombinationofaphoneno.java`
+**Each element used once + no duplicate answers.**
 
-**Idea:**
+📌 **Code:** [`CombinationSum2.java`](./CombinationSum2.java)
 
-* Iterate over all letters for the current digit
-* Append one letter
-* Recurse to next index
-* Backtrack after recursion
+**Complexity:**
 
----
-
-### ⏱ Complexity
-
-* **Time:** `O(4^N)`
-* **Space:** `O(N)` (recursion stack)
+* Time: `O(2^N)`
+* Space: `O(N)`
 
 ---
 
+## 🔹 5.3 Combination Sum III
+
+**Pick `k` numbers from `1–9` summing to `n`.**
+
+📌 **Code:** [`CombinationSum3.java`](./CombinationSum3.java)
+
+**Complexity:**
+
+* Time: `O(C(9, k))`
+* Space: `O(k)`
+
+---
