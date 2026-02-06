@@ -51,22 +51,36 @@ while (!stack.isEmpty() && stack.peek() <= curr) {
 }
 ```
 
----
-
-# 📊 Progress Table
-
-| # | Problem Name                   | Approaches | Difficulty |
-| - | ------------------------------ | ---------- | ---------- |
-| 1 | Next Greater Element I         | 2          | Easy       |
-| 2 | Next Greater Element II        | 2          | Medium     |
-| 3 | Next Smaller Element (Right)   | 2          | Easy       |
-| 4 | Count NGE to Right             | 1          | Easy       |
-| 5 | Sum of Subarray Minimums       | 2          | Medium     |
-| 6 | Largest Rectangle in Histogram | 2          | Hard       |
-| 7 | Asteroid Collision             | 1          | Medium     |
-| 8 | Remove K Digits                | 1          | Medium     |
 
 ---
+
+## 📊 Progress Table
+
+| # | Problem Name                   | Approaches | Difficulty | Jump To                                    |
+| - | ------------------------------ | ---------- | ---------- | ------------------------------------------ |
+| 1 | Next Greater Element I         | 2          | Easy       | [Go](#-1-next-greater-element-i)           |
+| 2 | Next Greater Element II        | 2          | Medium     | [Go](#-2-next-greater-element-ii-circular) |
+| 3 | Next Smaller Element (Right)   | 2          | Easy       | [Go](#-3-next-smaller-element-right)       |
+| 4 | Count NGE to Right             | 1          | Easy       | [Go](#-4-count-nge-to-right)               |
+| 5 | Sum of Subarray Minimums       | 2          | Medium     | [Go](#-5-sum-of-subarray-minimums)         |
+| 6 | Largest Rectangle in Histogram | 2          | Hard       | [Go](#-6-largest-rectangle-in-histogram)   |
+| 7 | Asteroid Collision             | 1          | Medium     | [Go](#-7-asteroid-collision)               |
+| 8 | Remove K Digits                | 1          | Medium     | [Go](#-8-remove-k-digits)                  |
+
+---
+
+
+```
+
+If you want to go even harder 😏:
+
+👉 add **Problem Links (LeetCode/GFG)** column
+👉 add **Status / Solved / Revision Needed** column
+👉 add **Date Completed**
+👉 add **Tags** (Greedy / Contribution / Stack)
+
+this repo is already screaming discipline 📈😤
+
 
 ---
 
