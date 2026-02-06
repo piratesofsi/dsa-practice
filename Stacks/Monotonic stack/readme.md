@@ -1,15 +1,13 @@
 
 
----
-
 # 📚 Monotonic Stack – PatternWise
 
 This repository focuses on mastering **monotonic stack patterns** instead of memorizing solutions.
 
 Instead of jumping to code, we train the brain to recognize:
 
-* 🔼 **Monotonic Increasing Stack**
-* 🔽 **Monotonic Decreasing Stack**
+* Monotonic Increasing Stack
+* Monotonic Decreasing Stack
 * Traversal direction (left → right / right → left)
 * Circular arrays (`i % n`)
 * Index vs value stacks
@@ -31,7 +29,7 @@ When this clicks — half of stack problems become mechanical 😤🔥
 
 A **monotonic stack** is a stack that keeps elements in a strict order.
 
-### 🔼 Monotonic Increasing Stack
+### Monotonic Increasing Stack
 
 Used for **next smaller** problems.
 
@@ -43,7 +41,7 @@ while (!stack.isEmpty() && stack.peek() >= curr) {
 
 ---
 
-### 🔽 Monotonic Decreasing Stack
+### Monotonic Decreasing Stack
 
 Used for **next greater** problems.
 
@@ -72,7 +70,7 @@ while (!stack.isEmpty() && stack.peek() <= curr) {
 
 ---
 
-# 🔵 1. Next Greater Element I
+# 1. Next Greater Element I
 
 ## 📌 Description
 
@@ -122,7 +120,7 @@ If none exists → return `-1`.
 
 ---
 
-# 🔵 2. Next Greater Element II (Circular)
+# 2. Next Greater Element II (Circular)
 
 ## 📌 Description
 
@@ -168,7 +166,7 @@ Given a circular array, find the next greater element for every index.
 
 ---
 
-# 🔵 3. Next Smaller Element (Right)
+# 3. Next Smaller Element (Right)
 
 ## 📌 Description
 
@@ -213,7 +211,7 @@ For every element, find the **next smaller element on the right**.
 
 ---
 
-# 🔵 4. Count NGE to Right
+# 4. Count NGE to Right
 
 ## 📌 Description
 
@@ -241,7 +239,7 @@ For each query index, count how many elements greater than it appear to its righ
 
 ---
 
-# 🔵 5. Sum of Subarray Minimums
+# 5. Sum of Subarray Minimums
 
 ## 📌 Description
 
@@ -291,7 +289,7 @@ arr[i] × leftCount × rightCount
 
 ---
 
-# 🔵 6. Largest Rectangle in Histogram
+# 6. Largest Rectangle in Histogram
 
 ## 📌 Description
 
@@ -337,7 +335,7 @@ Find the largest rectangular area inside a histogram.
 
 ---
 
-# 🔵 7. Asteroid Collision
+# 7. Asteroid Collision
 
 ## 📌 Description
 
@@ -368,7 +366,7 @@ Simulate collisions between asteroids moving left and right.
 
 ---
 
-# 🔵 8. Remove K Digits
+# 8. Remove K Digits
 
 ## 📌 Description
 
