@@ -33,7 +33,7 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 | 🎯 Binary Search      | ⏳ In Progress | 30 / 32   |
 | 🔗 Linked List        | ✔️ Completed | 31 / 31   |
 | 🌀 Recursion          | ⏳ In Progress | 15 / 25     |
-| 🌀 Stack          | ⏳ In Progress | 08 / 16    |
+| 📦 Stack          | ⏳ In Progress | 08 / 16    |
 
 
 
@@ -223,12 +223,12 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 
 ---
 
-# Stack (/16)
+#📦 Stack (08 / 16)
 
 
 ---
 
-### 📌 Lec 2 – Monotonic-stack Pattern (8 / 11)
+### 📌 Lec 2 – Monotonic-stack Pattern (08 / 11)
 * ✔️ Next Greater Element I
 * ✔️ Next Greater Element II
 * ✔️ Next Smaller Element (Right)
