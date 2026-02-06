@@ -33,6 +33,7 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 | 🎯 Binary Search      | ⏳ In Progress | 30 / 32   |
 | 🔗 Linked List        | ✔️ Completed | 31 / 31   |
 | 🌀 Recursion          | ⏳ In Progress | 15 / 25     |
+| 🌀 Stack          | ⏳ In Progress | 08 / 16    |
 
 
 
@@ -222,6 +223,25 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
 
 ---
 
+# Stack (/16)
+
+
+---
+
+### 📌 Lec 2 – Monotonic-stack Pattern (8 / 11)
+* ✔️ Next Greater Element I
+* ✔️ Next Greater Element II
+* ✔️ Next Smaller Element (Right)
+* ✔️ Count NGE to Right
+* ✔️ Sum of Subarray Minimums
+* ✔️ Largest Rectangle in Histogram
+* ✔️ Asteroid Collision
+* ✔️ Remove K Digits
+
+---
+
+
+
 
 
 ## 🛠 Tech Stack  
@@ -266,7 +286,7 @@ A journey from <i>Arrays ➝ Binary Search ➝ Strings ➝ LinkedList ➝ Recurs
   ⬅️
   <img src="https://img.shields.io/badge/⚡%20Step%206:%20Bit%20Manipulation-Future-lightgrey?style=for-the-badge" />
   ⬅️
-  <img src="https://img.shields.io/badge/📚%20Step%207:%20Stack%20%26%20Queue-Future-lightgrey?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/📚%20Step%207:%20Stack%20%26%20Queue-In%20Progress-yellow?style=for-the-badge" />
   ⬅️
   <img src="https://img.shields.io/badge/🎯%20Step%208:%20Sliding%20Window%20+%202%20Pointers-Future-lightgrey?style=for-the-badge" />
   <br><br>
